@@ -1,0 +1,236 @@
+{
+  "id": "6cdcce31-988d-4018-978a-181d2c4c782b",
+  "url_id": "OHarLRCHae",
+  "title": "مسار تطوير تطبيقات Flutter",
+  "logo": "https://assets.safcsp.cloud/822cb565-21e0-498b-b160-4bb19c98d09a/asset/d1051783-191e-4986-a206-aa2ce9146de4.png",
+  "courses_count": 11,
+  "description": "سنتعرف في المسار  على طريقة بناء تطبيقات الموبايل والويب باستخدام Flutter، حيث تبدأ رحلتك بتعلم لغة Dart ثم تنتقل لتعلم مبادئ وأساسيات بناء التطبيقات باستخدام Flutter، كما ستتعرف على طريقة استخدام قواعد البيانات واستخدام أنظمة التحكم بالإصدارات Git و GitHub.",
+  "preview_video": null,
+  "level": "JUNIOR",
+  "total_duration": 50180,
+  "requirements": [
+    "هذه الدورة لا تتطلب أي خبرة برمجية مسبقة"
+  ],
+  "learning_goals": [
+    "استخدام لغة Dart",
+    "بناء واجهات التطبيقات باستخدام Flutter",
+    "إنشاء قواعد البيانات وربطها بالتطبيقات"
+  ],
+  "faq": [],
+  "subscription": null,
+  "current_course": null,
+  "courses": [
+    {
+      "id": "2736a641-be8f-44af-80d5-097000bf4d82",
+      "url_id": "NnYmxKiqYY",
+      "title": "Dart 101",
+      "description": "سنتعرف في هذهِ الدورة على أساسيات لغة Dart وكيفية استخدام المفاهيم البرمجية فيها.\n",
+      "logo": "https://assets.safcsp.cloud/b43288bb-2af8-4b58-af11-913a619d2640/asset/93b1ba09-40d2-4346-9e11-03a48656dfcf.png",
+      "level": "JUNIOR",
+      "total_duration": 8137,
+      "subscription": null,
+      "published_unit_count": 9,
+      "course_type": "COURSE",
+      "course_status": "OPEN",
+      "technologies": []
+    },
+    {
+      "id": "8cf71fc5-4df6-4252-99e5-542444297cbf",
+      "url_id": "HgFShkxlPN",
+      "title": "Dart 102",
+      "description": "يهدف البرنامج للتعرف على الدوال Functions في لغة Dart بالإضافة للعديد من دوال built-in الخاصة بلغة Dart.",
+      "logo": "https://assets.safcsp.cloud/7ac4ae69-5727-4069-aea6-74647e4afc23/asset/f63e96f7-bcda-457c-9259-9de1f5c37c80.png",
+      "level": "MIDDLE",
+      "total_duration": 1700,
+      "subscription": null,
+      "published_unit_count": 4,
+      "course_type": "COURSE",
+      "course_status": "OPEN",
+      "technologies": []
+    },
+    {
+      "id": "b1b405b0-9324-40e2-8abf-2649a213e7e7",
+      "url_id": "BjCWaReFnW",
+      "title": "Dart 103",
+      "description": "يهدف البرنامج للتعرف على العديد من الدوال التي تمكن من التعامل مع القوائم أو ما تسمي Lists في لغة Dart.",
+      "logo": "https://assets.safcsp.cloud/7ac4ae69-5727-4069-aea6-74647e4afc23/asset/d6bc9e22-ca47-4b4d-b260-66d7e2a4c521.png",
+      "level": "MIDDLE",
+      "total_duration": 796,
+      "subscription": null,
+      "published_unit_count": 4,
+      "course_type": "COURSE",
+      "course_status": "OPEN",
+      "technologies": []
+    },
+    {
+      "id": "9e5283ab-4c30-4f31-8394-d84aa428fe06",
+      "url_id": "tbKEOEzUGW",
+      "title": "Flutter 101",
+      "description": "سنتعرف في هذهِ الدورة على إطار العمل Flutter وعلى أهم مميزاته، كما سنتعرف على طريقة تثبيته وتشغيله على محاكي iOS ومحاكي Android",
+      "logo": null,
+      "level": "JUNIOR",
+      "total_duration": 6376,
+      "subscription": null,
+      "published_unit_count": 6,
+      "course_type": "COURSE",
+      "course_status": "OPEN",
+      "technologies": []
+    },
+    {
+      "id": "32a55d39-77ca-4121-ba14-b861dd5715e5",
+      "url_id": "ZlKLfufzmW",
+      "title": "أساسيات Git",
+      "description": "سنتعرف في هذهِ الدورة على أساسيات مفهوم Git، وأنظمة التحكم بالنسخ وأنواعها، وإلى أي نوع من أنواع أنظمة التحكم بالنسخ ينتمي Git، بالإضافة إلى طريقة التعامل معه على المستوى الفردي.",
+      "logo": "https://assets.safcsp.cloud/b43288bb-2af8-4b58-af11-913a619d2640/asset/8a73ad27-5d0c-4397-8678-5f105ee1adba.png",
+      "level": "JUNIOR",
+      "total_duration": 5570,
+      "subscription": null,
+      "published_unit_count": 11,
+      "course_type": "COURSE",
+      "course_status": "OPEN",
+      "technologies": []
+    },
+    {
+      "id": "9de0ef3d-8882-4811-8ca5-5ba246530cf8",
+      "url_id": "YcFZVSvFzG",
+      "title": "Flutter 102",
+      "description": "سنتعرف في هذهِ الدورة على عدد من المفاهيم المتقدمة في Flutter، كمفهوم State Management  ومفهوم التنقل بين الصفحات واستخدام المكتبات الخارجية وغيرها من المفاهيم.",
+      "logo": null,
+      "level": "MIDDLE",
+      "total_duration": 5525,
+      "subscription": null,
+      "published_unit_count": 5,
+      "course_type": "COURSE",
+      "course_status": "OPEN",
+      "technologies": []
+    },
+    {
+      "id": "88225216-1b5b-44fe-9558-0ee1a63be4a1",
+      "url_id": "hWnYYAjPcv",
+      "title": "Dart 104",
+      "description": "في هذه الدورة ستتعرف على أهم مكتبات لغة Dart الأساسية والمتقدمة ، وكيفية الاستفادة منها في تطوير تطبيقات احترافية.\nنبدأ بمكتبات متعددة الأنظمة مثل dart:core و dart:async ، ثم نستعرض المكتبات الأصلية مثل : dart:io ، والمكتبات الخاصة بتطبيقات الويب مثل :  dart:html ، ستتعلم إدارة الملفات و التعامل مع الشبكات و تنفيذ العمليات غير المتزامنة ، والتحويل بين JSON وDart.",
+      "logo": null,
+      "level": "MIDDLE",
+      "total_duration": 4199,
+      "subscription": null,
+      "published_unit_count": 6,
+      "course_type": "COURSE",
+      "course_status": "OPEN",
+      "technologies": []
+    },
+    {
+      "id": "4cd8acee-2caa-4ca8-ae9b-66373321a386",
+      "url_id": "sx8doDZi2s",
+      "title": "Flutter 103",
+      "description": "تهدف الدورة للتعرف على كيفية بناء واجهات تفاعلية باستخدام أدوات Flutter المتنوعة، والبدء بتخطيط الواجهات باستخدام Stack وExpanded، ثم تحسين تجربة المستخدم من خلال مجموعة أدوات مثل:  ListView وGridView، والتعرف على كيفية إضافة أدوات تفاعلية مثل:Gesture Detector لجعل التطبيق أكثر تفاعلًا واستجابة للمستخدم.",
+      "logo": null,
+      "level": "MIDDLE",
+      "total_duration": 2980,
+      "subscription": null,
+      "published_unit_count": 5,
+      "course_type": "COURSE",
+      "course_status": "OPEN",
+      "technologies": []
+    },
+    {
+      "id": "a598f110-768e-4438-a203-ef62a249bc9e",
+      "url_id": "RCRE2cZvR9",
+      "title": "Flutter 104",
+      "description": "تهدف الدورة للتعرف على كيفية التعامل مع البيانات المدخلة TextField وTextFormField، وتعزيز تجربة المستخدم باستخدام مجموعة من العناصر التفاعلية،  واستخدام مجموعة من واجهات المستخدم المتقدمة | Advanced UI.\n ",
+      "logo": null,
+      "level": "MIDDLE",
+      "total_duration": 5130,
+      "subscription": null,
+      "published_unit_count": 5,
+      "course_type": "COURSE",
+      "course_status": "OPEN",
+      "technologies": []
+    },
+    {
+      "id": "5952400b-42a5-46a6-aabc-20e09ac88d8e",
+      "url_id": "kQR7vVvdlV",
+      "title": "Flutter 105",
+      "description": "دورة  Custom Widgets : تركز على تعلّم كيفية إنشاء Widgets مخصصة لإعادة استخدام الكود وبناء واجهات متقدمة . \n و أبرز الدوال مع StatefulWidget ،  وتنتقل إلى أدوات عديدة مثل LayoutBuilder و FutureBuilder  و StreamBuilder  ،  وتتطرق الدورة إلى تقنيات متقدمة في الرسم باستخدام CustomPainter لإنشاء تصاميم  أكثر احترافية .",
+      "logo": null,
+      "level": "MIDDLE",
+      "total_duration": 4509,
+      "subscription": null,
+      "published_unit_count": 5,
+      "course_type": "COURSE",
+      "course_status": "OPEN",
+      "technologies": []
+    },
+    {
+      "id": "7f5716b5-66e9-4319-9033-e9716db3105d",
+      "url_id": "xTIcTKpvsW",
+      "title": "Flutter 106",
+      "description": "دورة التعامل مع APIs في Flutter :  في هذه الدورة سنتعرف على كيفية ربط تطبيقات Flutter بـ API والتعامل مع البيانات بكفاءة واحترافية. نبدأ بمفاهيم HTTP الأساسية ، ثم ننتقل إلى تحليل بيانات JSON وتحويلها إلى Models منظمة ، وصولًا إلى التفاعل الكامل مع API من خلال إرسال البيانات وتحديثها وحذفها . كما سنتطرق إلى بكجات قوية مثل : json_serializable و  freezed.",
+      "logo": null,
+      "level": "SENIOR",
+      "total_duration": 4978,
+      "subscription": null,
+      "published_unit_count": 5,
+      "course_type": "COURSE",
+      "course_status": "OPEN",
+      "technologies": []
+    }
+  ],
+  "exams": [],
+  "upcoming_courses": [
+    {
+      "title": "Flutter 107",
+      "description": "دورة إدارة الحالة في Flutter : في هذه الدورة ستتعرف على أهم تقنيات إدارة الحالة (State Management) في Flutter خطوة بخطوة مع أمثلة تطبيقية ، نأخذك في جولة من الأساسيات حتى التقنيات الاحترافية، مع مقارنة بين الحلول المختلفة واختيار الأنسب لمشاريعك.\n"
+    }
+  ],
+  "recommended_paths": [
+    {
+      "id": "ce3252a3-2cb5-4027-8855-673b2bf6ea44",
+      "url_id": "ecbAGsuqOQ",
+      "title": "مسار Full-Stack JavaScript",
+      "logo": null,
+      "courses_count": 16,
+      "level": "JUNIOR",
+      "total_duration": 92904,
+      "description": "سيأخذك هذا المسار في رحلة تتعلم من خلالها تطوير وبناء تطبيقات ويب تفاعلية متكاملة، تبدأ رحلتك بتعلم أساسيات البرمجة بلغة JavaScript ثم ستتعرف على طرق هيكلة وتصميم صفحات الويب وتنسيقها وكل ما يخص تطوير الواجهات (Front-End)، ثم ستنتقل لتعلم أساسيات تطوير وبناء خلفيات التطبيقات (Back-End) وقواعد البيانات (Database)، كما ستتعرف على مفهوم التحكم بالإصدارات وعلى طريقة استخدام كل من Git  و GitHub.\n",
+      "subscription": null,
+      "learning_goals": [
+        "تطوير وتصميم واجهات البرامج.",
+        "تطوير وبناء برامج تفاعلية متكاملة وربطها بقواعد البيانات.",
+        "رفع المشروع واستضافته على منصة Heroku."
+      ]
+    },
+    {
+      "id": "c0e0df11-74a1-4b85-90a5-3252ebafa14c",
+      "url_id": "zaNuCyeqGx",
+      "title": "مسار علم البيانات والذكاء الاصطناعي",
+      "logo": "https://assets.safcsp.cloud/d1ec42c3-e62a-42fe-a38b-2d589c63678f/asset/52d96568-7720-4553-8e1f-c0180c0622cd.png",
+      "courses_count": 15,
+      "level": "MIDDLE",
+      "total_duration": 96757,
+      "description": "مسار تعليمي يساعد المهتمين في دخول مجال علم البيانات والذكاء الاصطناعي على التعرف على أهم المفاهيم الأساسية والتي تشمل التعامل مع أنواع البيانات المختلفة ,تحليل ومعالجة البيانات ,عرض البيانات على شكل رسوم بيانية وتفاعلية، ,نمذجة البيانات باستخدام خوارزميات تعلم الآلة Machine Learning Algorithms و التعلم العميق Deep Learning Algorithms.",
+      "subscription": null,
+      "learning_goals": [
+        "تحليل البيانات ومعالجتها (Data Analysis and Processing).",
+        "التعرف على طرق عرض البيانات (Data Visualization).",
+        "نمذجة البيانات (Data Modeling) باستخدام (Machine Learning Algorithms).",
+        "تقييم النماذج (Model Evaluation)."
+      ]
+    },
+    {
+      "id": "328d9824-cff0-4355-bd6d-e216b997cd37",
+      "url_id": "OTZExaETAH",
+      "title": "مسار Full-Stack Python",
+      "logo": "https://assets.safcsp.cloud/822cb565-21e0-498b-b160-4bb19c98d09a/asset/301c6aa6-69a1-40d0-bb87-919fb3c2a57e.png",
+      "courses_count": 15,
+      "level": "JUNIOR",
+      "total_duration": 81315,
+      "description": "ستتعلم في هذا المسار كيفية تطوير وبناء تطبيقات ويب تفاعلية متكاملة باستخدام Python، حيث تبدأ رحلتك بتعلم أساسيات تطوير وبناء التطبيقات (Back-End) وقواعد البيانات (Database) كما ستتعرف على طرق هيكلة وتصميم صفحات الويب وتنسيقها وكل ما يخص تطوير الواجهات (Front-End)، وأخيرًا ستتعرف على مفهوم التحكم بالإصدارات وعلى طريقة استخدام كل من Git و GitHub.",
+      "subscription": null,
+      "learning_goals": [
+        "فهم أساسيات البرمجة باستخدام لغة Python",
+        "تطوير وتصميم صفحات الويب وتنسيقها ",
+        "ربط صفحات الويب بقواعد البيانات"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "id": "06492fc2-ab42-492b-810c-c0a80c6f9bad",
+    "titleAr": "الرياض",
+    "slug": {
+      "current": "06492fc2"
+    },
+    "initiativesCount": 100
+  },
+  {
+    "id": "c52dbb1c-5737-4998-8b6c-812599e4eb94",
+    "titleAr": "الرياض - النفل",
+    "slug": {
+      "current": "c52dbb1c"
+    },
+    "initiativesCount": 10
+  },
+  {
+    "id": "c70dbb1c-5737-4998-8b6c-812599e4eb94",
+    "titleAr": "الرياض - المقر الرئيسي",
+    "slug": {
+      "current": "c70dbb1c"
+    },
+    "initiativesCount": 922
+  },
+  {
+    "id": "remote",
+    "titleAr": "عن بعد",
+    "slug": {
+      "current": "remote"
+    },
+    "initiativesCount": 245
+  }
+]

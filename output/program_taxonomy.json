@@ -1,0 +1,42 @@
+[
+  {
+    "name": "المعسكرات",
+    "name_en": "Bootcamps",
+    "description": "معسكرات منتهية بالتوظيف للمتميزين، مبنيّة على احتياجات سوق العمل، تقام لمدة 1-9 أشهر بشهادات احترافية في العديد من المجالات التقنية.",
+    "duration": "1-9 أشهر",
+    "category_id": "ac41152d-f228-8af4-8406-e0cda6df6c35",
+    "url_param": "category=ac41152d-f228-8af4-8406-e0cda6df6c35&type=NORMAL",
+    "listing_page": "https://tuwaiq.edu.sa/bootcamps?category=ac41152d-f228-8af4-8406-e0cda6df6c35&type=NORMAL",
+    "image": "/img/ART/Asset%201.webp"
+  },
+  {
+    "name": "البرامج",
+    "name_en": "Programs",
+    "description": "برامج احترافية لمدة 1-3 أسابيع، تستهدف تطوير قدراتك التقنية؛ بمنهجيّة تعلُّم نوعية، وبيئة تنافسية قائمة على التطبيقات العملية.",
+    "duration": "1-3 أسابيع",
+    "category_id": "8836bde0-68ae-3600-92a2-23dce3c487ca",
+    "url_param": "category=8836bde0-68ae-3600-92a2-23dce3c487ca&type=NORMAL",
+    "listing_page": "https://tuwaiq.edu.sa/bootcamps?category=8836bde0-68ae-3600-92a2-23dce3c487ca&type=NORMAL",
+    "image": "/img/art_for_programs.svg"
+  },
+  {
+    "name": "اللقاءات",
+    "name_en": "Meetups",
+    "description": "لقاءات معرفيّة إثرائية، تقام بالتعاون مع عدة جهات رائدة ومتقدمة؛ لمناقشة مختلف مواضيع التقنيات الحديثة، والتواصل، والأعمال.",
+    "duration": "لقاءات قصيرة",
+    "category_id": "c616115c-5cf8-426d-9f70-42eb370ca37d",
+    "url_param": "category=c616115c-5cf8-426d-9f70-42eb370ca37d&type=NORMAL",
+    "listing_page": "https://tuwaiq.edu.sa/bootcamps?category=c616115c-5cf8-426d-9f70-42eb370ca37d&type=NORMAL",
+    "image": "/img/ART/Asset%203.svg"
+  },
+  {
+    "name": "ويبينار",
+    "name_en": "Webinars",
+    "description": "ويبينار معرفي عن بعد",
+    "duration": "ساعات",
+    "category_id": "56732582-5b07-4fbf-9ee8-89c26d87b419",
+    "url_param": "category=56732582-5b07-4fbf-9ee8-89c26d87b419&type=NORMAL",
+    "listing_page": "https://tuwaiq.edu.sa/bootcamps?category=56732582-5b07-4fbf-9ee8-89c26d87b419&type=NORMAL",
+    "image": ""
+  }
+]

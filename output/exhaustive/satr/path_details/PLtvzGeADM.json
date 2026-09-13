@@ -1,0 +1,313 @@
+{
+  "id": "291bb944-b09c-4bed-a44a-ba5a7b6d44b1",
+  "url_id": "PLtvzGeADM",
+  "title": "مسار نظام Linux",
+  "logo": "https://assets.safcsp.cloud/7ac4ae69-5727-4069-aea6-74647e4afc23/asset/f9ab57e6-99c9-405a-a4f9-e33db248dbe3.png",
+  "courses_count": 16,
+  "description": "تعرف في هذا المسار على أهم الأدوات المستخدمه لإدارة أنظمة Linux، ومنها أدوات تهم أي مطور برمجيات مثل أدوات Command-line و الأتمتة مع Bash Scripting وغيرها من الأدوات.",
+  "preview_video": null,
+  "level": "JUNIOR",
+  "total_duration": 47861,
+  "requirements": [
+    "هذا المسار لا يتطلب أي معرفة مسبقة"
+  ],
+  "learning_goals": [
+    "استخدام واجهة سطر الأوامر بشكل متقدم",
+    "التعامل مع الأتمتة وإنشاء Bash Scripts ",
+    "إدارة نظام Linux والتعرف على الكثير من وظائفه"
+  ],
+  "faq": [],
+  "subscription": null,
+  "current_course": null,
+  "courses": [
+    {
+      "id": "c13bf6aa-dfdd-4a50-a0a1-dc7f6675e997",
+      "url_id": "TxsQvLlqai",
+      "title": "Linux 101",
+      "description": "في هذه الدورة سنتعرف على نظام التشغيل Linux وتوزيعاتها والبرامج المستخدمة ومفهوم Package Manager.",
+      "logo": "https://assets.safcsp.cloud/7ac4ae69-5727-4069-aea6-74647e4afc23/asset/2dd1c558-0af2-4d73-967b-9cf1a56f32ab.png",
+      "level": "JUNIOR",
+      "total_duration": 2300,
+      "subscription": null,
+      "published_unit_count": 4,
+      "course_type": "COURSE",
+      "course_status": "OPEN",
+      "technologies": [
+        {
+          "id": "7f0284e1-f529-426c-bbdf-e2617ae7fed7",
+          "name": "Linux",
+          "icon": null
+        }
+      ]
+    },
+    {
+      "id": "5f87136c-c85f-40fd-98b3-e31ef2961c16",
+      "url_id": "eZscznUWCq",
+      "title": "Command-line 101",
+      "description": "سنتعرف في هذه الدورة على أساسيات الأوامر Command-line وتعتبر الأوامر Command-line من أهم الأدوات التي يجب أن يحصل عليها أي مطور، بحيث ستمكنك هذه الدورة من التعامل مع جهاز الكمبيوتر بوضوح وأكثر فعالية.",
+      "logo": "https://assets.safcsp.cloud/7ac4ae69-5727-4069-aea6-74647e4afc23/asset/367b4b40-993d-4b83-9f54-539b65f7d4f3.png",
+      "level": "JUNIOR",
+      "total_duration": 4514,
+      "subscription": null,
+      "published_unit_count": 5,
+      "course_type": "COURSE",
+      "course_status": "OPEN",
+      "technologies": [
+        {
+          "id": "6bda080b-dd65-4d31-b26c-c949ada863f4",
+          "name": "Command-line",
+          "icon": null
+        }
+      ]
+    },
+    {
+      "id": "61f34c41-f2f4-4238-b896-6d8f69b8d4ac",
+      "url_id": "FqApQHFkLE",
+      "title": "Command-line 102",
+      "description": "سنتعرف في هذه الدورة على الأوامر التي تساعد في معرفة تفاصيل أكثر عن الأنواع المختلفة للأوامر وكيفية عملها. ",
+      "logo": "https://assets.safcsp.cloud/7ac4ae69-5727-4069-aea6-74647e4afc23/asset/f2358f1e-76a7-43fc-88c4-5a964e0184dc.png",
+      "level": "JUNIOR",
+      "total_duration": 1544,
+      "subscription": null,
+      "published_unit_count": 4,
+      "course_type": "COURSE",
+      "course_status": "OPEN",
+      "technologies": []
+    },
+    {
+      "id": "e203dc53-74d1-40f6-af04-0613e363a609",
+      "url_id": "obAbHzLuwU",
+      "title": "Command-line 103",
+      "description": "سنتعرف في هذه الدورة على الأوامر التي تساعدنا في عمل إعادة توجية للمدخلات والمخرجات Input/Output Redirection. وذلك باستخدام المعاملات الخاصة لكل عملية من عمليات إعادة توجيه المدخلات والمخرجات.",
+      "logo": "https://assets.safcsp.cloud/7ac4ae69-5727-4069-aea6-74647e4afc23/asset/bf1f4bac-60ca-4ef3-9925-b5f9a9c3bae0.png",
+      "level": "MIDDLE",
+      "total_duration": 1446,
+      "subscription": null,
+      "published_unit_count": 3,
+      "course_type": "COURSE",
+      "course_status": "OPEN",
+      "technologies": []
+    },
+    {
+      "id": "b8b21150-948f-4ae0-80c1-407c5c579518",
+      "url_id": "LVpNTthkQW",
+      "title": "Linux: Files and Permissions",
+      "description": "في هذه الدورة سنتعرف على الملفات والصلاحيات في نظام Linux.",
+      "logo": "https://assets.safcsp.cloud/7ac4ae69-5727-4069-aea6-74647e4afc23/asset/1538a4b4-aa76-4cb1-8aaf-a5bde69211e6.png",
+      "level": "JUNIOR",
+      "total_duration": 2054,
+      "subscription": null,
+      "published_unit_count": 4,
+      "course_type": "COURSE",
+      "course_status": "OPEN",
+      "technologies": []
+    },
+    {
+      "id": "de76625f-d3ed-45a5-90f5-c84cb129159b",
+      "url_id": "SeKcdRBnEj",
+      "title": "Bash 101",
+      "description": "ستتعلم فيه هذه الدورة مجموعة من أساسيات Bash والتي بدورها تقوم بتأهيلك إلى Bash Scripting.",
+      "logo": "https://assets.safcsp.cloud/7ac4ae69-5727-4069-aea6-74647e4afc23/asset/a60ba9d6-0ec8-4383-b630-7820559937a5.png",
+      "level": "JUNIOR",
+      "total_duration": 4698,
+      "subscription": null,
+      "published_unit_count": 8,
+      "course_type": "COURSE",
+      "course_status": "OPEN",
+      "technologies": []
+    },
+    {
+      "id": "d8ad4feb-931b-4669-85a2-6da320248f79",
+      "url_id": "rwzGgfjiUQ",
+      "title": "Bash 102",
+      "description": "ستتعلم في هذه الدورة كيفية التعامل مع بيئة Bash.",
+      "logo": "https://assets.safcsp.cloud/7ac4ae69-5727-4069-aea6-74647e4afc23/asset/a6929d4e-c5a3-45d8-82b2-d0205f7b35a3.png",
+      "level": "JUNIOR",
+      "total_duration": 4309,
+      "subscription": null,
+      "published_unit_count": 8,
+      "course_type": "COURSE",
+      "course_status": "OPEN",
+      "technologies": []
+    },
+    {
+      "id": "57a534ad-8567-4d29-b206-7ff594a4424b",
+      "url_id": "PjZicrpjiz",
+      "title": "Bash103",
+      "description": "ستتعلم في هذه الدورة مفهوم Automation وكيفية توظيف هذا المفهوم في إنشاء Bash Scripts.",
+      "logo": "https://assets.safcsp.cloud/7ac4ae69-5727-4069-aea6-74647e4afc23/asset/b76f8723-da35-4522-bc7f-7320649bc6b7.png",
+      "level": "JUNIOR",
+      "total_duration": 3382,
+      "subscription": null,
+      "published_unit_count": 6,
+      "course_type": "COURSE",
+      "course_status": "OPEN",
+      "technologies": []
+    },
+    {
+      "id": "0bb8ff09-75b9-4ee9-be36-50f5e366556d",
+      "url_id": "ilZEZwKCPp",
+      "title": "Command-line 104",
+      "description": "سنتعرف في هذه الدورة على مفاهيم Expansion في Shell من خلال استخدام Command-line، نستطيع القيام بعمليات مختصرة وأكثر سرعة باستخدام مفهوم Expansion في Shell.",
+      "logo": "https://assets.safcsp.cloud/7ac4ae69-5727-4069-aea6-74647e4afc23/asset/dc41e294-4bad-4f10-a794-86d7d2153df9.png",
+      "level": "MIDDLE",
+      "total_duration": 1905,
+      "subscription": null,
+      "published_unit_count": 3,
+      "course_type": "COURSE",
+      "course_status": "OPEN",
+      "technologies": []
+    },
+    {
+      "id": "1ebd61ea-74a6-404c-99cd-7c3a0999a733",
+      "url_id": "AsquwRYPIh",
+      "title": "Command-line 105",
+      "description": "تعرف في هذه الدورة على أهم الاختصارات التي تمكنك من عمل مهام عديدة بجهد ووقت أقل وفاعلية أكثر في Command-line، فهذه الخصائص ستسهل استخدام لوحة المفاتيح.",
+      "logo": "https://assets.safcsp.cloud/7ac4ae69-5727-4069-aea6-74647e4afc23/asset/92721a20-032e-4e42-a923-36a3791d15b4.png",
+      "level": "MIDDLE",
+      "total_duration": 1346,
+      "subscription": null,
+      "published_unit_count": 3,
+      "course_type": "COURSE",
+      "course_status": "OPEN",
+      "technologies": []
+    },
+    {
+      "id": "5af258ac-bf5e-4ba1-bb35-dce0b9efab20",
+      "url_id": "PFzwaZCOTV",
+      "title": "Bash104",
+      "description": "ستتعلم في هذه الدورة مجموعة من المفاهيم في Bash فيما يتعلق في الدوال أو Functions.",
+      "logo": "https://assets.safcsp.cloud/7ac4ae69-5727-4069-aea6-74647e4afc23/asset/240f2315-8eb4-4f74-9f2e-cc9f3580ae87.png",
+      "level": "JUNIOR",
+      "total_duration": 3669,
+      "subscription": null,
+      "published_unit_count": 7,
+      "course_type": "COURSE",
+      "course_status": "OPEN",
+      "technologies": []
+    },
+    {
+      "id": "c78607d0-08b0-4f72-8c43-50f16d23f60f",
+      "url_id": "xKFakzkzVs",
+      "title": "Bash105",
+      "description": "ستتعرف في هذه الدورة على مفاهيم Flow Control وآلية استخدامها في Bash Scripting للتحكم بتسلسل تنفيذ الأوامر، مثل تكرار بعض الأوامر أو تخطي جزء منها بناءً على شرط معين كما سنتطرق لغيرها من الاستخدامات.",
+      "logo": "https://assets.safcsp.cloud/7ac4ae69-5727-4069-aea6-74647e4afc23/asset/c21e3438-8ac4-44e6-83a0-7d880d9b8ed3.png",
+      "level": "MIDDLE",
+      "total_duration": 2896,
+      "subscription": null,
+      "published_unit_count": 6,
+      "course_type": "COURSE",
+      "course_status": "OPEN",
+      "technologies": []
+    },
+    {
+      "id": "08c115f8-565a-4082-b2fb-6a33bc3c490c",
+      "url_id": "NEWfqtugFg",
+      "title": "Linux: Text Processing 101",
+      "description": "تعرف في هذه الدورة على الأوامر المستخدمة في نظام Linux لمعالجة النصوص.",
+      "logo": "https://assets.safcsp.cloud/7ac4ae69-5727-4069-aea6-74647e4afc23/asset/d70a32e3-91f2-4678-a1d2-89d0a78c67a2.png",
+      "level": "JUNIOR",
+      "total_duration": 1224,
+      "subscription": null,
+      "published_unit_count": 5,
+      "course_type": "COURSE",
+      "course_status": "OPEN",
+      "technologies": []
+    },
+    {
+      "id": "33936391-66fa-4059-9920-984395900a37",
+      "url_id": "YGluMjARQc",
+      "title": "Linux: Text Processing 102",
+      "description": "تعرف في هذه الدورة على الأوامر المستخدمه لتحرير النصوص في Linux ومجموعة مفاهيم لأوامر متقدمة تساعد على دمج الملفات واستبدال النصوص وطباعة تفاصيل أكثر عن الملفات.",
+      "logo": "https://assets.safcsp.cloud/7ac4ae69-5727-4069-aea6-74647e4afc23/asset/7d25fa0a-da40-40cb-84c4-6f5b2dde6697.png",
+      "level": "JUNIOR",
+      "total_duration": 9586,
+      "subscription": null,
+      "published_unit_count": 5,
+      "course_type": "COURSE",
+      "course_status": "OPEN",
+      "technologies": []
+    },
+    {
+      "id": "91ef673e-02ee-4e57-8fd8-196d2ae47139",
+      "url_id": "vWKZXcLnPA",
+      "title": "Linux: Devices ",
+      "description": " في هذه الدورة سنتعرف على طريقة تعامل نظام Linux مع الأجهزة.",
+      "logo": "https://assets.safcsp.cloud/7ac4ae69-5727-4069-aea6-74647e4afc23/asset/607a9d14-fa67-497f-a9e5-de95bc3366da.png",
+      "level": "MIDDLE",
+      "total_duration": 1255,
+      "subscription": null,
+      "published_unit_count": 3,
+      "course_type": "COURSE",
+      "course_status": "OPEN",
+      "technologies": []
+    },
+    {
+      "id": "c26189ff-3056-4c45-95ff-3b42c575ba37",
+      "url_id": "nFmAUQhzXP",
+      "title": "Command-line 106",
+      "description": "تعرف في هذه الدورة على الأدوات المتقدمة في Command-line والتي تساعد على البحث عن الملفات وطريقة الوصول لها بشكل أسرع وأكثر فاعلية.",
+      "logo": "https://assets.safcsp.cloud/7ac4ae69-5727-4069-aea6-74647e4afc23/asset/5f68119c-7036-4f69-9ce2-4e616fc11277.png",
+      "level": "SENIOR",
+      "total_duration": 1733,
+      "subscription": null,
+      "published_unit_count": 3,
+      "course_type": "COURSE",
+      "course_status": "OPEN",
+      "technologies": []
+    }
+  ],
+  "exams": [],
+  "upcoming_courses": [],
+  "recommended_paths": [
+    {
+      "id": "ce3252a3-2cb5-4027-8855-673b2bf6ea44",
+      "url_id": "ecbAGsuqOQ",
+      "title": "مسار Full-Stack JavaScript",
+      "logo": null,
+      "courses_count": 16,
+      "level": "JUNIOR",
+      "total_duration": 92904,
+      "description": "سيأخذك هذا المسار في رحلة تتعلم من خلالها تطوير وبناء تطبيقات ويب تفاعلية متكاملة، تبدأ رحلتك بتعلم أساسيات البرمجة بلغة JavaScript ثم ستتعرف على طرق هيكلة وتصميم صفحات الويب وتنسيقها وكل ما يخص تطوير الواجهات (Front-End)، ثم ستنتقل لتعلم أساسيات تطوير وبناء خلفيات التطبيقات (Back-End) وقواعد البيانات (Database)، كما ستتعرف على مفهوم التحكم بالإصدارات وعلى طريقة استخدام كل من Git  و GitHub.\n",
+      "subscription": null,
+      "learning_goals": [
+        "تطوير وتصميم واجهات البرامج.",
+        "تطوير وبناء برامج تفاعلية متكاملة وربطها بقواعد البيانات.",
+        "رفع المشروع واستضافته على منصة Heroku."
+      ]
+    },
+    {
+      "id": "c0e0df11-74a1-4b85-90a5-3252ebafa14c",
+      "url_id": "zaNuCyeqGx",
+      "title": "مسار علم البيانات والذكاء الاصطناعي",
+      "logo": "https://assets.safcsp.cloud/d1ec42c3-e62a-42fe-a38b-2d589c63678f/asset/52d96568-7720-4553-8e1f-c0180c0622cd.png",
+      "courses_count": 15,
+      "level": "MIDDLE",
+      "total_duration": 96757,
+      "description": "مسار تعليمي يساعد المهتمين في دخول مجال علم البيانات والذكاء الاصطناعي على التعرف على أهم المفاهيم الأساسية والتي تشمل التعامل مع أنواع البيانات المختلفة ,تحليل ومعالجة البيانات ,عرض البيانات على شكل رسوم بيانية وتفاعلية، ,نمذجة البيانات باستخدام خوارزميات تعلم الآلة Machine Learning Algorithms و التعلم العميق Deep Learning Algorithms.",
+      "subscription": null,
+      "learning_goals": [
+        "تحليل البيانات ومعالجتها (Data Analysis and Processing).",
+        "التعرف على طرق عرض البيانات (Data Visualization).",
+        "نمذجة البيانات (Data Modeling) باستخدام (Machine Learning Algorithms).",
+        "تقييم النماذج (Model Evaluation)."
+      ]
+    },
+    {
+      "id": "328d9824-cff0-4355-bd6d-e216b997cd37",
+      "url_id": "OTZExaETAH",
+      "title": "مسار Full-Stack Python",
+      "logo": "https://assets.safcsp.cloud/822cb565-21e0-498b-b160-4bb19c98d09a/asset/301c6aa6-69a1-40d0-bb87-919fb3c2a57e.png",
+      "courses_count": 15,
+      "level": "JUNIOR",
+      "total_duration": 81315,
+      "description": "ستتعلم في هذا المسار كيفية تطوير وبناء تطبيقات ويب تفاعلية متكاملة باستخدام Python، حيث تبدأ رحلتك بتعلم أساسيات تطوير وبناء التطبيقات (Back-End) وقواعد البيانات (Database) كما ستتعرف على طرق هيكلة وتصميم صفحات الويب وتنسيقها وكل ما يخص تطوير الواجهات (Front-End)، وأخيرًا ستتعرف على مفهوم التحكم بالإصدارات وعلى طريقة استخدام كل من Git و GitHub.",
+      "subscription": null,
+      "learning_goals": [
+        "فهم أساسيات البرمجة باستخدام لغة Python",
+        "تطوير وتصميم صفحات الويب وتنسيقها ",
+        "ربط صفحات الويب بقواعد البيانات"
+      ]
+    }
+  ]
+}

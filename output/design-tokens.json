@@ -1,0 +1,1110 @@
+{
+  "meta": {
+    "source": "https://tuwaiq.edu.sa/",
+    "extractedAt": "2026-09-13T17:26:45Z",
+    "method": "StealthyFetcher + getComputedStyle (network_idle, solve_cloudflare, locale ar-SA)",
+    "viewport": {
+      "width": 1920,
+      "height": 1080,
+      "devicePixelRatio": 2
+    },
+    "note": "Preserved Arabic, RTL dir=rtl, rate-limited"
+  },
+  "colors": {
+    "palette_rgb": [
+      "rgb(255, 255, 255)",
+      "rgb(249, 247, 255)",
+      "rgb(79, 41, 183)",
+      "rgb(242, 244, 247)",
+      "rgb(73, 50, 175)",
+      "rgb(231, 221, 255)",
+      "rgb(245, 245, 248)",
+      "rgba(163, 128, 255, 0.2)",
+      "rgb(253, 238, 241)",
+      "rgba(255, 255, 255, 0.7)",
+      "rgb(255, 83, 109)",
+      "rgb(216, 232, 255)",
+      "rgb(255, 239, 218)",
+      "rgb(214, 246, 244)",
+      "rgb(0, 0, 0)",
+      "rgb(234, 236, 240)",
+      "rgb(21, 21, 21)",
+      "rgba(209, 213, 219, 0.5)",
+      "rgb(73, 49, 175)",
+      "rgb(92, 92, 92)",
+      "rgb(20, 20, 20)",
+      "rgb(138, 138, 143)",
+      "rgb(26, 26, 26)",
+      "rgb(71, 85, 105)"
+    ],
+    "palette_hex": [
+      "#ffffff",
+      "#f9f7ff",
+      "#4f29b7",
+      "#f2f4f7",
+      "#4932af",
+      "#e7ddff",
+      "#f5f5f8",
+      "#a380ff",
+      "#fdeef1",
+      "#ff536d",
+      "#d8e8ff",
+      "#ffefda",
+      "#d6f6f4",
+      "#000000",
+      "#eaecf0",
+      "#151515",
+      "#d1d5db",
+      "#4931af",
+      "#5c5c5c",
+      "#141414",
+      "#8a8a8f",
+      "#1a1a1a",
+      "#475569"
+    ],
+    "primary_candidates": {
+      "button_primary_bg": "rgba(0, 0, 0, 0)",
+      "button_primary_hex": "#000000",
+      "nav_bg": "rgba(0, 0, 0, 0)",
+      "body_bg": "rgb(255, 255, 255)"
+    },
+    "gradients": [],
+    "backgrounds": {
+      "body": "rgb(255, 255, 255)",
+      "nav": "rgba(0, 0, 0, 0)",
+      "footer": "rgba(0, 0, 0, 0)",
+      "header": null
+    },
+    "texts": {
+      "body": null,
+      "h1": "rgb(79, 41, 183)",
+      "h2": "rgb(79, 41, 183)",
+      "nav": "rgb(21, 21, 21)"
+    },
+    "buttons": [
+      {
+        "text": "الرئيسية",
+        "href": "/?page=%2F",
+        "className": "px-2 py-2 font-medium rounded-xl xl:py-3 xl:px-5 text-bp-accent-2",
+        "bg": "rgba(0, 0, 0, 0)",
+        "color": "rgb(73, 49, 175)",
+        "border": "rgb(234, 236, 240)",
+        "fontFamily": "\"IBM Plex Sans Arabic\"",
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "24px",
+        "padding": "12px 20px",
+        "borderRadius": "12px",
+        "boxShadow": "none",
+        "display": "block",
+        "width": 89,
+        "height": 48
+      },
+      {
+        "text": "الأنشطة",
+        "href": "#",
+        "className": "px-2 py-2 font-medium whitespace-nowrap rounded-xl xl:py-3 xl:px-5",
+        "bg": "rgba(0, 0, 0, 0)",
+        "color": "rgb(21, 21, 21)",
+        "border": "rgb(234, 236, 240)",
+        "fontFamily": "\"IBM Plex Sans Arabic\"",
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "24px",
+        "padding": "12px 20px",
+        "borderRadius": "12px",
+        "boxShadow": "none",
+        "display": "block",
+        "width": 117,
+        "height": 48
+      },
+      {
+        "text": "معسكر",
+        "href": "/bootcamps?category=ac41152d-f228-8af4-8406-e0cda6df6c35&type=NORMAL",
+        "className": "block w-full px-5 py-3 text-bp-ink hover:bg-bp-accent-soft hover:text-bp-accent transition-colors",
+        "bg": "rgba(0, 0, 0, 0)",
+        "color": "rgb(21, 21, 21)",
+        "border": "rgb(234, 236, 240)",
+        "fontFamily": "\"IBM Plex Sans Arabic\"",
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "24px",
+        "padding": "12px 20px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "display": "block",
+        "width": 0,
+        "height": 0
+      },
+      {
+        "text": "برنامج",
+        "href": "/bootcamps?category=8836bde0-68ae-3600-92a2-23dce3c487ca&type=NORMAL",
+        "className": "block w-full px-5 py-3 text-bp-ink hover:bg-bp-accent-soft hover:text-bp-accent transition-colors",
+        "bg": "rgba(0, 0, 0, 0)",
+        "color": "rgb(21, 21, 21)",
+        "border": "rgb(234, 236, 240)",
+        "fontFamily": "\"IBM Plex Sans Arabic\"",
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "24px",
+        "padding": "12px 20px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "display": "block",
+        "width": 0,
+        "height": 0
+      },
+      {
+        "text": "لقاء",
+        "href": "/bootcamps?category=c616115c-5cf8-426d-9f70-42eb370ca37d&type=NORMAL",
+        "className": "block w-full px-5 py-3 text-bp-ink hover:bg-bp-accent-soft hover:text-bp-accent transition-colors",
+        "bg": "rgba(0, 0, 0, 0)",
+        "color": "rgb(21, 21, 21)",
+        "border": "rgb(234, 236, 240)",
+        "fontFamily": "\"IBM Plex Sans Arabic\"",
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "24px",
+        "padding": "12px 20px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "display": "block",
+        "width": 0,
+        "height": 0
+      },
+      {
+        "text": "ويبينار",
+        "href": "/bootcamps?category=56732582-5b07-4fbf-9ee8-89c26d87b419&type=NORMAL",
+        "className": "block w-full px-5 py-3 text-bp-ink hover:bg-bp-accent-soft hover:text-bp-accent transition-colors",
+        "bg": "rgba(0, 0, 0, 0)",
+        "color": "rgb(21, 21, 21)",
+        "border": "rgb(234, 236, 240)",
+        "fontFamily": "\"IBM Plex Sans Arabic\"",
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "24px",
+        "padding": "12px 20px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "display": "block",
+        "width": 0,
+        "height": 0
+      },
+      {
+        "text": "حول الأكاديمية",
+        "href": "#",
+        "className": "px-2 py-2 font-medium whitespace-nowrap rounded-xl xl:py-3 xl:px-5",
+        "bg": "rgba(0, 0, 0, 0)",
+        "color": "rgb(21, 21, 21)",
+        "border": "rgb(234, 236, 240)",
+        "fontFamily": "\"IBM Plex Sans Arabic\"",
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "24px",
+        "padding": "12px 20px",
+        "borderRadius": "12px",
+        "boxShadow": "none",
+        "display": "block",
+        "width": 158,
+        "height": 48
+      },
+      {
+        "text": "عن الأكاديمية",
+        "href": "/about",
+        "className": "block w-full px-5 py-3 text-bp-ink hover:bg-bp-accent-soft hover:text-bp-accent transition-colors",
+        "bg": "rgba(0, 0, 0, 0)",
+        "color": "rgb(21, 21, 21)",
+        "border": "rgb(234, 236, 240)",
+        "fontFamily": "\"IBM Plex Sans Arabic\"",
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "24px",
+        "padding": "12px 20px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "display": "block",
+        "width": 0,
+        "height": 0
+      },
+      {
+        "text": "الاعتمادات",
+        "href": "/Accreditations",
+        "className": "block w-full px-5 py-3 text-bp-ink hover:bg-bp-accent-soft hover:text-bp-accent transition-colors",
+        "bg": "rgba(0, 0, 0, 0)",
+        "color": "rgb(21, 21, 21)",
+        "border": "rgb(234, 236, 240)",
+        "fontFamily": "\"IBM Plex Sans Arabic\"",
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "24px",
+        "padding": "12px 20px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "display": "block",
+        "width": 0,
+        "height": 0
+      },
+      {
+        "text": "الشراكات",
+        "href": "/Partners",
+        "className": "block w-full px-5 py-3 text-bp-ink hover:bg-bp-accent-soft hover:text-bp-accent transition-colors",
+        "bg": "rgba(0, 0, 0, 0)",
+        "color": "rgb(21, 21, 21)",
+        "border": "rgb(234, 236, 240)",
+        "fontFamily": "\"IBM Plex Sans Arabic\"",
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "24px",
+        "padding": "12px 20px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "display": "block",
+        "width": 0,
+        "height": 0
+      }
+    ]
+  },
+  "typography": {
+    "fontFamilies_raw": [
+      "\"IBM Plex Sans Arabic\""
+    ],
+    "scales": {
+      "h1": {
+        "font-family": "\"IBM Plex Sans Arabic\"",
+        "font-size": "48px",
+        "font-weight": "400",
+        "line-height": "48px",
+        "letter-spacing": "normal",
+        "text-align": "start",
+        "direction": "rtl",
+        "_selector": "h1",
+        "_text": "تعلم تقنيات المستقبل",
+        "_rect": {
+          "width": 604,
+          "height": 48
+        }
+      },
+      "h2": {
+        "font-family": "\"IBM Plex Sans Arabic\"",
+        "font-size": "36px",
+        "font-weight": "400",
+        "line-height": "40px",
+        "letter-spacing": "normal",
+        "text-align": "start",
+        "direction": "rtl",
+        "_selector": "h2",
+        "_text": "في مكــــانٍ واحــــــد",
+        "_rect": {
+          "width": 403,
+          "height": 40
+        }
+      },
+      "h3": {
+        "font-family": "\"IBM Plex Sans Arabic\"",
+        "font-size": "14px",
+        "font-weight": "600",
+        "line-height": "22.75px",
+        "letter-spacing": "normal",
+        "text-align": "start",
+        "direction": "rtl",
+        "_selector": "h3",
+        "_text": "مسار الطائرات غير المأهولة (الدرونز)",
+        "_rect": {
+          "width": 193,
+          "height": 23
+        }
+      },
+      "body": {
+        "font-family": "\"IBM Plex Sans Arabic\"",
+        "font-size": "16px",
+        "font-weight": "400",
+        "line-height": "24px",
+        "letter-spacing": "normal",
+        "text-align": "start",
+        "direction": "rtl",
+        "_selector": "body",
+        "_text": "الرئيسية\nالأنشطة\nحول الأكاديمية\nالأكاديميات التابعة\nالمنصات\nالمبادرات\nمدارس طويق\nتسجيل الدخول\nتعلم تقنيات المستقبل\nفي مك",
+        "_rect": {
+          "width": 1920,
+          "height": 5076
+        }
+      },
+      "p": {
+        "font-family": "\"IBM Plex Sans Arabic\"",
+        "font-size": "20px",
+        "font-weight": "600",
+        "line-height": "28px",
+        "letter-spacing": "normal",
+        "text-align": "justify",
+        "direction": "rtl",
+        "_selector": "p",
+        "_text": "أكاديمية طويق",
+        "_rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      "navLink": {
+        "font-family": "\"IBM Plex Sans Arabic\"",
+        "font-size": "16px",
+        "font-weight": "400",
+        "line-height": "24px",
+        "letter-spacing": "normal",
+        "text-align": "start",
+        "direction": "rtl",
+        "_selector": "nav a",
+        "_text": "",
+        "_rect": {
+          "width": 152,
+          "height": 32
+        }
+      },
+      "button": {
+        "font-family": "\"IBM Plex Sans Arabic\"",
+        "font-size": "16px",
+        "font-weight": "500",
+        "line-height": "24px",
+        "letter-spacing": "normal",
+        "text-align": "start",
+        "direction": "rtl",
+        "_selector": "a[href*=\"bootcamp\"]",
+        "_text": "معسكر",
+        "_rect": {
+          "width": 0,
+          "height": 0
+        }
+      },
+      "stat": {
+        "fontFamily": "\"IBM Plex Sans Arabic\"",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "24px",
+        "color": "rgb(21, 21, 21)",
+        "text": "2,474,378"
+      }
+    },
+    "rtl": {
+      "htmlDir": "rtl",
+      "htmlLang": "ar",
+      "bodyDirection": "rtl",
+      "bodyTextAlign": "start",
+      "navDirection": "rtl",
+      "mirroredIcons": [
+        {
+          "src": "https://tuwaiq.edu.sa/img/Arrow.svg",
+          "transform": "none",
+          "filter": "none"
+        },
+        {
+          "src": "https://tuwaiq.edu.sa/img/Arrow-annual.svg",
+          "transform": "none",
+          "filter": "none"
+        }
+      ]
+    },
+    "fontFaces": [
+      "@font-face { font-family: \"IBM Plex Sans Arabic\"; font-style: normal; font-weight: 100; }",
+      "@font-face { font-family: \"IBM Plex Sans Arabic\"; font-style: normal; font-weight: 200; }",
+      "@font-face { font-family: \"IBM Plex Sans Arabic\"; font-style: normal; font-weight: 300; }",
+      "@font-face { font-family: \"IBM Plex Sans Arabic\"; font-style: normal; font-weight: 400; }",
+      "@font-face { font-family: \"IBM Plex Sans Arabic\"; font-style: normal; font-weight: 500; }",
+      "@font-face { font-family: \"IBM Plex Sans Arabic\"; font-style: normal; font-weight: 600; }",
+      "@font-face { font-family: \"IBM Plex Sans Arabic\"; font-style: normal; font-weight: 700; }",
+      "@font-face { font-family: \"Arabic Pixel 2\"; font-style: normal; font-weight: 400; src: url(\"/fonts/Arabic%20Pixel%202-CnyTZNey.ttf\"); }"
+    ]
+  },
+  "layout": {
+    "viewport": {
+      "width": 1920,
+      "height": 1080,
+      "devicePixelRatio": 2
+    },
+    "breakpoints": [
+      {
+        "query": "(min-width: 640px)",
+        "matches": true
+      },
+      {
+        "query": "(min-width: 768px)",
+        "matches": true
+      },
+      {
+        "query": "(min-width: 1024px)",
+        "matches": true
+      },
+      {
+        "query": "(min-width: 1280px)",
+        "matches": true
+      }
+    ],
+    "navbar": {
+      "display": "block",
+      "flex-direction": "row",
+      "justify-content": "normal",
+      "align-items": "normal",
+      "gap": "normal",
+      "padding": "16px 24px",
+      "max-width": "none",
+      "height": "90px",
+      "_selector": "nav",
+      "_text": "الرئيسية\nالأنشطة\nحول الأكاديمية\nالأكاديميات التابعة\nالمنصات\nالمبادرات\nمدارس طويق\nتسجيل الدخول",
+      "_rect": {
+        "width": 1920,
+        "height": 90
+      }
+    },
+    "container": {
+      "max-width": "none",
+      "padding": "0px",
+      "display": "block",
+      "_selector": "main",
+      "_text": "الرئيسية\nالأنشطة\nحول الأكاديمية\nالأكاديميات التابعة\nالمنصات\nالمبادرات\nمدارس طويق\nتسجيل الدخول\nتعلم تقنيات المستقبل\nفي مك",
+      "_rect": {
+        "width": 1920,
+        "height": 5076
+      }
+    },
+    "section": {
+      "padding": "0px",
+      "margin": "56px 0px 0px",
+      "max-width": "none",
+      "display": "block",
+      "gap": "normal",
+      "_selector": "section",
+      "_text": "تعلم تقنيات المستقبل\nفي مكــــانٍ واحــــــد\n\nمعسكرات وبرامج احترافية بالشراكة مع كبرى الجهات العالمية؛ لتطوير مهاراتك ف",
+      "_rect": {
+        "width": 1920,
+        "height": 4538
+      }
+    },
+    "cards": [
+      {
+        "className": "relative 2xl:pb-4 xl:pb-2 flex flex-col justify-between rounded-[12px] overflow-hidden pb-0 p-8 xl:p-12 bg-[#E7DDFF] w-f",
+        "bg": "rgb(231, 221, 255)",
+        "radius": "12px",
+        "padding": "48px 48px 16px",
+        "gap": "normal",
+        "display": "flex",
+        "boxShadow": "none",
+        "width": 1002,
+        "height": 512
+      },
+      {
+        "className": "logos bg-inherit relative md:bottom-0.5 -bottom-2 left-0 right-0",
+        "bg": "rgb(231, 221, 255)",
+        "radius": "0px",
+        "padding": "15px 0px",
+        "gap": "normal",
+        "display": "flex",
+        "boxShadow": "none",
+        "width": 906,
+        "height": 50
+      },
+      {
+        "className": "rounded-[12px] bg-[#F5F5F8] p-8 flex flex-col justify-right items-right text-right",
+        "bg": "rgb(245, 245, 248)",
+        "radius": "12px",
+        "padding": "32px",
+        "gap": "normal",
+        "display": "flex",
+        "boxShadow": "none",
+        "width": 398,
+        "height": 120
+      },
+      {
+        "className": "relative z-10 flex items-center self-stretch justify-between p-3 xl:h-24 mx-6 rounded-t-[12px] bg-[rgba(163,128,255,0.20",
+        "bg": "rgba(163, 128, 255, 0.2)",
+        "radius": "12px 12px 0px 0px",
+        "padding": "12px",
+        "gap": "normal",
+        "display": "flex",
+        "boxShadow": "none",
+        "width": 350,
+        "height": 56
+      }
+    ],
+    "grid": {
+      "display": "none",
+      "gridTemplateColumns": "none",
+      "gap": "normal",
+      "className": "md:hidden grid place-items-center size-[44px] rounded-[7px] cursor-pointer peer-checked:hidden"
+    },
+    "spacing": {
+      "nav": "16px 24px"
+    }
+  },
+  "components": {
+    "logos": [
+      {
+        "src": "https://tuwaiq.edu.sa/img/logo-v2/long-logo.webp",
+        "alt": "logo",
+        "width": 152,
+        "height": 32,
+        "className": "object-contain lg:w-[152px] lg:min-h-8"
+      },
+      {
+        "src": "https://tuwaiq.edu.sa/img/logos/apple.svg",
+        "alt": "apple",
+        "width": 0,
+        "height": 0,
+        "className": "w-8 h-8"
+      },
+      {
+        "src": "https://tuwaiq.edu.sa/img/logos/metaverse-logo.svg",
+        "alt": "metaverse",
+        "width": 0,
+        "height": 0,
+        "className": "w-8 h-8"
+      },
+      {
+        "src": "https://tuwaiq.edu.sa/img/holberton/holberton-logo.svg",
+        "alt": "holberton",
+        "width": 25,
+        "height": 8,
+        "className": "w-8 h-8"
+      },
+      {
+        "src": "https://tuwaiq.edu.sa/img/alibaba/alibaba-logo.svg",
+        "alt": "alibaba",
+        "width": 0,
+        "height": 0,
+        "className": "w-8 h-8"
+      },
+      {
+        "src": "https://tuwaiq.edu.sa/img/garage/garage-logo.svg",
+        "alt": "garage",
+        "width": 0,
+        "height": 0,
+        "className": "w-8 h-8"
+      }
+    ],
+    "icons": [
+      {
+        "src": "<svg xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" role=\"img\" width=\"1em\" height=\"1em\" viewBox=\"0 0 24 24\" data-icon=\"mdi:chevron-down\" class=\"text-2xl iconify iconify--mdi\"><path fill=\"curren",
+        "className": "text-2xl iconify iconify--mdi"
+      },
+      {
+        "src": "<svg xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" role=\"img\" width=\"1em\" height=\"1em\" viewBox=\"0 0 24 24\" data-icon=\"mdi:chevron-down\" class=\"text-2xl iconify iconify--mdi\"><path fill=\"curren",
+        "className": "text-2xl iconify iconify--mdi"
+      },
+      {
+        "src": "<svg xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" role=\"img\" width=\"1em\" height=\"1em\" viewBox=\"0 0 24 24\" data-icon=\"mdi:chevron-down\" class=\"text-2xl iconify iconify--mdi\"><path fill=\"curren",
+        "className": "text-2xl iconify iconify--mdi"
+      },
+      {
+        "src": "<svg xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" role=\"img\" width=\"1em\" height=\"1em\" viewBox=\"0 0 24 24\" data-icon=\"mdi:chevron-down\" class=\"text-2xl iconify iconify--mdi\"><path fill=\"curren",
+        "className": "text-2xl iconify iconify--mdi"
+      },
+      {
+        "src": "<svg xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" role=\"img\" width=\"1em\" height=\"1em\" viewBox=\"0 0 24 24\" data-icon=\"mdi:chevron-down\" class=\"text-2xl iconify iconify--mdi\"><path fill=\"curren",
+        "className": "text-2xl iconify iconify--mdi"
+      },
+      {
+        "src": "<svg class=\"block w-[28px] h-[18px] text-bp-ink\" viewBox=\"0 0 21 14\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\">\n                        <rect x=\"3\" y=\"1\" width=\"15\" height=\"1\" rx=\"1\" fill=",
+        "className": "block w-[28px] h-[18px] text-bp-ink"
+      },
+      {
+        "src": "<svg class=\"block w-[28px] h-[18px] text-bp-ink\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n                        <g fill=\"none\" stroke=\"currentColor\" stroke-linecap=",
+        "className": "block w-[28px] h-[18px] text-bp-ink"
+      },
+      {
+        "src": "<svg xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" role=\"img\" width=\"1em\" height=\"1em\" viewBox=\"0 0 24 24\" data-icon=\"mdi:chevron-down\" :class=\"toggleActivities ? 'rotate-180' : ''\" class=\"tex",
+        "className": "text-2xl transition-transform duration-300 iconify iconify--mdi"
+      },
+      {
+        "src": "<svg xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" role=\"img\" width=\"1em\" height=\"1em\" viewBox=\"0 0 24 24\" data-icon=\"mdi:chevron-down\" :class=\"toggle ? 'rotate-180' : ''\" class=\"text-2xl tran",
+        "className": "text-2xl transition-transform duration-300 iconify iconify--mdi"
+      },
+      {
+        "src": "<svg xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" role=\"img\" width=\"1em\" height=\"1em\" viewBox=\"0 0 24 24\" data-icon=\"mdi:chevron-down\" :class=\"toggle ? 'rotate-180' : ''\" class=\"text-2xl tran",
+        "className": "text-2xl transition-transform duration-300 iconify iconify--mdi"
+      }
+    ],
+    "artAssets": [
+      {
+        "src": "https://tuwaiq.edu.sa/img/Brands/apple.webp",
+        "alt": "Apple"
+      },
+      {
+        "src": "https://tuwaiq.edu.sa/img/Brands/aws.webp",
+        "alt": "AWS"
+      },
+      {
+        "src": "https://tuwaiq.edu.sa/img/Brands/cn.webp",
+        "alt": "CN"
+      },
+      {
+        "src": "https://tuwaiq.edu.sa/img/Brands/ct.webp",
+        "alt": "CT"
+      },
+      {
+        "src": "https://tuwaiq.edu.sa/img/Brands/ibm.webp",
+        "alt": "IBM"
+      },
+      {
+        "src": "https://tuwaiq.edu.sa/img/Brands/meta.webp",
+        "alt": "Meta"
+      },
+      {
+        "src": "https://tuwaiq.edu.sa/img/Brands/microsoft.webp",
+        "alt": "Microsoft"
+      },
+      {
+        "src": "https://tuwaiq.edu.sa/img/Brands/ac2.webp",
+        "alt": "AC2"
+      },
+      {
+        "src": "https://tuwaiq.edu.sa/img/Brands/apple.webp",
+        "alt": "Apple"
+      },
+      {
+        "src": "https://tuwaiq.edu.sa/img/Brands/aws.webp",
+        "alt": "AWS"
+      }
+    ],
+    "partnerLogos": [
+      "https://tuwaiq.edu.sa/img/Brands/apple.webp",
+      "https://tuwaiq.edu.sa/img/Brands/aws.webp",
+      "https://tuwaiq.edu.sa/img/Brands/cn.webp",
+      "https://tuwaiq.edu.sa/img/Brands/ct.webp",
+      "https://tuwaiq.edu.sa/img/Brands/ibm.webp",
+      "https://tuwaiq.edu.sa/img/Brands/meta.webp",
+      "https://tuwaiq.edu.sa/img/Brands/microsoft.webp",
+      "https://tuwaiq.edu.sa/img/Brands/ac2.webp",
+      "https://tuwaiq.edu.sa/img/Brands/apple.webp",
+      "https://tuwaiq.edu.sa/img/Brands/aws.webp",
+      "https://tuwaiq.edu.sa/img/Brands/cn.webp",
+      "https://tuwaiq.edu.sa/img/Brands/ct.webp"
+    ],
+    "backgroundImages": [],
+    "allImages_sample": [
+      {
+        "src": "https://tuwaiq.edu.sa/img/tuwaiq-loader.svg",
+        "alt": "أكاديمية طويق",
+        "classes": "object-contain z-50 w-48 h-48"
+      },
+      {
+        "src": "https://tuwaiq.edu.sa/img/logo-v2/long-logo.webp",
+        "alt": "logo",
+        "classes": "object-contain lg:w-[152px] lg:min-h-8"
+      },
+      {
+        "src": "https://tuwaiq.edu.sa/img/logos/apple.svg",
+        "alt": "apple",
+        "classes": "w-8 h-8"
+      },
+      {
+        "src": "https://tuwaiq.edu.sa/img/logos/metaverse-logo.svg",
+        "alt": "metaverse",
+        "classes": "w-8 h-8"
+      },
+      {
+        "src": "https://tuwaiq.edu.sa/img/holberton/holberton-logo.svg",
+        "alt": "holberton",
+        "classes": "w-8 h-8"
+      },
+      {
+        "src": "https://tuwaiq.edu.sa/img/alibaba/alibaba-logo.svg",
+        "alt": "alibaba",
+        "classes": "w-8 h-8"
+      },
+      {
+        "src": "https://tuwaiq.edu.sa/img/garage/garage-logo.svg",
+        "alt": "garage",
+        "classes": "w-8 h-8"
+      },
+      {
+        "src": "https://tuwaiq.edu.sa/img/executives-logo-2.svg",
+        "alt": "tuwaiq executives",
+        "classes": "w-8 h-8"
+      },
+      {
+        "src": "https://tuwaiq.edu.sa/img/kaspersky/kaspersky-logo.svg",
+        "alt": "kaspersky",
+        "classes": "w-8 h-8"
+      },
+      {
+        "src": "https://tuwaiq.edu.sa/img/satr_logo.svg",
+        "alt": "",
+        "classes": "object-contain w-full h-full"
+      },
+      {
+        "src": "https://tuwaiq.edu.sa/img/logo_tuwaiq_challenges.svg",
+        "alt": "",
+        "classes": "object-contain w-full h-full"
+      },
+      {
+        "src": "https://tuwaiq.edu.sa/img/bugbounty.svg",
+        "alt": "",
+        "classes": "object-contain w-full h-full"
+      }
+    ]
+  },
+  "assets": {
+    "images": [
+      {
+        "src": "https://tuwaiq.edu.sa/img/tuwaiq-loader.svg",
+        "alt": "أكاديمية طويق",
+        "classes": "object-contain z-50 w-48 h-48"
+      },
+      {
+        "src": "https://tuwaiq.edu.sa/img/logo-v2/long-logo.webp",
+        "alt": "logo",
+        "classes": "object-contain lg:w-[152px] lg:min-h-8"
+      },
+      {
+        "src": "https://tuwaiq.edu.sa/img/logos/apple.svg",
+        "alt": "apple",
+        "classes": "w-8 h-8"
+      },
+      {
+        "src": "https://tuwaiq.edu.sa/img/logos/metaverse-logo.svg",
+        "alt": "metaverse",
+        "classes": "w-8 h-8"
+      },
+      {
+        "src": "https://tuwaiq.edu.sa/img/holberton/holberton-logo.svg",
+        "alt": "holberton",
+        "classes": "w-8 h-8"
+      },
+      {
+        "src": "https://tuwaiq.edu.sa/img/alibaba/alibaba-logo.svg",
+        "alt": "alibaba",
+        "classes": "w-8 h-8"
+      },
+      {
+        "src": "https://tuwaiq.edu.sa/img/garage/garage-logo.svg",
+        "alt": "garage",
+        "classes": "w-8 h-8"
+      },
+      {
+        "src": "https://tuwaiq.edu.sa/img/executives-logo-2.svg",
+        "alt": "tuwaiq executives",
+        "classes": "w-8 h-8"
+      },
+      {
+        "src": "https://tuwaiq.edu.sa/img/kaspersky/kaspersky-logo.svg",
+        "alt": "kaspersky",
+        "classes": "w-8 h-8"
+      },
+      {
+        "src": "https://tuwaiq.edu.sa/img/satr_logo.svg",
+        "alt": "",
+        "classes": "object-contain w-full h-full"
+      },
+      {
+        "src": "https://tuwaiq.edu.sa/img/logo_tuwaiq_challenges.svg",
+        "alt": "",
+        "classes": "object-contain w-full h-full"
+      },
+      {
+        "src": "https://tuwaiq.edu.sa/img/bugbounty.svg",
+        "alt": "",
+        "classes": "object-contain w-full h-full"
+      },
+      {
+        "src": "https://tuwaiq.edu.sa/img/logo-v2/logo.webp",
+        "alt": "",
+        "classes": "object-contain w-full h-full"
+      },
+      {
+        "src": "https://tuwaiq.edu.sa/img/logo-v2/logo.webp",
+        "alt": "",
+        "classes": "object-contain w-full h-full"
+      },
+      {
+        "src": "https://tuwaiq.edu.sa/img/club/club-logo.png",
+        "alt": "",
+        "classes": "object-contain w-full h-full"
+      },
+      {
+        "src": "https://tuwaiq.edu.sa/img/drones/drones-logo.png",
+        "alt": "",
+        "classes": "object-contain w-full h-full"
+      },
+      {
+        "src": "https://tuwaiq.edu.sa/img/tuwaiq-library-icon.svg",
+        "alt": "",
+        "classes": "object-contain w-full h-full"
+      },
+      {
+        "src": "https://tuwaiq.edu.sa/img/logo-v2/logo.webp",
+        "alt": "",
+        "classes": "object-contain w-full h-full"
+      }
+    ],
+    "art": [],
+    "logos": []
+  },
+  "animations": [
+    {
+      "tag": "HTML",
+      "className": "",
+      "transition": "all",
+      "animation": "none"
+    },
+    {
+      "tag": "HEAD",
+      "className": "",
+      "transition": "all",
+      "animation": "none"
+    },
+    {
+      "tag": "META",
+      "className": "",
+      "transition": "all",
+      "animation": "none"
+    },
+    {
+      "tag": "TITLE",
+      "className": "",
+      "transition": "all",
+      "animation": "none"
+    },
+    {
+      "tag": "META",
+      "className": "",
+      "transition": "all",
+      "animation": "none"
+    },
+    {
+      "tag": "META",
+      "className": "",
+      "transition": "all",
+      "animation": "none"
+    },
+    {
+      "tag": "META",
+      "className": "",
+      "transition": "all",
+      "animation": "none"
+    },
+    {
+      "tag": "META",
+      "className": "",
+      "transition": "all",
+      "animation": "none"
+    },
+    {
+      "tag": "META",
+      "className": "",
+      "transition": "all",
+      "animation": "none"
+    },
+    {
+      "tag": "META",
+      "className": "",
+      "transition": "all",
+      "animation": "none"
+    },
+    {
+      "tag": "META",
+      "className": "",
+      "transition": "all",
+      "animation": "none"
+    },
+    {
+      "tag": "META",
+      "className": "",
+      "transition": "all",
+      "animation": "none"
+    }
+  ],
+  "cssVariables": {
+    "--swal2-deny-button-border-radius": "0.25em",
+    "--swal2-input-focus-box-shadow": "inset 0 1px 1px rgba(0, 0, 0, 0.06), 0 0 0 3px rgba(100, 150, 200, 0.5)",
+    "--tw-backdrop-sepia": "",
+    "--tw-ring-shadow": "0 0 #0000",
+    "--swal2-input-border": "1px solid #d9d9d9",
+    "--swal2-actions-border-radius": "0",
+    "--gjs-main-light-color": "rgba(255, 255, 255, .1)",
+    "--gjs-main-font": "Helvetica, sans-serif",
+    "--tw-sepia": "",
+    "--gjs-input-padding": "5px",
+    "--swal2-close-button-position": "",
+    "--tw-ordinal": "",
+    "--gjs-color-highlight": "#71b7f1",
+    "--tw-contain-style": "",
+    "--swal2-input-border-radius": "0.1875em",
+    "--swal2-progress-step-background": "#add8e6",
+    "--clr-neutral-100": "hsl(0, 0%, 100%)",
+    "--tw-backdrop-invert": "",
+    "--gjs-soft-light-color": "rgba(255, 255, 255, .015)",
+    "--swal2-timer-progress-bar-background": "rgba(0, 0, 0, 0.3)",
+    "--swal2-action-button-hover": "black 10%",
+    "--swal2-container-padding": "0.625em",
+    "--tw-border-spacing-x": "0",
+    "--jbutton-color": "#298BA8",
+    "--clr-primary-800": "hsl(217, 33%, 17%)",
+    "--swal2-input-transition": "border-color 0.2s, box-shadow 0.2s",
+    "--swal2-actions-margin": "1.25em auto 0",
+    "--tw-hue-rotate": "",
+    "--swal2-close-button-color": "#ccc",
+    "--swal2-close-button-inset": "auto",
+    "--tw-backdrop-grayscale": "",
+    "--tw-pan-y": "",
+    "--tw-ring-color": "rgb(94 114 228 / .5)",
+    "--swal2-footer-color": "",
+    "--swal2-actions-width": "auto",
+    "--swal2-outline": "0 0 0 3px rgba(100, 150, 200, 0.5)",
+    "--gjs-main-dark-color": "rgba(0, 0, 0, .2)",
+    "--gjs-primary-color": "#444",
+    "--gjs-arrow-color": "rgba(255, 255, 255, .7)",
+    "--swal2-toast-hide-animation": "swal2-toast-hide 0.1s forwards",
+    "--tw-rotate": "0",
+    "--swal2-cancel-button-border-radius": "0.25em",
+    "--gjs-dark-text-shadow": "rgba(0, 0, 0, .2)",
+    "--swal2-border": "none",
+    "--tw-ring-offset-color": "#fff",
+    "--swal2-close-button-box-shadow": "inset 0 0 0 3px transparent",
+    "--gjs-main-color": "#444",
+    "--gjs-canvas-top": "40px",
+    "--swal2-deny-button-box-shadow": "none",
+    "--gjs-light-border": "rgba(255, 255, 255, .05)",
+    "--swal2-toast-box-shadow": "0 0 1px hsl(0deg 0% 0% / 0.075), 0 1px 2px hsl(0deg 0% 0% / 0.075), 1px 2px 4px hsl(0deg 0% 0% / 0.075), 1px 3px 8px hsl(0deg 0% 0% / 0.075), 2px 4px 16px hsl(0deg 0% 0% / 0.075)",
+    "--swal2-backdrop": "rgba(0, 0, 0, 0.4)",
+    "--tw-ring-offset-width": "0px",
+    "--tw-gradient-via-position": "",
+    "--tw-saturate": "",
+    "--tw-scroll-snap-strictness": "proximity",
+    "--swal2-confirm-button-border-radius": "0.25em",
+    "--swal2-validation-message-background": "#f0f0f0",
+    "--tw-grayscale": "",
+    "--clr-primary-400": "hsl(215, 25%, 27%)",
+    "--tw-backdrop-hue-rotate": "",
+    "--tw-shadow-colored": "0 0 #0000",
+    "--gjs-padding-elem-classmanager": "5px 6px",
+    "--swal2-padding": "0 0 1.25em",
+    "--swal2-close-button-focus-box-shadow": "inset 0 0 0 3px rgba(100, 150, 200, 0.5)",
+    "--tw-gradient-to-position": "",
+    "--tw-numeric-fraction": "",
+    "--swal2-close-button-transition": "color 0.2s, box-shadow 0.2s",
+    "--clr-primary-900": "hsl(218, 33%, 9%)",
+    "--gjs-handle-margin": "-5px",
+    "--swal2-confirm-button-box-shadow": "none",
+    "--swal2-background": "white",
+    "--tw-skew-y": "0",
+    "--swal2-confirm-button-background-color": "#7066e0",
+    "--gjs-color-warn": "#ffca6f",
+    "--tw-slashed-zero": "",
+    "--gjs-font-color-active": "#f8f8f8",
+    "--tagify-dd-text-color": "black",
+    "--gjs-placeholder-background-color": "#62c462",
+    "--tw-backdrop-opacity": "",
+    "--swal2-confirm-button-color": "#fff",
+    "--tw-gradient-from-position": "",
+    "--tw-pinch-zoom": "",
+    "--tw-contain-paint": "",
+    "--swal2-actions-justify-content": "center",
+    "--swal2-deny-button-color": "#fff",
+    "--tw-ring-offset-shadow": "0 0 #0000",
+    "--gjs-secondary-light-color": "rgba(255, 255, 255, .7)",
+    "--swal2-close-button-hover-transform": "none",
+    "--tw-backdrop-saturate": "",
+    "--swal2-title-padding": "0.8em 1em 0",
+    "--swal2-cancel-button-color": "#fff",
+    "--swal2-actions-background": "transparent",
+    "--swal2-toast-show-animation": "swal2-toast-show 0.5s",
+    "--gjs-quaternary-color": "#d278c9",
+    "--swal2-show-animation": "swal2-show 0.3s",
+    "--tagify-dd-bg-color": "white",
+    "--tw-ring-inset": "",
+    "--animate-delay": "1s",
+    "--swal2-close-button-font-size": "2.5em",
+    "--tw-numeric-spacing": "",
+    "--swal2-footer-border-color": "#eee",
+    "--swal2-input-box-shadow": "inset 0 1px 1px rgba(0, 0, 0, 0.06), 0 0 0 3px transparent",
+    "--gjs-color-green": "#62c462",
+    "--tw-brightness": "",
+    "--jsafe-area-top": "0px",
+    "--gjs-color-red": "#dd3636",
+    "--jactive-color": "#007aff",
+    "--gjs-color-input-padding": "22px",
+    "--tw-scale-y": "1",
+    "--swal2-validation-message-color": "#666",
+    "--swal2-width": "32em",
+    "--tw-backdrop-contrast": "",
+    "--tw-drop-shadow": "",
+    "--gjs-color-blue": "#3b97e3",
+    "--animate-duration": "1s",
+    "--swal2-input-hover-box-shadow": "inset 0 1px 1px rgba(0, 0, 0, 0.06), 0 0 0 3px transparent",
+    "--gjs-font-size": ".75rem",
+    "--tw-backdrop-brightness": "",
+    "--swal2-border-radius": "0.3125rem",
+    "--gjs-color-yellow": "#ffca6f",
+    "--gjs-left-width": "15%",
+    "--tw-pan-x": "",
+    "--tw-translate-y": "0",
+    "--swal2-hide-animation": "swal2-hide 0.15s forwards",
+    "--swal2-icon-animations": "true",
+    "--swal2-input-background": "transparent",
+    "--swal2-input-focus-border": "1px solid #b4dbed",
+    "--gjs-flex-item-gap": "5px",
+    "--bp-accent-2": "#4931af",
+    "--tw-contain-size": "",
+    "--tw-contrast": "",
+    "--gjs-font-color": "#ddd",
+    "--swal2-close-button-outline": "",
+    "--tw-skew-x": "0",
+    "--swal2-cancel-button-background-color": "#6e7881",
+    "--gjs-upload-padding": "150px 10px",
+    "--clr-primary-100": "hsl(205, 15%, 58%)",
+    "--tw-backdrop-blur": "",
+    "--tagify-dd-item-pad": ".3em .5em",
+    "--gjs-secondary-dark-color": "rgba(0, 0, 0, .1)",
+    "--tw-shadow": "0 0 #0000",
+    "--tw-translate-x": "0",
+    "--swal2-color": "#545454",
+    "--gjs-animation-duration": ".2s",
+    "--swal2-toast-border": "none",
+    "--tw-scale-x": "1",
+    "--swal2-icon-zoom": "1",
+    "--swal2-action-button-transition": "background-color 0.2s, box-shadow 0.2s",
+    "--swal2-backdrop-transition": "background-color 0.15s",
+    "--swal2-deny-button-background-color": "#dc3741",
+    "--tw-border-spacing-y": "0",
+    "--swal2-html-container-padding": "1em 1.6em 0.3em",
+    "--gjs-tertiary-color": "#804f7b",
+    "--tagify-dd-color-primary": "rgb(53,149,246)",
+    "--swal2-cancel-button-box-shadow": "none",
+    "--gjs-secondary-color": "#ddd",
+    "--tagify-dd-max-height": "300px",
+    "--jsafe-area-bottom": "0px",
+    "--swal2-footer-background": "transparent",
+    "--primary": "#ffffff",
+    "--tw-blur": "",
+    "--swal2-actions-padding": "0",
+    "--tw-invert": "",
+    "--swal2-action-button-active": "black 10%",
+    "--secondary": "rgb(173 181 189)",
+    "--tw-numeric-figure": "",
+    "--animate-repeat": "1",
+    "--tw-contain-layout": ""
+  },
+  "raw_palette_details": [
+    "rgb(255, 255, 255)",
+    "rgb(249, 247, 255)",
+    "rgb(79, 41, 183)",
+    "rgb(242, 244, 247)",
+    "rgb(73, 50, 175)",
+    "rgb(231, 221, 255)",
+    "rgb(245, 245, 248)",
+    "rgba(163, 128, 255, 0.2)",
+    "rgb(253, 238, 241)",
+    "rgba(255, 255, 255, 0.7)",
+    "rgb(255, 83, 109)",
+    "rgb(216, 232, 255)",
+    "rgb(255, 239, 218)",
+    "rgb(214, 246, 244)",
+    "rgb(0, 0, 0)",
+    "rgb(234, 236, 240)",
+    "rgb(21, 21, 21)",
+    "rgba(209, 213, 219, 0.5)",
+    "rgb(73, 49, 175)",
+    "rgb(92, 92, 92)",
+    "rgb(20, 20, 20)",
+    "rgb(138, 138, 143)",
+    "rgb(26, 26, 26)",
+    "rgb(71, 85, 105)"
+  ]
+}

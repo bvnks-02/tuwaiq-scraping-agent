@@ -1,0 +1,316 @@
+{
+  "programming_languages": [
+    {
+      "id": "dc4db224-7be0-4a76-b7a8-1f2005846c92",
+      "name": "C++",
+      "icon": "https://assets.safcsp.cloud/c_plus_plus_satr.png"
+    },
+    {
+      "id": "c9b2ed7e-21b7-41f9-b6a7-b79ac31375c1",
+      "name": "Awk",
+      "icon": "https://assets.safcsp.cloud/awk_satr.png"
+    },
+    {
+      "id": "ec156a39-306a-440d-9b98-23c4b1f8fda9",
+      "name": "XML",
+      "icon": "https://assets.safcsp.cloud/xml_satr.png"
+    },
+    {
+      "id": "6b5fd963-8a59-4f2e-befe-10dcae1c2313",
+      "name": "NoSQL",
+      "icon": "https://assets.safcsp.cloud/nosql_satr.png"
+    },
+    {
+      "id": "44b31c63-02eb-44cd-9bfa-e5be22dc5f6a",
+      "name": "Scratch",
+      "icon": "https://assets.safcsp.cloud/scratch_satr.png"
+    },
+    {
+      "id": "cf6c0a02-5546-4956-9343-683127f60686",
+      "name": "R",
+      "icon": "https://assets.safcsp.cloud/R_satr.png"
+    },
+    {
+      "id": "58a88a1f-9595-4614-990a-ef49bca4b15f",
+      "name": "HTML",
+      "icon": "https://assets.safcsp.cloud/html_satr.png"
+    },
+    {
+      "id": "e34f8e28-56e9-4177-8167-674da1324380",
+      "name": "JavaScript",
+      "icon": "https://assets.safcsp.cloud/js_satr.png"
+    },
+    {
+      "id": "07855deb-6a95-4012-926b-069410050b2b",
+      "name": "CSS",
+      "icon": "https://assets.safcsp.cloud/css_satr.png"
+    },
+    {
+      "id": "2c8a1846-05a8-4e2e-bfb0-c88e2eb64d88",
+      "name": "Python",
+      "icon": "https://assets.safcsp.cloud/python_satr.png"
+    },
+    {
+      "id": "f6c53401-2856-4a7c-8798-f5ff405ef084",
+      "name": "C#",
+      "icon": "https://assets.safcsp.cloud/c_sharp_satr.png"
+    },
+    {
+      "id": "a0c48a2c-4da6-45cf-9099-5721d8152374",
+      "name": "Swift",
+      "icon": "https://assets.safcsp.cloud/swift_satr.png"
+    },
+    {
+      "id": "693cd152-4b66-4707-90a1-7171ae802261",
+      "name": "SQL",
+      "icon": "https://assets.safcsp.cloud/sql_satr.png"
+    },
+    {
+      "id": "e807d74b-953a-44f8-96e7-82a5fc7f45f0",
+      "name": "Kotlin",
+      "icon": "https://assets.safcsp.cloud/kotlin_satr.png"
+    },
+    {
+      "id": "d6e01de5-32d0-483b-983f-86baefac628c",
+      "name": "Dart",
+      "icon": "https://assets.safcsp.cloud/dart_satr.png"
+    },
+    {
+      "id": "acc752be-a1de-483d-898d-a472ec2696d4",
+      "name": "Bash",
+      "icon": "https://assets.safcsp.cloud/bash_satr.png"
+    },
+    {
+      "id": "737eb49f-85d9-4ec2-ac2f-b2547686ee03",
+      "name": "Java",
+      "icon": "https://assets.safcsp.cloud/java_satr.png"
+    },
+    {
+      "id": "66d4c38b-a123-45da-845b-1c3322684b0b",
+      "name": "PHP",
+      "icon": "https://assets.safcsp.cloud/php_satr.png"
+    },
+    {
+      "id": "dfdbfa2c-3e37-4f78-a523-3f9bf69cbf4e",
+      "name": "Other",
+      "icon": "https://assets.safcsp.cloud/e641e289-52bc-4b40-9628-864d56c97711/asset/e89ac483-ca60-4c77-9a4e-ff78e2f1cba1.png"
+    },
+    {
+      "id": "748deb63-f34a-4c5c-bb52-069b92f661d7",
+      "name": "Unity",
+      "icon": "https://assets.safcsp.cloud/8349cf70-ed78-49c3-9773-7c1ca8838727/asset/6ab79328-79ee-4c32-b4df-82c9d6e203b2.png"
+    }
+  ],
+  "technologies": [
+    {
+      "id": "7f0284e1-f529-426c-bbdf-e2617ae7fed7",
+      "name": "Linux",
+      "icon": null
+    },
+    {
+      "id": "d1845a62-41f8-4bd0-bb32-e2b7dd33f9a5",
+      "name": "YAML",
+      "icon": null
+    },
+    {
+      "id": "ce4fc5b2-e9cf-4c5c-8196-ed96f7485c39",
+      "name": "Express",
+      "icon": null
+    },
+    {
+      "id": "77f48fe7-682d-4917-b15b-db67aa490a8b",
+      "name": "MongoDB",
+      "icon": null
+    },
+    {
+      "id": "89589a4d-903d-42f6-bd9e-400f926a62bf",
+      "name": "React",
+      "icon": null
+    },
+    {
+      "id": "2ab9c173-b200-4771-806a-1c537a2bb10c",
+      "name": "APIs",
+      "icon": null
+    },
+    {
+      "id": "c72a6570-30b7-40da-a8a7-8b98158978c7",
+      "name": "Bootstrap",
+      "icon": null
+    },
+    {
+      "id": "b27b845e-f169-4492-8d3c-8a3b0cb09b64",
+      "name": "Nodejs MVC",
+      "icon": null
+    },
+    {
+      "id": "dd7fbcec-0a8f-4465-b91e-5016a937c532",
+      "name": "Android",
+      "icon": null
+    },
+    {
+      "id": "9ed97d05-3750-4106-a40d-7abcd44bf521",
+      "name": "Flutter",
+      "icon": null
+    },
+    {
+      "id": "6bda080b-dd65-4d31-b26c-c949ada863f4",
+      "name": "Command-line",
+      "icon": null
+    },
+    {
+      "id": "5907faf9-b00f-4827-8423-66cd2e55cd56",
+      "name": "Git",
+      "icon": null
+    },
+    {
+      "id": "d207afb7-8dc1-44c5-aacb-17b58763cf66",
+      "name": "Network",
+      "icon": null
+    },
+    {
+      "id": "f32051d3-0436-4d9d-b1d1-cf3056c990bb",
+      "name": "Docker",
+      "icon": null
+    },
+    {
+      "id": "992a11e2-097f-43f6-aa56-e901ce2a31ff",
+      "name": "Django",
+      "icon": null
+    },
+    {
+      "id": "bea8308c-b939-4b61-92b0-67b4b9d0941a",
+      "name": "iOS",
+      "icon": null
+    },
+    {
+      "id": "cfe1747e-d3e9-4c6c-81ab-221f5bbdbc4e",
+      "name": "Firebase",
+      "icon": null
+    },
+    {
+      "id": "567fb811-adde-4304-a3b4-03c16b403321",
+      "name": "JSON",
+      "icon": null
+    },
+    {
+      "id": "06991538-5475-4595-bad0-005d396f4987",
+      "name": "Markdown",
+      "icon": null
+    },
+    {
+      "id": "f5343656-b622-4d7f-ae94-0e0b545ffe59",
+      "name": "Open Source",
+      "icon": null
+    },
+    {
+      "id": "4d0267b7-48b0-4c97-beb5-7d9b3b785c5a",
+      "name": "CI/CD",
+      "icon": null
+    },
+    {
+      "id": "675bcefe-e992-49a0-94d7-1e3f4a89c9a4",
+      "name": "Unit Testing",
+      "icon": null
+    },
+    {
+      "id": "7729507f-562b-4547-bafc-c77a746e7907",
+      "name": "Code Documentation",
+      "icon": null
+    },
+    {
+      "id": "2e01c4c5-7906-43df-93f5-83c2ce8fc44c",
+      "name": "Packaging and Dependency",
+      "icon": null
+    },
+    {
+      "id": "8c9e17d6-44ba-4702-9af1-8d6e076a5a3a",
+      "name": "UX/UI",
+      "icon": null
+    },
+    {
+      "id": "fa708952-033f-4746-b6d0-35608fe10f33",
+      "name": "SSH",
+      "icon": null
+    },
+    {
+      "id": "e4dce2a8-4f64-43cf-b4ad-5b9cca75764b",
+      "name": "Node",
+      "icon": null
+    },
+    {
+      "id": "31c34320-2669-495b-b549-3c82cc237961",
+      "name": "API",
+      "icon": null
+    },
+    {
+      "id": "15a41716-5ebb-4814-847f-52148b88d319",
+      "name": "IoT",
+      "icon": null
+    },
+    {
+      "id": "1d61f898-492d-4e4d-a22f-f420332bda72",
+      "name": "Machine Learning",
+      "icon": null
+    },
+    {
+      "id": "870a6c91-c57b-4788-877b-929dc9cbb263",
+      "name": "Data Science",
+      "icon": null
+    },
+    {
+      "id": "9b9c915b-92c1-4449-8f03-1a9dfcbcb106",
+      "name": "Web",
+      "icon": null
+    },
+    {
+      "id": "4a1611ee-4166-450a-a04f-951203514826",
+      "name": "Gaming",
+      "icon": null
+    },
+    {
+      "id": "bfd873ae-d764-4794-b229-16c962b4c81c",
+      "name": "DataBase",
+      "icon": null
+    },
+    {
+      "id": "1f6edea7-f448-4911-8a77-6691f7ff8ac0",
+      "name": "UI",
+      "icon": null
+    },
+    {
+      "id": "25496236-dcc8-46ac-bef1-0ec5788e1697",
+      "name": "Node.js",
+      "icon": null
+    },
+    {
+      "id": "4ca423f2-0703-4db3-8e73-34c7ea6b2f70",
+      "name": "Agile ",
+      "icon": null
+    },
+    {
+      "id": "9a6df04a-93e2-4e97-bad9-c0e882e81508",
+      "name": "Containerization",
+      "icon": null
+    },
+    {
+      "id": "052b524d-d5b0-4b21-9445-270ca12e81fd",
+      "name": " Business intelligence",
+      "icon": null
+    },
+    {
+      "id": "a0c39044-01d5-44ed-8bf0-34dd5fcbbfdc",
+      "name": "BI",
+      "icon": null
+    },
+    {
+      "id": "d88557cb-fe07-49dd-9124-7a981adedcd1",
+      "name": "drone",
+      "icon": null
+    },
+    {
+      "id": "ccf98b7c-1e50-4412-8ad3-dc9b33b9592f",
+      "name": "Laravel",
+      "icon": null
+    }
+  ]
+}

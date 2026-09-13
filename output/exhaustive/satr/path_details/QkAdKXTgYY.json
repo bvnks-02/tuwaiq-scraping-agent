@@ -1,0 +1,181 @@
+{
+  "id": "adfd6c45-a5d3-4238-be6f-1648bacf9790",
+  "url_id": "QkAdKXTgYY",
+  "title": "مسار تطوير الألعاب",
+  "logo": null,
+  "courses_count": 7,
+  "description": "مسار تعليمي متكامل صُمِّم خصيصًا لدعم المبدعين والمهتمين بصناعة الألعاب الرقمية؛ يركز المسار على تزويد المتعلم بالمهارات اللازمة لفهم منطق وميكانيكيات الألعاب وتصميم وبناء بيئات لعب جذابة، بالإضافة إلى احتراف تصميم الشخصيات والعناصر ثنائية البعد، وصولًا إلى إنشاء تجربة لعب متكاملة وممتعة واحترافية تنافس في السوق.\n",
+  "preview_video": null,
+  "level": "JUNIOR",
+  "total_duration": 16460,
+  "requirements": [
+    ""
+  ],
+  "learning_goals": [
+    "فهم منطق وميكانيكيات الألعاب وتصميم تجربة لعب متوازنة وجذابة.",
+    "تصميم الشخصيات والعناصر ثنائية الأبعاد باستخدام أدوات احترافية.",
+    "بناء بيئات لعب متكاملة وتطوير ألعاب كاملة بشكل مستقل. "
+  ],
+  "faq": [],
+  "subscription": null,
+  "current_course": null,
+  "courses": [
+    {
+      "id": "f97b820a-b5b8-4619-8cec-0728c33a7460",
+      "url_id": "uxpcCprKpV",
+      "title": "C# 101",
+      "description": "سنتعرف في هذهِ الدورة على أساسيات لغة #C وكيفية استخدام المفاهيم البرمجيّة فيها، والتي تضم تعريف المتغيرات وإنشاء جمل طباعة وإدخال واستخدام الجمل الشرطية ومفهوم Loops والدوال بالإضافة إلى طرق استدعائها.\n",
+      "logo": "https://assets.safcsp.cloud/b43288bb-2af8-4b58-af11-913a619d2640/asset/4da8be42-74f4-4280-91c2-0c5f163b27ae.png",
+      "level": "JUNIOR",
+      "total_duration": 5305,
+      "subscription": null,
+      "published_unit_count": 8,
+      "course_type": "COURSE",
+      "course_status": "OPEN",
+      "technologies": []
+    },
+    {
+      "id": "019035b8-ed9a-4542-9aa8-7f44b15d8ca4",
+      "url_id": "hVDUiTYsLD",
+      "title": "C# 102",
+      "description": "سنتعرف في هذهِ الدورة على طرق استعمال التواريخ والوقت والمعاملات الرياضيّة والمنطقيّة في #C بالإضافة إلى مفاهيم متقدمة في لغة #C \nومقدمة عن مفهوم التصنيفات أو Classes وObjects وكيفية إنشائهم.",
+      "logo": "https://assets.safcsp.cloud/b43288bb-2af8-4b58-af11-913a619d2640/asset/d6a4a96f-2160-4588-ab7a-e32b8ab1a0a7.png",
+      "level": "JUNIOR",
+      "total_duration": 2607,
+      "subscription": null,
+      "published_unit_count": 5,
+      "course_type": "COURSE",
+      "course_status": "OPEN",
+      "technologies": []
+    },
+    {
+      "id": "8e1a7d22-bec4-4d53-961f-23e580411024",
+      "url_id": "eWqiCZxLRN",
+      "title": "Unity 101",
+      "description": "في هذه الدورة ستتعلم كيفية تحميل وتثبيت بيئة Unity، بالإضافة إلى أساسيات التعامل مع بيئة وأجزاء Unity.",
+      "logo": null,
+      "level": "JUNIOR",
+      "total_duration": 3514,
+      "subscription": null,
+      "published_unit_count": 7,
+      "course_type": "COURSE",
+      "course_status": "OPEN",
+      "technologies": [
+        {
+          "id": "4a1611ee-4166-450a-a04f-951203514826",
+          "name": "Gaming",
+          "icon": null
+        }
+      ]
+    },
+    {
+      "id": "6161b472-655b-4d35-ad46-05162182723f",
+      "url_id": "RduPyTHWvD",
+      "title": "إنشاء بيئة لعبة في Unity",
+      "description": "في هذا المشروع التطبيقي سنتعلم كيفية إنشاء بيئة لعبة في Unity باستخدام عدد من الاشكال ثلاثية الأبعاد",
+      "logo": null,
+      "level": "JUNIOR",
+      "total_duration": 159,
+      "subscription": null,
+      "published_unit_count": 1,
+      "course_type": "HOW_TO",
+      "course_status": "OPEN",
+      "technologies": []
+    },
+    {
+      "id": "9f0f6ed4-f66b-40ae-837b-7baf65a974c1",
+      "url_id": "CzeUdJXjme",
+      "title": "كيفية تلوين البيئة في Unity",
+      "description": "يهدف هذا المشروع التطبيقي إلى التعرف على كيفية تلوين البيئة في Unity باستخدام Materials، وبعض المميزات التحسينية.",
+      "logo": null,
+      "level": "JUNIOR",
+      "total_duration": 89,
+      "subscription": null,
+      "published_unit_count": 1,
+      "course_type": "HOW_TO",
+      "course_status": "OPEN",
+      "technologies": []
+    },
+    {
+      "id": "d7a73ab5-7a25-47f1-bb75-1d383962fe92",
+      "url_id": "onKKLSYMOj",
+      "title": "كيفية تحريك اللاعب في Unity",
+      "description": "في هذا المشروع ستتعرف على كيفية تحريك اللاعب في Unity باستخدام #Script C، بالاضافة لبعض التحسينات على أداء اللاعب.",
+      "logo": null,
+      "level": "MIDDLE",
+      "total_duration": 536,
+      "subscription": null,
+      "published_unit_count": 1,
+      "course_type": "HOW_TO",
+      "course_status": "OPEN",
+      "technologies": []
+    },
+    {
+      "id": "c7cc28c3-60b8-4f8e-8432-0a45311bc326",
+      "url_id": "rpolEqciey",
+      "title": "Unity 102 ",
+      "description": "تهدف الدورة إلى التعرف على مفاهيم متقدمة في Unity، وكيفية تجهيز بيئة العمل بشكل احترافي والتعامل مع مكونات المشروع بمرونة أكبر، كما تتضمن إنشاء لعبة بهدف ترسيخ المفاهيم وتطوير المهارات العملية في تصميم الألعاب باستخدام Unity. ",
+      "logo": null,
+      "level": "JUNIOR",
+      "total_duration": 4250,
+      "subscription": null,
+      "published_unit_count": 5,
+      "course_type": "COURSE",
+      "course_status": "OPEN",
+      "technologies": []
+    }
+  ],
+  "exams": [],
+  "upcoming_courses": [],
+  "recommended_paths": [
+    {
+      "id": "ce3252a3-2cb5-4027-8855-673b2bf6ea44",
+      "url_id": "ecbAGsuqOQ",
+      "title": "مسار Full-Stack JavaScript",
+      "logo": null,
+      "courses_count": 16,
+      "level": "JUNIOR",
+      "total_duration": 92904,
+      "description": "سيأخذك هذا المسار في رحلة تتعلم من خلالها تطوير وبناء تطبيقات ويب تفاعلية متكاملة، تبدأ رحلتك بتعلم أساسيات البرمجة بلغة JavaScript ثم ستتعرف على طرق هيكلة وتصميم صفحات الويب وتنسيقها وكل ما يخص تطوير الواجهات (Front-End)، ثم ستنتقل لتعلم أساسيات تطوير وبناء خلفيات التطبيقات (Back-End) وقواعد البيانات (Database)، كما ستتعرف على مفهوم التحكم بالإصدارات وعلى طريقة استخدام كل من Git  و GitHub.\n",
+      "subscription": null,
+      "learning_goals": [
+        "تطوير وتصميم واجهات البرامج.",
+        "تطوير وبناء برامج تفاعلية متكاملة وربطها بقواعد البيانات.",
+        "رفع المشروع واستضافته على منصة Heroku."
+      ]
+    },
+    {
+      "id": "c0e0df11-74a1-4b85-90a5-3252ebafa14c",
+      "url_id": "zaNuCyeqGx",
+      "title": "مسار علم البيانات والذكاء الاصطناعي",
+      "logo": "https://assets.safcsp.cloud/d1ec42c3-e62a-42fe-a38b-2d589c63678f/asset/52d96568-7720-4553-8e1f-c0180c0622cd.png",
+      "courses_count": 15,
+      "level": "MIDDLE",
+      "total_duration": 96757,
+      "description": "مسار تعليمي يساعد المهتمين في دخول مجال علم البيانات والذكاء الاصطناعي على التعرف على أهم المفاهيم الأساسية والتي تشمل التعامل مع أنواع البيانات المختلفة ,تحليل ومعالجة البيانات ,عرض البيانات على شكل رسوم بيانية وتفاعلية، ,نمذجة البيانات باستخدام خوارزميات تعلم الآلة Machine Learning Algorithms و التعلم العميق Deep Learning Algorithms.",
+      "subscription": null,
+      "learning_goals": [
+        "تحليل البيانات ومعالجتها (Data Analysis and Processing).",
+        "التعرف على طرق عرض البيانات (Data Visualization).",
+        "نمذجة البيانات (Data Modeling) باستخدام (Machine Learning Algorithms).",
+        "تقييم النماذج (Model Evaluation)."
+      ]
+    },
+    {
+      "id": "328d9824-cff0-4355-bd6d-e216b997cd37",
+      "url_id": "OTZExaETAH",
+      "title": "مسار Full-Stack Python",
+      "logo": "https://assets.safcsp.cloud/822cb565-21e0-498b-b160-4bb19c98d09a/asset/301c6aa6-69a1-40d0-bb87-919fb3c2a57e.png",
+      "courses_count": 15,
+      "level": "JUNIOR",
+      "total_duration": 81315,
+      "description": "ستتعلم في هذا المسار كيفية تطوير وبناء تطبيقات ويب تفاعلية متكاملة باستخدام Python، حيث تبدأ رحلتك بتعلم أساسيات تطوير وبناء التطبيقات (Back-End) وقواعد البيانات (Database) كما ستتعرف على طرق هيكلة وتصميم صفحات الويب وتنسيقها وكل ما يخص تطوير الواجهات (Front-End)، وأخيرًا ستتعرف على مفهوم التحكم بالإصدارات وعلى طريقة استخدام كل من Git و GitHub.",
+      "subscription": null,
+      "learning_goals": [
+        "فهم أساسيات البرمجة باستخدام لغة Python",
+        "تطوير وتصميم صفحات الويب وتنسيقها ",
+        "ربط صفحات الويب بقواعد البيانات"
+      ]
+    }
+  ]
+}

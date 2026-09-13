@@ -1,0 +1,320 @@
+{
+  "id": "c0e0df11-74a1-4b85-90a5-3252ebafa14c",
+  "url_id": "zaNuCyeqGx",
+  "title": "مسار علم البيانات والذكاء الاصطناعي",
+  "logo": "https://assets.safcsp.cloud/d1ec42c3-e62a-42fe-a38b-2d589c63678f/asset/52d96568-7720-4553-8e1f-c0180c0622cd.png",
+  "courses_count": 15,
+  "description": "مسار تعليمي يساعد المهتمين في دخول مجال علم البيانات والذكاء الاصطناعي على التعرف على أهم المفاهيم الأساسية والتي تشمل التعامل مع أنواع البيانات المختلفة ,تحليل ومعالجة البيانات ,عرض البيانات على شكل رسوم بيانية وتفاعلية، ,نمذجة البيانات باستخدام خوارزميات تعلم الآلة Machine Learning Algorithms و التعلم العميق Deep Learning Algorithms.",
+  "preview_video": null,
+  "level": "MIDDLE",
+  "total_duration": 96757,
+  "requirements": [
+    "هذا المسار لا يتطلب أي معرفة مُسبقة بالبرمجة."
+  ],
+  "learning_goals": [
+    "تحليل البيانات ومعالجتها (Data Analysis and Processing).",
+    "التعرف على طرق عرض البيانات (Data Visualization).",
+    "نمذجة البيانات (Data Modeling) باستخدام (Machine Learning Algorithms).",
+    "تقييم النماذج (Model Evaluation)."
+  ],
+  "faq": [],
+  "subscription": null,
+  "current_course": null,
+  "courses": [
+    {
+      "id": "05b442d4-e217-4a91-ae02-080d098ad1cd",
+      "url_id": "uPOmcmqkpy",
+      "title": "مقدمة في علم البيانات",
+      "description": "سنتعرف في هذهِ الدورة على علم البيانات وتاريخه، بالإضافة للمفاهيم الأساسية في علم البيانات.",
+      "logo": "https://assets.safcsp.cloud/d1ec42c3-e62a-42fe-a38b-2d589c63678f/asset/96501808-9be6-4887-b6f8-0913f2609cbc.png",
+      "level": "JUNIOR",
+      "total_duration": 4788,
+      "subscription": null,
+      "published_unit_count": 4,
+      "course_type": "COURSE",
+      "course_status": "OPEN",
+      "technologies": [
+        {
+          "id": "870a6c91-c57b-4788-877b-929dc9cbb263",
+          "name": "Data Science",
+          "icon": null
+        }
+      ]
+    },
+    {
+      "id": "09ab669c-2f91-459d-9c5a-66cbb626f2a5",
+      "url_id": "rRUQyVDkwQ",
+      "title": "Python 101",
+      "description": "سنتعرف في هذهِ الدورة على أساسيات لغة Python، حيث نقوم بداية بتجهيز بيئة العمل ثم التعرف على طريقة تخزين البيانات والتعامل مع أنواع البيانات المختلفة وتنفيذ العمليات والأوامر البسيطة عليها مثل الجُمل الشرطيّة، عمليات التكرار والتعامل مع الدوال.",
+      "logo": "https://assets.safcsp.cloud/b43288bb-2af8-4b58-af11-913a619d2640/asset/3f2d4bd6-9080-4dbf-9a7e-316c63abd0fe.png",
+      "level": "JUNIOR",
+      "total_duration": 12924,
+      "subscription": null,
+      "published_unit_count": 11,
+      "course_type": "COURSE",
+      "course_status": "OPEN",
+      "technologies": []
+    },
+    {
+      "id": "25e17783-d58b-4521-b182-01b1d951eac8",
+      "url_id": "VIvMvhyCiV",
+      "title": "Python 102",
+      "description": "في هذه الدورة سنتعمق أكثر في لغة Python، بحيث أننا سنتطرق إلى كيفية التعامل مع التواريخ والأرقام، والمزيد من الدوال المستخدمة في أنواع البيانات المختلفة، كما أننا سنتعرف على Functions بشكل أوسع.",
+      "logo": "https://assets.safcsp.cloud/d1ec42c3-e62a-42fe-a38b-2d589c63678f/asset/6d477fbf-a852-42df-8264-6ad8b582c6a5.png",
+      "level": "MIDDLE",
+      "total_duration": 7735,
+      "subscription": null,
+      "published_unit_count": 6,
+      "course_type": "COURSE",
+      "course_status": "OPEN",
+      "technologies": []
+    },
+    {
+      "id": "fa7b95e6-61ab-40a6-8fa8-e10bf8e1ea87",
+      "url_id": "MvNhowmHeB",
+      "title": "Python 103",
+      "description": "سنتعمق في هذهِ الدورة أكثر في لغة Python، بحيث سيتم التطرق إلى مفهوم البرمجة كائنية التوجه Object-Oriented Programming بشكل عام، والمفاهيم المتعلقة بها مثل Encapsulation, Inheritance و Polymorphism وتفاصيل حول هذهِ المفاهيم في البرمجة بشكل عام وتطبيقها في Python بشكلٍ خاص.",
+      "logo": "https://assets.safcsp.cloud/ce20a28f-04f6-4d21-bb8d-e18a8f3ef0cf/asset/ac6b918a-39c7-4fbc-bb7a-33b678af6645.png",
+      "level": "SENIOR",
+      "total_duration": 7932,
+      "subscription": null,
+      "published_unit_count": 4,
+      "course_type": "COURSE",
+      "course_status": "OPEN",
+      "technologies": []
+    },
+    {
+      "id": "a563add4-67c9-4558-8d05-aba11aac017a",
+      "url_id": "BDtmFNpFMp",
+      "title": "Python 104 ",
+      "description": "سنتعرف في هذهِ الدورة على بعض المواضيع المتقدمة في لغة Python مثل التعامل مع الأخطاء الاستثنائية والتعامل مع الملفات والتعرف على مفهوم Module ومفهوم Synchronous و Asynchronous.",
+      "logo": "https://assets.safcsp.cloud/ce20a28f-04f6-4d21-bb8d-e18a8f3ef0cf/asset/88b83085-3e84-4b1d-bbb0-b5e715583d38.png",
+      "level": "SENIOR",
+      "total_duration": 2513,
+      "subscription": null,
+      "published_unit_count": 5,
+      "course_type": "COURSE",
+      "course_status": "OPEN",
+      "technologies": []
+    },
+    {
+      "id": "8194df0c-6b14-4863-94e1-585a66aa3aa3",
+      "url_id": "FtkmhtJpQW",
+      "title": "SQL 101",
+      "description": "سنتعرف في هذهِ الدورة على أساسيات SQL في التعامل مع قواعد البيانات وإدارة محتوياتها من تخزين البيانات، وعرضها، والتعديل عليها، وكذلك حذفها.",
+      "logo": "https://assets.safcsp.cloud/b43288bb-2af8-4b58-af11-913a619d2640/asset/b5c7241b-c7fd-4bc4-8d83-d98f7697112a.png",
+      "level": "JUNIOR",
+      "total_duration": 4527,
+      "subscription": null,
+      "published_unit_count": 6,
+      "course_type": "COURSE",
+      "course_status": "OPEN",
+      "technologies": [
+        {
+          "id": "bfd873ae-d764-4794-b229-16c962b4c81c",
+          "name": "DataBase",
+          "icon": null
+        }
+      ]
+    },
+    {
+      "id": "677a2f2f-f860-4026-87e0-beebb4a79cea",
+      "url_id": "APjgdQqVWR",
+      "title": "SQL 102",
+      "description": "سنتعرف في هذهِ الدورة على كيفية التعامل مع البيانات في الجداول وإجراء العمليات عليها باستخدام دوال مختلفة مثل Aggregate functions , Scalar functions. \n",
+      "logo": "https://assets.safcsp.cloud/b43288bb-2af8-4b58-af11-913a619d2640/asset/3024396a-5102-4286-82d6-ec3a03e08855.png",
+      "level": "MIDDLE",
+      "total_duration": 3225,
+      "subscription": null,
+      "published_unit_count": 4,
+      "course_type": "COURSE",
+      "course_status": "OPEN",
+      "technologies": [
+        {
+          "id": "bfd873ae-d764-4794-b229-16c962b4c81c",
+          "name": "DataBase",
+          "icon": null
+        }
+      ]
+    },
+    {
+      "id": "4af40f48-e5c5-44a8-87c7-3362d89cb574",
+      "url_id": "bOXiOFzkMv",
+      "title": "SQL 103",
+      "description": "في هذه الدورة سنتعرف على مفاهيم متقدمة في SQL مثل Relations, Indexes, Procedures.",
+      "logo": "https://assets.safcsp.cloud/b43288bb-2af8-4b58-af11-913a619d2640/asset/2a09169d-6238-4ecf-adfe-b670f7b405b8.png",
+      "level": "SENIOR",
+      "total_duration": 7180,
+      "subscription": null,
+      "published_unit_count": 8,
+      "course_type": "COURSE",
+      "course_status": "OPEN",
+      "technologies": [
+        {
+          "id": "bfd873ae-d764-4794-b229-16c962b4c81c",
+          "name": "DataBase",
+          "icon": null
+        }
+      ]
+    },
+    {
+      "id": "32a55d39-77ca-4121-ba14-b861dd5715e5",
+      "url_id": "ZlKLfufzmW",
+      "title": "أساسيات Git",
+      "description": "سنتعرف في هذهِ الدورة على أساسيات مفهوم Git، وأنظمة التحكم بالنسخ وأنواعها، وإلى أي نوع من أنواع أنظمة التحكم بالنسخ ينتمي Git، بالإضافة إلى طريقة التعامل معه على المستوى الفردي.",
+      "logo": "https://assets.safcsp.cloud/b43288bb-2af8-4b58-af11-913a619d2640/asset/8a73ad27-5d0c-4397-8678-5f105ee1adba.png",
+      "level": "JUNIOR",
+      "total_duration": 5570,
+      "subscription": null,
+      "published_unit_count": 11,
+      "course_type": "COURSE",
+      "course_status": "OPEN",
+      "technologies": []
+    },
+    {
+      "id": "28d6c994-41cb-4084-b879-02c00c6db5f0",
+      "url_id": "qarivYaNvR",
+      "title": "تحليل ومعالجة البيانات: مكتبة NumPy",
+      "description": "تهدف الدورة للتعرف على كيفية التعامل مع المصفوفات في مكتبة NumPy والاستفادة من خصائصها في تحليل البيانات.",
+      "logo": "https://assets.safcsp.cloud/d1ec42c3-e62a-42fe-a38b-2d589c63678f/asset/f54230a1-abad-4011-9a2c-bd256882184c.png",
+      "level": "JUNIOR",
+      "total_duration": 7649,
+      "subscription": null,
+      "published_unit_count": 7,
+      "course_type": "COURSE",
+      "course_status": "OPEN",
+      "technologies": []
+    },
+    {
+      "id": "050181fc-928b-41a2-99cb-8f98522ede00",
+      "url_id": "ahWLuLGQrQ",
+      "title": "تحليل ومعالجة البيانات: مكتبة Pandas",
+      "description": "في هذه الدورة سنتعرف على مكتبة Pandas التي تساعدنا على التعامل مع البيانات ومعالجتها وتحليلها",
+      "logo": "https://assets.safcsp.cloud/d1ec42c3-e62a-42fe-a38b-2d589c63678f/asset/a38b11ef-719a-4481-8a93-e9fbd1ef8325.png",
+      "level": "JUNIOR",
+      "total_duration": 6080,
+      "subscription": null,
+      "published_unit_count": 6,
+      "course_type": "COURSE",
+      "course_status": "OPEN",
+      "technologies": []
+    },
+    {
+      "id": "2e173327-8942-4d7c-a2a9-ec5ce7698949",
+      "url_id": "dqJmdFJufc",
+      "title": "تمثيل البيانات: مكتبة Matplotlib",
+      "description": "تهدف الدورة للتعرف على كيفية تمثيل البيانات باستخدام الرسوم البيانية التابعة لمكتبة Matplotlib.",
+      "logo": "https://assets.safcsp.cloud/d1ec42c3-e62a-42fe-a38b-2d589c63678f/asset/ec31ca2a-3425-4615-96a3-0285a7035aeb.png",
+      "level": "MIDDLE",
+      "total_duration": 7379,
+      "subscription": null,
+      "published_unit_count": 8,
+      "course_type": "COURSE",
+      "course_status": "OPEN",
+      "technologies": []
+    },
+    {
+      "id": "f6e26947-b2e1-4a19-a05b-f83c108f35f6",
+      "url_id": "eJBdjpXlzC",
+      "title": "تمثيل البيانات: مكتبة Seaborn",
+      "description": "تهدف الدورة للتعرف على ما هي مكتبة Seaborn، وما هي أنواع الرسوم البيانية وتمثيل وتعديل خصائص البيانات باستخدام الرسوم البيانية التابعة لها، ",
+      "logo": "https://assets.safcsp.cloud/d1ec42c3-e62a-42fe-a38b-2d589c63678f/asset/c37174a8-516c-47de-82a0-4acc127eb819.png",
+      "level": "JUNIOR",
+      "total_duration": 7040,
+      "subscription": null,
+      "published_unit_count": 3,
+      "course_type": "COURSE",
+      "course_status": "OPEN",
+      "technologies": [
+        {
+          "id": "870a6c91-c57b-4788-877b-929dc9cbb263",
+          "name": "Data Science",
+          "icon": null
+        }
+      ]
+    },
+    {
+      "id": "c4624572-3af8-4bce-bfc1-ffc67a9fccec",
+      "url_id": "hVpSbhqVZQ",
+      "title": "تحليل البيانات الاستكشافي (EDA) ",
+      "description": "تهدف الدورة للتعرف على خطوات تحليل البيانات الاستكشافي (EDA - Exploratory Data Analysis) من عدة زوايا وعدة تحليلات والتي تساعد بدورها في فهم البيانات بشكل أكبر.",
+      "logo": "https://assets.safcsp.cloud/d1ec42c3-e62a-42fe-a38b-2d589c63678f/asset/d9c75d56-ad5e-465d-bdb4-e15bb2f4fc3c.png",
+      "level": "MIDDLE",
+      "total_duration": 4924,
+      "subscription": null,
+      "published_unit_count": 6,
+      "course_type": "COURSE",
+      "course_status": "OPEN",
+      "technologies": []
+    },
+    {
+      "id": "3276330a-a9b0-45ff-9288-a87dc9ffb9fc",
+      "url_id": "ofjirgKIIx",
+      "title": "تعلم الآلة (ML) - 101",
+      "description": "يهدف الدورة للتعرف على مفهوم تعلم الآلة (Machine Learning)، وأنوعه وتطبيقاته، كما سيتم التعرف على مراحل بناء نماذج تعلم الآلة وما هي خوارزميات تعلم الآلة.",
+      "logo": "https://assets.safcsp.cloud/d1ec42c3-e62a-42fe-a38b-2d589c63678f/asset/4e83eff7-974c-4ff6-9e66-f30106c19a55.png",
+      "level": "MIDDLE",
+      "total_duration": 6905,
+      "subscription": null,
+      "published_unit_count": 4,
+      "course_type": "COURSE",
+      "course_status": "OPEN",
+      "technologies": []
+    }
+  ],
+  "exams": [],
+  "upcoming_courses": [],
+  "recommended_paths": [
+    {
+      "id": "ce3252a3-2cb5-4027-8855-673b2bf6ea44",
+      "url_id": "ecbAGsuqOQ",
+      "title": "مسار Full-Stack JavaScript",
+      "logo": null,
+      "courses_count": 16,
+      "level": "JUNIOR",
+      "total_duration": 92904,
+      "description": "سيأخذك هذا المسار في رحلة تتعلم من خلالها تطوير وبناء تطبيقات ويب تفاعلية متكاملة، تبدأ رحلتك بتعلم أساسيات البرمجة بلغة JavaScript ثم ستتعرف على طرق هيكلة وتصميم صفحات الويب وتنسيقها وكل ما يخص تطوير الواجهات (Front-End)، ثم ستنتقل لتعلم أساسيات تطوير وبناء خلفيات التطبيقات (Back-End) وقواعد البيانات (Database)، كما ستتعرف على مفهوم التحكم بالإصدارات وعلى طريقة استخدام كل من Git  و GitHub.\n",
+      "subscription": null,
+      "learning_goals": [
+        "تطوير وتصميم واجهات البرامج.",
+        "تطوير وبناء برامج تفاعلية متكاملة وربطها بقواعد البيانات.",
+        "رفع المشروع واستضافته على منصة Heroku."
+      ]
+    },
+    {
+      "id": "328d9824-cff0-4355-bd6d-e216b997cd37",
+      "url_id": "OTZExaETAH",
+      "title": "مسار Full-Stack Python",
+      "logo": "https://assets.safcsp.cloud/822cb565-21e0-498b-b160-4bb19c98d09a/asset/301c6aa6-69a1-40d0-bb87-919fb3c2a57e.png",
+      "courses_count": 15,
+      "level": "JUNIOR",
+      "total_duration": 81315,
+      "description": "ستتعلم في هذا المسار كيفية تطوير وبناء تطبيقات ويب تفاعلية متكاملة باستخدام Python، حيث تبدأ رحلتك بتعلم أساسيات تطوير وبناء التطبيقات (Back-End) وقواعد البيانات (Database) كما ستتعرف على طرق هيكلة وتصميم صفحات الويب وتنسيقها وكل ما يخص تطوير الواجهات (Front-End)، وأخيرًا ستتعرف على مفهوم التحكم بالإصدارات وعلى طريقة استخدام كل من Git و GitHub.",
+      "subscription": null,
+      "learning_goals": [
+        "فهم أساسيات البرمجة باستخدام لغة Python",
+        "تطوير وتصميم صفحات الويب وتنسيقها ",
+        "ربط صفحات الويب بقواعد البيانات"
+      ]
+    },
+    {
+      "id": "361b2912-55de-44f3-bf9f-86b47f4f75e9",
+      "url_id": "tHzXUtKlvK",
+      "title": "مسار الطالب الجامعي",
+      "logo": "https://assets.safcsp.cloud/e641e289-52bc-4b40-9628-864d56c97711/asset/f3764a60-0630-4af9-b056-73dac832bfe7.png",
+      "courses_count": 33,
+      "level": "MIDDLE",
+      "total_duration": 233681,
+      "description": "يقدم هذا المسار سلسلة من الدورات التعليمية المتكاملة بهدف تعزيز فهم الطالب للمناهج الأكاديمية الجامعية في مجال علوم الحاسب، والذي يكسبهم المهارات الأساسية في علوم الحاسب والبرمجة، حيث سيتعرف  على أساسيات البرمجة وتفاصيل تقنياتها المتقدمة.",
+      "subscription": null,
+      "learning_goals": [
+        "اكتساب الفهم الشامل لأساسيات علم البرمجة، بما في ذلك مفاهيم البرمجة الكائنية (OOP)، وتطبيق هذه المفاهيم بشكل فعّال في تصميم وتنفيذ البرامج.",
+        "تعلم لغات البرمجة الرئيسية، بما في ذلك Java، PHP، C++، C#، JavaScript، و Python، بهدف اكتساب مهارات تطوير قوية وتنويع أدوات البرمجة.",
+        "اكتساب مهارات قوية في استخدام وإدارة قواعد البيانات باستخدام SQL.",
+        " التعلم واستخدام أوامر الكمبيوتر عبر واجهة الأوامر (Command-line).",
+        "فهم أساسيات ومبادئ الشبكات.",
+        "تطوير مهارات تصميم وتطوير واجهات المستخدم باستخدام HTML و CSS."
+      ]
+    }
+  ]
+}

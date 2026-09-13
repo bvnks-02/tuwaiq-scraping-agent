@@ -1,0 +1,9 @@
+{
+  "link": "https://cdn.tuwaiq.edu.sa/report-2025.pdf",
+  "summary": "التقرير السنوي - تعرف على إنجازات أكاديمية طويق لعام (زر تحميل التقرير في الصفحة الرئيسية مع صور AnnualReport.png و AnnualReportMobile.png)",
+  "images": [
+    "/img/AnnualReport.png",
+    "/img/AnnualReportMobile.png"
+  ],
+  "note": "الرابط الأصلي /report يعيد توجيه 302 إلى cdn PDF"
+}

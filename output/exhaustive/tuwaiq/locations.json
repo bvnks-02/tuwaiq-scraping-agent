@@ -1,0 +1,22 @@
+[
+  {
+    "id": "06492fc2-ab42-492b-810c-c0a80c6f9bad",
+    "text": "الرياض",
+    "initiativesCount": 100
+  },
+  {
+    "id": "c52dbb1c-5737-4998-8b6c-812599e4eb94",
+    "text": "الرياض - النفل",
+    "initiativesCount": 10
+  },
+  {
+    "id": "c70dbb1c-5737-4998-8b6c-812599e4eb94",
+    "text": "الرياض - المقر الرئيسي",
+    "initiativesCount": 922
+  },
+  {
+    "id": "remote",
+    "text": "عن بعد",
+    "initiativesCount": 245
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "id": "56732582-5b07-4fbf-9ee8-89c26d87b419",
+    "titleAr": "ويبينار",
+    "titleEn": "Webinar",
+    "slug": {
+      "current": "56732582-ويبينار"
+    },
+    "description": "",
+    "color": null
+  },
+  {
+    "id": "8836bde0-68ae-3600-92a2-23dce3c487ca",
+    "titleAr": "برنامج",
+    "titleEn": "Program",
+    "slug": {
+      "current": "8836bde0-برنامج"
+    },
+    "description": "",
+    "color": null
+  },
+  {
+    "id": "ac41152d-f228-8af4-8406-e0cda6df6c35",
+    "titleAr": "معسكر",
+    "titleEn": "Bootcamp",
+    "slug": {
+      "current": "ac41152d-معسكر"
+    },
+    "description": "",
+    "color": null
+  },
+  {
+    "id": "c616115c-5cf8-426d-9f70-42eb370ca37d",
+    "titleAr": "لقاء",
+    "titleEn": "Meetup",
+    "slug": {
+      "current": "c616115c-لقاء"
+    },
+    "description": "",
+    "color": null
+  }
+]

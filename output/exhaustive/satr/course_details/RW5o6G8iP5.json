@@ -1,0 +1,213 @@
+{
+  "id": "7778a891-620f-4bc0-8022-51a8c0083c57",
+  "title": "أساسيات الدرونز",
+  "logo": null,
+  "description": "تهدف دورة أساسيات الدرونز إلى تزويد المتدرب بفهم شامل لعالم الطائرات بدون طيار، حيث تستعرض المفاهيم الأساسية وآلية عملها ، وتركز على أهمية استخدام الدرونز وتطبيقاتها في مختلف المجالات التقنية والعملية، مع توضيح بنيتها التشغيلية ومكوناتها الرئيسية وكيفية التحكم بها. كما تسلّط الضوء على الأنظمة والتشريعات المرتبطة باستخدامها لضمان الامتثال والسلامة.",
+  "level": "JUNIOR",
+  "course_status": "OPEN",
+  "path_title": null,
+  "url_id": "RW5o6G8iP5",
+  "course_type": "COURSE",
+  "total_duration": 1293,
+  "subscribers_count": 9691,
+  "videos_duration": 933,
+  "projects_count": 0,
+  "quizzes_count": 2,
+  "challenges_count": 0,
+  "articles_count": 0,
+  "objectives": [
+    "الإلمام بالمفاهيم الأساسية للدرونز والتعرف على أهميتها وتطبيقاتها العملية.",
+    "تحليل آلية عمل الدرونز ومكوناتها التقنية بشكل واضح.",
+    "التعرف على الأنظمة والتشريعات المنظمة لاستخدام الدرونز.",
+    "تقييم المخاطر المرتبطة بالدرونز واتخاذ الإجراءات اللازمة لتعزيز الاستخدام الآمن."
+  ],
+  "preview_video": {
+    "video_source": "vimeo",
+    "video_id": "1051804973"
+  },
+  "ide": null,
+  "badge_id": null,
+  "ide_version": null,
+  "subscription": null,
+  "units": [
+    {
+      "id": "9e31570c-7333-4486-abcd-5a4bd706a69f",
+      "title": "الدرونز وطريقة عملها",
+      "description": "هذه الوحد تناقش اهمية الدرونز وكيفية طريقة عملها",
+      "total_duration": 744,
+      "order": 1,
+      "created": "2025-01-30T10:26:07.096134",
+      "updated": "2026-04-05T15:00:53.630028",
+      "subscription": null,
+      "sessions": [
+        {
+          "id": "6e1e6cb3-632f-4158-a5b1-b22b315c600b",
+          "title": "مقدمة عن الدرونز",
+          "description": "<p>بهذا الدرس سنتعرف على اهمية واساهامات الدرونز بعدة مجالات</p>",
+          "type": "VIDEO",
+          "duration": 68,
+          "unit_id": "9e31570c-7333-4486-abcd-5a4bd706a69f",
+          "order": 1,
+          "video": null,
+          "project": null,
+          "quiz": null,
+          "article": null,
+          "challenge": null,
+          "updated": "2025-01-30T10:41:22.764003",
+          "subscription": null,
+          "downloads": null
+        },
+        {
+          "id": "0b8f4e67-20aa-4411-8b08-3e4d15571571",
+          "title": "طريقة عمل الدرونز  1",
+          "description": "<p>بهذا الدرس سنكتشف معا على الاجزاء الرئيسية المكونة للدرونز</p>",
+          "type": "VIDEO",
+          "duration": 217,
+          "unit_id": "9e31570c-7333-4486-abcd-5a4bd706a69f",
+          "order": 2,
+          "video": null,
+          "project": null,
+          "quiz": null,
+          "article": null,
+          "challenge": null,
+          "updated": "2025-01-30T10:41:22.761530",
+          "subscription": null,
+          "downloads": null
+        },
+        {
+          "id": "face1121-9a3c-4c03-9c0d-cd2a3a7b51e7",
+          "title": "طريقة عمل الدرونز  2",
+          "description": "<p>بهذا الدرس سنتعرف على المبادئ الفيزيائية خلف طيران الدرونز والانظمة المزودة بها</p>",
+          "type": "VIDEO",
+          "duration": 189,
+          "unit_id": "9e31570c-7333-4486-abcd-5a4bd706a69f",
+          "order": 3,
+          "video": null,
+          "project": null,
+          "quiz": null,
+          "article": null,
+          "challenge": null,
+          "updated": "2025-01-30T10:41:22.766177",
+          "subscription": null,
+          "downloads": null
+        },
+        {
+          "id": "f889d390-2ce7-4b79-96e2-d25b48e9f29e",
+          "title": "طريقة عمل الدرونز  3",
+          "description": "<table style=\"min-width: 25px\"><colgroup><col style=\"min-width: 25px\"></colgroup><tbody><tr><td rowspan=\"1\" colspan=\"1\"><p>بهذا الدرس سنستعرض الاجزاء الثانوية بالدرونز وانواع حركتها</p></td></tr></tbody></table>",
+          "type": "VIDEO",
+          "duration": 90,
+          "unit_id": "9e31570c-7333-4486-abcd-5a4bd706a69f",
+          "order": 4,
+          "video": null,
+          "project": null,
+          "quiz": null,
+          "article": null,
+          "challenge": null,
+          "updated": "2025-01-30T10:41:22.766174",
+          "subscription": null,
+          "downloads": null
+        },
+        {
+          "id": "10676050-55d4-4403-8056-fca0071add38",
+          "title": "تأكد من معلوماتك ",
+          "description": null,
+          "type": "QUIZ",
+          "duration": 180,
+          "unit_id": "9e31570c-7333-4486-abcd-5a4bd706a69f",
+          "order": 5,
+          "video": null,
+          "project": null,
+          "quiz": {
+            "number_of_questions": 3,
+            "passing_percentage": 100,
+            "max_attempts": 5
+          },
+          "article": null,
+          "challenge": null,
+          "updated": "2026-04-05T15:00:53.634775",
+          "subscription": null,
+          "downloads": null
+        }
+      ]
+    },
+    {
+      "id": "e65a03a8-c502-41fd-b7ee-edea960e8e4b",
+      "title": "التشريعات والشروط الأساسية لإستخدام الدرونز",
+      "description": "هذه الوحد تستعرض أبرز التشريعات والشروط الاساسية لاستخدام الدرونز وحفظ أمن معلوماتها",
+      "total_duration": 549,
+      "order": 2,
+      "created": "2025-01-30T10:30:28.965876",
+      "updated": "2026-04-05T15:00:53.630031",
+      "subscription": null,
+      "sessions": [
+        {
+          "id": "e88e3d6f-51ed-4e47-be74-bb1c675dd186",
+          "title": "التشريعات الخاصة بالدرونز",
+          "description": "<table style=\"min-width: 25px\"><colgroup><col style=\"min-width: 25px\"></colgroup><tbody><tr><td rowspan=\"1\" colspan=\"1\"><p>بهذا الدرس سنتعرف على أهم التشريعات والشروط الاساسية لإستخدام الدرونز بشكل قانوني وآمن&nbsp;&nbsp;</p></td></tr></tbody></table>",
+          "type": "VIDEO",
+          "duration": 145,
+          "unit_id": "e65a03a8-c502-41fd-b7ee-edea960e8e4b",
+          "order": 1,
+          "video": null,
+          "project": null,
+          "quiz": null,
+          "article": null,
+          "challenge": null,
+          "updated": "2025-01-30T10:38:27.073718",
+          "subscription": null,
+          "downloads": null
+        },
+        {
+          "id": "8e80affe-745c-4fc1-b8dd-8ce67b9aaf31",
+          "title": "المخاطر المعلوماتية بالدرونز",
+          "description": "<table style=\"min-width: 25px\"><colgroup><col style=\"min-width: 25px\"></colgroup><tbody><tr><td rowspan=\"1\" colspan=\"1\"><p>بهذا الدرس سنكتشف معا على المخاطر المعلوماتية للدرونز وكيفية تفاديها</p></td></tr></tbody></table>",
+          "type": "VIDEO",
+          "duration": 224,
+          "unit_id": "e65a03a8-c502-41fd-b7ee-edea960e8e4b",
+          "order": 2,
+          "video": null,
+          "project": null,
+          "quiz": null,
+          "article": null,
+          "challenge": null,
+          "updated": "2025-01-30T10:38:45.582857",
+          "subscription": null,
+          "downloads": null
+        },
+        {
+          "id": "ad08dff7-91e0-4d7f-8e03-e4b1e7e1c616",
+          "title": "تأكد من معلوماتك ",
+          "description": null,
+          "type": "QUIZ",
+          "duration": 180,
+          "unit_id": "e65a03a8-c502-41fd-b7ee-edea960e8e4b",
+          "order": 3,
+          "video": null,
+          "project": null,
+          "quiz": {
+            "number_of_questions": 3,
+            "passing_percentage": 100,
+            "max_attempts": 5
+          },
+          "article": null,
+          "challenge": null,
+          "updated": "2026-04-05T15:00:53.634777",
+          "subscription": null,
+          "downloads": null
+        }
+      ]
+    }
+  ],
+  "programming_languages": [],
+  "technologies": [
+    {
+      "id": "d88557cb-fe07-49dd-9124-7a981adedcd1",
+      "name": "drone",
+      "icon": null
+    }
+  ],
+  "created": "2025-01-30T10:26:07.096361",
+  "updated": "2026-04-05T15:00:53.626842",
+  "recommended_courses": []
+}

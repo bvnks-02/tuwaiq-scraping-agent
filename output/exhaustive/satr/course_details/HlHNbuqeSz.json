@@ -1,0 +1,235 @@
+{
+  "id": "fb85229e-939f-4674-9e3a-bd6b4de5f64f",
+  "title": "بناء Node Package",
+  "logo": "https://assets.safcsp.cloud/7ac4ae69-5727-4069-aea6-74647e4afc23/asset/4fa4c935-d91b-4845-87e7-7ddad6f4bc72.png",
+  "description": "يهدف البرنامج إلى التعرف على آلية بناء ونشر Package على منصة npm.js، بالإضافة إلى معرفة المتطلبات والاحتياجات اللازمة قبل البدء في بناء Node Package.",
+  "level": "MIDDLE",
+  "course_status": "OPEN",
+  "path_title": null,
+  "url_id": "HlHNbuqeSz",
+  "course_type": "COURSE",
+  "total_duration": 567,
+  "subscribers_count": 1209,
+  "videos_duration": 339,
+  "projects_count": 0,
+  "quizzes_count": 1,
+  "challenges_count": 0,
+  "articles_count": 2,
+  "objectives": [
+    "التعرف على آلية بناء Package",
+    "التعرف على آلية رفع Package على Package Registry",
+    "التعرف على آلية تحديث Package الخاص بك على Package Registry"
+  ],
+  "preview_video": {
+    "video_source": "vimeo",
+    "video_id": "800277419"
+  },
+  "ide": null,
+  "badge_id": null,
+  "ide_version": null,
+  "subscription": null,
+  "units": [
+    {
+      "id": "7d77f85e-7052-4fd7-bfc4-014f2d0fc50b",
+      "title": "تجهيز البيئة",
+      "description": "ستتعرف في هذه الوحدة على المتطلبات والاحتياجات اللازمة قبل البدء في بناء Node Package",
+      "total_duration": 97,
+      "order": 0,
+      "created": "2023-02-19T09:21:00.855693",
+      "updated": "2024-11-17T11:55:02.179139",
+      "subscription": null,
+      "sessions": [
+        {
+          "id": "0bcfda31-35f3-477c-afc2-bede70b14105",
+          "title": "المتطلبات",
+          "description": "",
+          "type": "ARTICLE",
+          "duration": 60,
+          "unit_id": "7d77f85e-7052-4fd7-bfc4-014f2d0fc50b",
+          "order": 0,
+          "video": null,
+          "project": null,
+          "quiz": null,
+          "article": null,
+          "challenge": null,
+          "updated": "2025-06-26T11:51:10.066517",
+          "subscription": null,
+          "downloads": null
+        },
+        {
+          "id": "90cbfaef-0b28-494b-958b-73ea0fad2191",
+          "title": "تسجيل دخول في NPM",
+          "description": "ستتعلم في هذا الدرس على كيفية تسجيل الدخول في موقع npmjs",
+          "type": "VIDEO",
+          "duration": 47,
+          "unit_id": "7d77f85e-7052-4fd7-bfc4-014f2d0fc50b",
+          "order": 1,
+          "video": null,
+          "project": null,
+          "quiz": null,
+          "article": null,
+          "challenge": null,
+          "updated": "2023-03-21T11:00:24.286392",
+          "subscription": null,
+          "downloads": null
+        },
+        {
+          "id": "69b2dff4-3424-4395-aa69-5dd572c2e39a",
+          "title": "التحقق من وجود Node",
+          "description": "ستتعرف في هذا الدرس على آلية التحقق من Nodejs في النظام",
+          "type": "VIDEO",
+          "duration": 39,
+          "unit_id": "7d77f85e-7052-4fd7-bfc4-014f2d0fc50b",
+          "order": 2,
+          "video": null,
+          "project": null,
+          "quiz": null,
+          "article": null,
+          "challenge": null,
+          "updated": "2023-03-21T11:00:17.788355",
+          "subscription": null,
+          "downloads": null
+        }
+      ]
+    },
+    {
+      "id": "9b6e3863-1e23-4d8d-a8b3-9e06533336b9",
+      "title": "بناء Node Package",
+      "description": "ستتعرف في هذه الوحدة على الخطوت اللازمة لبناء Node Package",
+      "total_duration": 433,
+      "order": 1,
+      "created": "2023-02-19T09:22:33.087531",
+      "updated": "2024-11-17T11:55:02.179142",
+      "subscription": null,
+      "sessions": [
+        {
+          "id": "c9bb1fb1-5ce4-4170-a52d-5e74fb88403c",
+          "title": "انشاء ملف package.json",
+          "description": "ستتعرف في هذا الدرس على كيفية انشاء ملف package.json الذي سيحتوي على معلومات عن package",
+          "type": "VIDEO",
+          "duration": 93,
+          "unit_id": "9b6e3863-1e23-4d8d-a8b3-9e06533336b9",
+          "order": 0,
+          "video": null,
+          "project": null,
+          "quiz": null,
+          "article": null,
+          "challenge": null,
+          "updated": "2023-03-21T11:00:01.347451",
+          "subscription": null,
+          "downloads": null
+        },
+        {
+          "id": "f6e07a84-d744-4a8a-9baf-19e880e522e4",
+          "title": "بناء Package",
+          "description": "تستطيع في هذه المرحلة البدء في بناء وتطوير package الخاص بك",
+          "type": "VIDEO",
+          "duration": 56,
+          "unit_id": "9b6e3863-1e23-4d8d-a8b3-9e06533336b9",
+          "order": 1,
+          "video": null,
+          "project": null,
+          "quiz": null,
+          "article": null,
+          "challenge": null,
+          "updated": "2023-03-21T10:59:55.206594",
+          "subscription": null,
+          "downloads": null
+        },
+        {
+          "id": "354b57ec-6b7c-444b-ab3b-eadc4d7d89a8",
+          "title": "نشر Package",
+          "description": "بعد الانتهاء من بناء Package ستتعلم في هذا الدرس آلية نشر Package على NPM ",
+          "type": "VIDEO",
+          "duration": 104,
+          "unit_id": "9b6e3863-1e23-4d8d-a8b3-9e06533336b9",
+          "order": 2,
+          "video": null,
+          "project": null,
+          "quiz": null,
+          "article": null,
+          "challenge": null,
+          "updated": "2023-03-21T10:59:49.246420",
+          "subscription": null,
+          "downloads": null
+        },
+        {
+          "id": "296bf0de-74f6-45b7-a713-4388e3fb5aed",
+          "title": "اختبر معلوماتك",
+          "description": "تستطيع من خلال الأسئلة القدمة تحديد مدى استيعابك لمفاهيم هذه الدورة",
+          "type": "QUIZ",
+          "duration": 180,
+          "unit_id": "9b6e3863-1e23-4d8d-a8b3-9e06533336b9",
+          "order": 4,
+          "video": null,
+          "project": null,
+          "quiz": {
+            "number_of_questions": 3,
+            "passing_percentage": 60,
+            "max_attempts": 5
+          },
+          "article": null,
+          "challenge": null,
+          "updated": "2024-11-17T11:55:02.183058",
+          "subscription": null,
+          "downloads": null
+        }
+      ]
+    },
+    {
+      "id": "d0c23649-f76c-4df5-a609-b99846180c0b",
+      "title": "المشروع | Project",
+      "description": "من خلال هذه الوحدة، ستقوم ببناء package خاص بك",
+      "total_duration": 37,
+      "order": 2,
+      "created": "2023-02-19T14:18:30.431604",
+      "updated": "2024-11-17T11:55:02.179144",
+      "subscription": null,
+      "sessions": [
+        {
+          "id": "562c1289-fa31-4a0b-9d30-66d64fefda13",
+          "title": "بناء Package للعمليات الحسابية",
+          "description": "",
+          "type": "ARTICLE",
+          "duration": 60,
+          "unit_id": "d0c23649-f76c-4df5-a609-b99846180c0b",
+          "order": 0,
+          "video": null,
+          "project": null,
+          "quiz": null,
+          "article": null,
+          "challenge": null,
+          "updated": "2025-06-26T11:51:10.066623",
+          "subscription": null,
+          "downloads": null
+        }
+      ]
+    }
+  ],
+  "programming_languages": [],
+  "technologies": [
+    {
+      "id": "e4dce2a8-4f64-43cf-b4ad-5b9cca75764b",
+      "name": "Node",
+      "icon": null
+    }
+  ],
+  "created": "2023-01-23T08:56:16.167507",
+  "updated": "2024-11-17T11:55:02.175652",
+  "recommended_courses": [
+    {
+      "id": "a03785d4-0476-44fe-9bad-e695cbf3a808",
+      "url_id": "oiLuiMJRJw",
+      "title": "React102",
+      "description": "سنتعرف في هذهِ الدورة على عدد من المفاهيم في مكتبة React والمستخدمة لتسهيل بناء واجهات المستخدم UI في تطبيقات الويب.",
+      "logo": "https://assets.safcsp.cloud/b43288bb-2af8-4b58-af11-913a619d2640/asset/ada763ef-9b64-4a3a-b4dc-d0f9ccb359f4.png",
+      "level": "MIDDLE",
+      "total_duration": 3038,
+      "subscription": null,
+      "published_unit_count": 4,
+      "course_type": "COURSE",
+      "course_status": "OPEN",
+      "technologies": []
+    }
+  ]
+}

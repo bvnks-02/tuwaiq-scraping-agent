@@ -1,0 +1,375 @@
+{
+  "id": "42a65f3d-b9f7-4d55-8592-3a25f633fda1",
+  "title": "Secure Shell (SSH) 102",
+  "logo": "https://assets.safcsp.cloud/7ac4ae69-5727-4069-aea6-74647e4afc23/asset/ec4b4edb-d1f9-412c-a469-050fc7dbb438.png",
+  "description": "تعرف في هذه الدورة على مفاهيم متقدمة في SSH مثل طرق استعمالات بروتكول SSH وكيفية تسجيل الدخول الآمن وطرق استعمال مصادر جهاز آخر عن بعد.",
+  "level": "MIDDLE",
+  "course_status": "OPEN",
+  "path_title": null,
+  "url_id": "nJYfWJOJUD",
+  "course_type": "COURSE",
+  "total_duration": 964,
+  "subscribers_count": 3001,
+  "videos_duration": 411,
+  "projects_count": 0,
+  "quizzes_count": 3,
+  "challenges_count": 0,
+  "articles_count": 1,
+  "objectives": [
+    "الدخول الآمن لخادم أو جهاز آخر عن بعد",
+    "كتابة أوامر على جهاز آخر بأمان ",
+    "نقل الملفات بأمان",
+    "التحقق من هوية المستخدم باستعمال Keys"
+  ],
+  "preview_video": {
+    "video_source": "vimeo",
+    "video_id": "825021255"
+  },
+  "ide": null,
+  "badge_id": null,
+  "ide_version": null,
+  "subscription": null,
+  "units": [
+    {
+      "id": "63d0de86-7f66-4bab-bb17-0d56caf8db5e",
+      "title": "مقدمة الدورة",
+      "description": "مقدمة ومتطلبات الدورة",
+      "total_duration": 25,
+      "order": 0,
+      "created": "2023-05-04T12:48:36.729535",
+      "updated": "2024-11-17T11:54:04.170613",
+      "subscription": null,
+      "sessions": [
+        {
+          "id": "5742c6b5-296c-4d1a-9de8-dee9dc357dfb",
+          "title": "متطلبات الدورة",
+          "description": "",
+          "type": "ARTICLE",
+          "duration": 60,
+          "unit_id": "63d0de86-7f66-4bab-bb17-0d56caf8db5e",
+          "order": 0,
+          "video": null,
+          "project": null,
+          "quiz": null,
+          "article": null,
+          "challenge": null,
+          "updated": "2025-06-26T11:51:10.066623",
+          "subscription": null,
+          "downloads": null
+        },
+        {
+          "id": "aa33d322-c1b2-44e9-9086-ca39a6b9d770",
+          "title": "مقدمة الدورة",
+          "description": " ",
+          "type": "VIDEO",
+          "duration": 12,
+          "unit_id": "63d0de86-7f66-4bab-bb17-0d56caf8db5e",
+          "order": 1,
+          "video": null,
+          "project": null,
+          "quiz": null,
+          "article": null,
+          "challenge": null,
+          "updated": "2023-05-09T10:51:44.046971",
+          "subscription": null,
+          "downloads": null
+        }
+      ]
+    },
+    {
+      "id": "126d040d-400c-4909-b7fc-b97fe652e833",
+      "title": "تسجيل الدخول الآمن | Secure Remote Login",
+      "description": "مثال عملي لتسجيل الدخول الآمن عن بعد",
+      "total_duration": 300,
+      "order": 1,
+      "created": "2023-05-04T12:56:56.012778",
+      "updated": "2024-11-17T11:54:04.170610",
+      "subscription": null,
+      "sessions": [
+        {
+          "id": "6846254f-e3de-4c24-8dad-3412191113dc",
+          "title": "تسجيل الدخول الآمن | Secure Remote Login",
+          "description": " ",
+          "type": "VIDEO",
+          "duration": 35,
+          "unit_id": "126d040d-400c-4909-b7fc-b97fe652e833",
+          "order": 0,
+          "video": null,
+          "project": null,
+          "quiz": null,
+          "article": null,
+          "challenge": null,
+          "updated": "2023-05-09T10:51:31.175970",
+          "subscription": null,
+          "downloads": null
+        },
+        {
+          "id": "d2c56425-e6f2-4222-8b20-623f8422af09",
+          "title": "مثال على تسجيل الدخول الآمن | Secure Remote Login",
+          "description": " ",
+          "type": "VIDEO",
+          "duration": 85,
+          "unit_id": "126d040d-400c-4909-b7fc-b97fe652e833",
+          "order": 1,
+          "video": null,
+          "project": null,
+          "quiz": null,
+          "article": null,
+          "challenge": null,
+          "updated": "2023-05-09T10:51:25.075231",
+          "subscription": null,
+          "downloads": null
+        },
+        {
+          "id": "999428d5-9869-43b6-942b-3bd92193e511",
+          "title": "تحقق من معلوماتك",
+          "description": " ",
+          "type": "QUIZ",
+          "duration": 180,
+          "unit_id": "126d040d-400c-4909-b7fc-b97fe652e833",
+          "order": 2,
+          "video": null,
+          "project": null,
+          "quiz": {
+            "number_of_questions": 3,
+            "passing_percentage": 60,
+            "max_attempts": 5
+          },
+          "article": null,
+          "challenge": null,
+          "updated": "2024-11-17T11:54:04.178209",
+          "subscription": null,
+          "downloads": null
+        }
+      ]
+    },
+    {
+      "id": "b61bb7d7-e40c-4f63-85f0-300706deac27",
+      "title": "كتابة أوامر على جهاز آخر بأمان",
+      "description": "مثال عملي على كتابة أوامر على جهاز آخر بأمان",
+      "total_duration": 269,
+      "order": 2,
+      "created": "2023-05-04T12:58:03.797305",
+      "updated": "2024-11-17T11:54:04.170616",
+      "subscription": null,
+      "sessions": [
+        {
+          "id": "9a737ca9-9e1d-4b74-b77c-cb3cf9f8f0fb",
+          "title": "كتابة أوامر على جهاز آخر بأمان",
+          "description": " ",
+          "type": "VIDEO",
+          "duration": 27,
+          "unit_id": "b61bb7d7-e40c-4f63-85f0-300706deac27",
+          "order": 0,
+          "video": null,
+          "project": null,
+          "quiz": null,
+          "article": null,
+          "challenge": null,
+          "updated": "2023-05-09T10:51:09.336050",
+          "subscription": null,
+          "downloads": null
+        },
+        {
+          "id": "a0599438-544d-4005-a4ac-6fd8124f36a2",
+          "title": "مثال على كتابة أوامر على جهاز آخر بأمان",
+          "description": " ",
+          "type": "VIDEO",
+          "duration": 62,
+          "unit_id": "b61bb7d7-e40c-4f63-85f0-300706deac27",
+          "order": 1,
+          "video": null,
+          "project": null,
+          "quiz": null,
+          "article": null,
+          "challenge": null,
+          "updated": "2023-05-09T10:51:03.917224",
+          "subscription": null,
+          "downloads": null
+        },
+        {
+          "id": "cb2c8baa-e9b6-4123-b738-a523f53d0f56",
+          "title": "تحقق من معلوماتك",
+          "description": " ",
+          "type": "QUIZ",
+          "duration": 180,
+          "unit_id": "b61bb7d7-e40c-4f63-85f0-300706deac27",
+          "order": 2,
+          "video": null,
+          "project": null,
+          "quiz": {
+            "number_of_questions": 3,
+            "passing_percentage": 60,
+            "max_attempts": 5
+          },
+          "article": null,
+          "challenge": null,
+          "updated": "2024-11-17T11:54:04.178211",
+          "subscription": null,
+          "downloads": null
+        }
+      ]
+    },
+    {
+      "id": "7d1a0cc0-d839-482b-8bc2-1df56a04791e",
+      "title": "نقل الملفات بأمان",
+      "description": "مثال عملي لنقل الملفات بأمان",
+      "total_duration": 353,
+      "order": 3,
+      "created": "2023-05-04T12:58:59.401164",
+      "updated": "2024-11-17T11:54:04.170614",
+      "subscription": null,
+      "sessions": [
+        {
+          "id": "5494fc05-e6ac-49b0-89c0-2010d9722b5e",
+          "title": "نقل الملفات بأمان",
+          "description": " ",
+          "type": "VIDEO",
+          "duration": 59,
+          "unit_id": "7d1a0cc0-d839-482b-8bc2-1df56a04791e",
+          "order": 0,
+          "video": null,
+          "project": null,
+          "quiz": null,
+          "article": null,
+          "challenge": null,
+          "updated": "2023-05-09T10:50:42.908768",
+          "subscription": null,
+          "downloads": null
+        },
+        {
+          "id": "eb85ea8c-9289-4c9c-a461-1cfaed479858",
+          "title": "مثال على نقل الملفات بأمان",
+          "description": " ",
+          "type": "VIDEO",
+          "duration": 114,
+          "unit_id": "7d1a0cc0-d839-482b-8bc2-1df56a04791e",
+          "order": 1,
+          "video": null,
+          "project": null,
+          "quiz": null,
+          "article": null,
+          "challenge": null,
+          "updated": "2023-05-09T10:50:37.254049",
+          "subscription": null,
+          "downloads": null
+        },
+        {
+          "id": "900b04e2-9b37-4647-9651-09859bf3f684",
+          "title": "تحقق من معلوماتك",
+          "description": "  ",
+          "type": "QUIZ",
+          "duration": 180,
+          "unit_id": "7d1a0cc0-d839-482b-8bc2-1df56a04791e",
+          "order": 2,
+          "video": null,
+          "project": null,
+          "quiz": {
+            "number_of_questions": 3,
+            "passing_percentage": 60,
+            "max_attempts": 5
+          },
+          "article": null,
+          "challenge": null,
+          "updated": "2024-11-17T11:54:04.178207",
+          "subscription": null,
+          "downloads": null
+        }
+      ]
+    },
+    {
+      "id": "92929f19-b276-43cd-9170-ecacfe52205a",
+      "title": "الخاتمة",
+      "description": "  ",
+      "total_duration": 17,
+      "order": 4,
+      "created": "2023-05-04T13:12:55.829899",
+      "updated": "2024-11-17T11:54:04.170615",
+      "subscription": null,
+      "sessions": [
+        {
+          "id": "4792c198-941c-41ae-8d3c-0bba7f7edaed",
+          "title": "خاتمة",
+          "description": "لكي تتعلم المزيد تابع <br>\nدرس [ التحقق من هوية المستخدم باستخدام RSA Keys](https://satr.codes/courses/KjGIwZQDlb/how-to-view)\n<br>\nودرس [التحقق من هوية المستخدم باستخدام ECDSA Keys](https://satr.codes/courses/PslbeHAdZR/how-to-view) على منصة سطر.",
+          "type": "VIDEO",
+          "duration": 17,
+          "unit_id": "92929f19-b276-43cd-9170-ecacfe52205a",
+          "order": 0,
+          "video": null,
+          "project": null,
+          "quiz": null,
+          "article": null,
+          "challenge": null,
+          "updated": "2023-05-09T10:50:18.176518",
+          "subscription": null,
+          "downloads": null
+        }
+      ]
+    }
+  ],
+  "programming_languages": [
+    {
+      "id": "acc752be-a1de-483d-898d-a472ec2696d4",
+      "name": "Bash",
+      "icon": "https://assets.safcsp.cloud/bash_satr.png"
+    }
+  ],
+  "technologies": [
+    {
+      "id": "6bda080b-dd65-4d31-b26c-c949ada863f4",
+      "name": "Command-line",
+      "icon": null
+    },
+    {
+      "id": "d207afb7-8dc1-44c5-aacb-17b58763cf66",
+      "name": "Network",
+      "icon": null
+    }
+  ],
+  "created": "2023-01-30T09:42:58.887818",
+  "updated": "2024-11-17T11:54:04.166698",
+  "recommended_courses": [
+    {
+      "id": "c78607d0-08b0-4f72-8c43-50f16d23f60f",
+      "url_id": "xKFakzkzVs",
+      "title": "Bash105",
+      "description": "ستتعرف في هذه الدورة على مفاهيم Flow Control وآلية استخدامها في Bash Scripting للتحكم بتسلسل تنفيذ الأوامر، مثل تكرار بعض الأوامر أو تخطي جزء منها بناءً على شرط معين كما سنتطرق لغيرها من الاستخدامات.",
+      "logo": "https://assets.safcsp.cloud/7ac4ae69-5727-4069-aea6-74647e4afc23/asset/c21e3438-8ac4-44e6-83a0-7d880d9b8ed3.png",
+      "level": "MIDDLE",
+      "total_duration": 2896,
+      "subscription": null,
+      "published_unit_count": 6,
+      "course_type": "COURSE",
+      "course_status": "OPEN",
+      "technologies": []
+    },
+    {
+      "id": "0bb8ff09-75b9-4ee9-be36-50f5e366556d",
+      "url_id": "ilZEZwKCPp",
+      "title": "Command-line 104",
+      "description": "سنتعرف في هذه الدورة على مفاهيم Expansion في Shell من خلال استخدام Command-line، نستطيع القيام بعمليات مختصرة وأكثر سرعة باستخدام مفهوم Expansion في Shell.",
+      "logo": "https://assets.safcsp.cloud/7ac4ae69-5727-4069-aea6-74647e4afc23/asset/dc41e294-4bad-4f10-a794-86d7d2153df9.png",
+      "level": "MIDDLE",
+      "total_duration": 1905,
+      "subscription": null,
+      "published_unit_count": 3,
+      "course_type": "COURSE",
+      "course_status": "OPEN",
+      "technologies": []
+    },
+    {
+      "id": "e203dc53-74d1-40f6-af04-0613e363a609",
+      "url_id": "obAbHzLuwU",
+      "title": "Command-line 103",
+      "description": "سنتعرف في هذه الدورة على الأوامر التي تساعدنا في عمل إعادة توجية للمدخلات والمخرجات Input/Output Redirection. وذلك باستخدام المعاملات الخاصة لكل عملية من عمليات إعادة توجيه المدخلات والمخرجات.",
+      "logo": "https://assets.safcsp.cloud/7ac4ae69-5727-4069-aea6-74647e4afc23/asset/bf1f4bac-60ca-4ef3-9925-b5f9a9c3bae0.png",
+      "level": "MIDDLE",
+      "total_duration": 1446,
+      "subscription": null,
+      "published_unit_count": 3,
+      "course_type": "COURSE",
+      "course_status": "OPEN",
+      "technologies": []
+    }
+  ]
+}

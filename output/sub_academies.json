@@ -1,0 +1,37 @@
+[
+  {
+    "name": "أكاديمية مطوري آبل",
+    "name_en": "Apple Developer Academy",
+    "url": "https://developeracademy.tuwaiq.edu.sa"
+  },
+  {
+    "name": "أكاديمية ميتافيرس",
+    "name_en": "Metaverse Academy",
+    "url": "https://metaverse.tuwaiq.edu.sa"
+  },
+  {
+    "name": "أكاديمية هولبيرتون",
+    "name_en": "Holberton Academy",
+    "url": "https://holberton.tuwaiq.edu.sa/"
+  },
+  {
+    "name": "أكاديمية علي بابا كلاود",
+    "name_en": "Alibaba Cloud Academy",
+    "url": "https://alibabacloud.tuwaiq.edu.sa/"
+  },
+  {
+    "name": "أكاديمية الكراج",
+    "name_en": "The Garage",
+    "url": "https://thegarage.tuwaiq.edu.sa/"
+  },
+  {
+    "name": "طويق التنفيذيّين",
+    "name_en": "Tuwaiq Executives",
+    "url": "https://executives.tuwaiq.edu.sa/"
+  },
+  {
+    "name": "أكاديمية كاسبر سكاي",
+    "name_en": "Kaspersky Academy",
+    "url": "https://kaspersky.tuwaiq.edu.sa/"
+  }
+]

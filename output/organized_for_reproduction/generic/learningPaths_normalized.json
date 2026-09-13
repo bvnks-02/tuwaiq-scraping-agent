@@ -1,0 +1,1638 @@
+[
+  {
+    "_type": "learningPath",
+    "_id": "path-I3aWvohNno",
+    "titleAr": "مسار الطائرات غير المأهولة (الدرونز)",
+    "slug": {
+      "current": "I3aWvohNno"
+    },
+    "descriptionAr": "يهدف هذا المسار إلى تزويد المتدرب بفهم متكامل لأساسيات تشغيل وبرمجة الطائرات بدون طيار (الدرونز)، مع التركيز على المبادئ العلمية والهندسية التي تمكّن الدرون من الطيران والتحكم الذاتي. يتناول المسار مفاهيم الطيران الأساسية، مكونات الدرون، أنظمة الطاقة والتحكم، ودور المستشعرات والاتصال، مما يهيّئ المتدرب لبناء قاعدة معرفية قوية للانتقال إلى التطبيقات المتقدمة في عالم الدرونز.",
+    "level": "MIDDLE",
+    "totalDuration": 8501,
+    "coursesCount": 2,
+    "learningGoals": [
+      {
+        "_type": "learningGoal",
+        "_key": "lg-0",
+        "textAr": "فهم مبادئ الطيران والقوى الأربع المؤثرة على الدرون ومحاور الحركة (Roll, Pitch, Yaw)."
+      },
+      {
+        "_type": "learningGoal",
+        "_key": "lg-1",
+        "textAr": "استيعاب آلية تزويد الدرون بالطاقة والتعامل الآمن مع البطاريات."
+      },
+      {
+        "_type": "learningGoal",
+        "_key": "lg-2",
+        "textAr": "الإلمام بأساسيات أنظمة الرؤية والاستشعار مثل الكاميرات (EO/IR) وتقنيات LiDAR."
+      },
+      {
+        "_type": "learningGoal",
+        "_key": "lg-3",
+        "textAr": "التعرف على هياكل الدرون ومكوناته الأساسية مثل المحركات والمراوح والبطاريات ووحدة التحكم."
+      },
+      {
+        "_type": "learningGoal",
+        "_key": "lg-4",
+        "textAr": "فهم دور وحدة التحكم بالطيران والمستشعرات مثل IMU وGPS في تحقيق الثبات والتحكم الذاتي أثناء الطيران."
+      },
+      {
+        "_type": "learningGoal",
+        "_key": "lg-5",
+        "textAr": "فهم آليات الاتصال اللاسلكي وإشارات التحكم وأهمية الأمان والحماية من مخاطر الاختراق."
+      }
+    ],
+    "courses": [
+      {
+        "_type": "reference",
+        "_ref": "course-RW5o6G8iP5"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-0UbrD4pyv6"
+      }
+    ],
+    "url": "https://satr.tuwaiq.edu.sa/path/I3aWvohNno/view",
+    "sourceId": "d1339523-e476-427e-b746-03b0a0ebf15a"
+  },
+  {
+    "_type": "learningPath",
+    "_id": "path-irQHmdAUDj",
+    "titleAr": "مسار الروبوتات ",
+    "slug": {
+      "current": "irQHmdAUDj"
+    },
+    "descriptionAr": "يهدف هذا المسار إلى بناء فهم متكامل لعالم الروبوتات عبر التعرف على مكوناته الأساسية وتطوير مهارات برمجته لاتخاذ قرارات ذكية وبسيطة. ويركّز على ترسيخ المفاهيم النظرية في التحكم الإلكتروني، وآلية عمل الحساسات، ومنطق اتخاذ القرار باستخدام البرمجة. كما يمكّن المتدرب من تجميع الروبوت عمليًا والتحكم في حركته وتنفيذ مهام تطبيقية مثل تتبع الخط وتفادي العوائق بكفاءة.",
+    "level": "JUNIOR",
+    "totalDuration": 16687,
+    "coursesCount": 3,
+    "learningGoals": [
+      {
+        "_type": "learningGoal",
+        "_key": "lg-0",
+        "textAr": "التعرف على عالم الروبوتات من خلال فهم ماهية الروبوت؟ وما أنواعه؟ والاطلاع الموسع على مكوناته الأساسية (الهيكل، المحركات، لوحة التحكم)."
+      },
+      {
+        "_type": "learningGoal",
+        "_key": "lg-1",
+        "textAr": "فهم أساسيات التحكم الإلكتروني واستيعاب دور لوحة Arduino كـ “دماغ” للروبوت، وطريقة توصيل الأسلاك والمحركات بشكل آمن وسليم."
+      },
+      {
+        "_type": "learningGoal",
+        "_key": "lg-2",
+        "textAr": "فهم كيفية عمل الحساسات مثل حساس المسافة وحساس تتبع الخط، وكيفية استخدامها لجمع البيانات من البيئة المحيطة."
+      },
+      {
+        "_type": "learningGoal",
+        "_key": "lg-3",
+        "textAr": "استخدام البرمجة المنطقية البسيطة لبناء \"منطق القرار\" لجعل الروبوت يتخذ قرارات اعتماداً على مدخلات الحساسات."
+      },
+      {
+        "_type": "learningGoal",
+        "_key": "lg-4",
+        "textAr": "التعرف على أساسيات رؤية الروبوت وتتبع الألوان كمدخل أولي لفهم الذكاء الاصطناعي البصري."
+      }
+    ],
+    "courses": [
+      {
+        "_type": "reference",
+        "_ref": "course-vCmFYFdvRW"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-gz0ETvpbzx"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-n7m8kbYYba"
+      }
+    ],
+    "url": "https://satr.tuwaiq.edu.sa/path/irQHmdAUDj/view",
+    "sourceId": "6a92d807-3843-4c24-ae41-9ae189dd4a87"
+  },
+  {
+    "_type": "learningPath",
+    "_id": "path-BDwtRrEpyD",
+    "titleAr": "مسار قواعد البيانات",
+    "slug": {
+      "current": "BDwtRrEpyD"
+    },
+    "descriptionAr": "مسار تعليمي يُمكّن المهتمين بمجال قواعد البيانات من بناء فهم راسخ لأساسيات قواعد البيانات، واكتساب مهارات SQL المتقدمة، والتعامل بكفاءة مع قواعد البيانات باستخدام MongoDB، بالإضافة إلى إدارة البيانات وتخزينها عبر Firebase بأسلوب احترافي وعملي.",
+    "level": "MIDDLE",
+    "totalDuration": 32655,
+    "coursesCount": 6,
+    "learningGoals": [
+      {
+        "_type": "learningGoal",
+        "_key": "lg-0",
+        "textAr": "القدرة على اختيار نوع قاعدة البيانات المناسب حسب المشروع."
+      },
+      {
+        "_type": "learningGoal",
+        "_key": "lg-1",
+        "textAr": "التمييز بين قواعد البيانات: Structured Data & UnStructured Data."
+      },
+      {
+        "_type": "learningGoal",
+        "_key": "lg-2",
+        "textAr": "مهارات التعامل مع SQL."
+      },
+      {
+        "_type": "learningGoal",
+        "_key": "lg-3",
+        "textAr": "مهارات التعامل مع MongoDB. "
+      },
+      {
+        "_type": "learningGoal",
+        "_key": "lg-4",
+        "textAr": "إدارة قواعد البيانات باستخدام Firebase. "
+      },
+      {
+        "_type": "learningGoal",
+        "_key": "lg-5",
+        "textAr": "كتابة استعلامات CRUD (Create, Read, Update, Delete)."
+      },
+      {
+        "_type": "learningGoal",
+        "_key": "lg-6",
+        "textAr": "ربط قواعد البيانات مع تطبيقات الويب أو الموبايل."
+      }
+    ],
+    "courses": [
+      {
+        "_type": "reference",
+        "_ref": "course-XUncw0g2X6"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-FtkmhtJpQW"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-APjgdQqVWR"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-bOXiOFzkMv"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-GwQWjnuJVq"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-UWCLFfZees"
+      }
+    ],
+    "url": "https://satr.tuwaiq.edu.sa/path/BDwtRrEpyD/view",
+    "sourceId": "f44aee0c-fef5-472b-93d4-9f3f010a5902"
+  },
+  {
+    "_type": "learningPath",
+    "_id": "path-QkAdKXTgYY",
+    "titleAr": "مسار تطوير الألعاب",
+    "slug": {
+      "current": "QkAdKXTgYY"
+    },
+    "descriptionAr": "مسار تعليمي متكامل صُمِّم خصيصًا لدعم المبدعين والمهتمين بصناعة الألعاب الرقمية؛ يركز المسار على تزويد المتعلم بالمهارات اللازمة لفهم منطق وميكانيكيات الألعاب وتصميم وبناء بيئات لعب جذابة، بالإضافة إلى احتراف تصميم الشخصيات والعناصر ثنائية البعد، وصولًا إلى إنشاء تجربة لعب متكاملة وممتعة واحترافية تنافس في السوق.\n",
+    "level": "JUNIOR",
+    "totalDuration": 16460,
+    "coursesCount": 7,
+    "learningGoals": [
+      {
+        "_type": "learningGoal",
+        "_key": "lg-0",
+        "textAr": "فهم منطق وميكانيكيات الألعاب وتصميم تجربة لعب متوازنة وجذابة."
+      },
+      {
+        "_type": "learningGoal",
+        "_key": "lg-1",
+        "textAr": "تصميم الشخصيات والعناصر ثنائية الأبعاد باستخدام أدوات احترافية."
+      },
+      {
+        "_type": "learningGoal",
+        "_key": "lg-2",
+        "textAr": "بناء بيئات لعب متكاملة وتطوير ألعاب كاملة بشكل مستقل. "
+      }
+    ],
+    "courses": [
+      {
+        "_type": "reference",
+        "_ref": "course-uxpcCprKpV"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-hVDUiTYsLD"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-eWqiCZxLRN"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-RduPyTHWvD"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-CzeUdJXjme"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-onKKLSYMOj"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-rpolEqciey"
+      }
+    ],
+    "url": "https://satr.tuwaiq.edu.sa/path/QkAdKXTgYY/view",
+    "sourceId": "adfd6c45-a5d3-4238-be6f-1648bacf9790"
+  },
+  {
+    "_type": "learningPath",
+    "_id": "path-JswbScYqpw",
+    "titleAr": "مسار تصميم الواجهات وتجربة المستخدم UX/UI",
+    "slug": {
+      "current": "JswbScYqpw"
+    },
+    "descriptionAr": "مسار تعليمي يهدف إلى تزويد المتعلمين بفهم شامل ومهارات متقدمة في تصميم واجهات المستخدم وتجربة المستخدم. يغطي المسار مجموعة متنوعة من المواضيع، بما في ذلك أساسيات التصميم، البحث والتخطيط، تصميم النماذج الأولية، ومشروع عملي مشروح ومطبّق بالكامل.",
+    "level": "JUNIOR",
+    "totalDuration": 13933,
+    "coursesCount": 4,
+    "learningGoals": [
+      {
+        "_type": "learningGoal",
+        "_key": "lg-0",
+        "textAr": "فهم أساسيات تصميم واجهة وتجربة المستخدم."
+      },
+      {
+        "_type": "learningGoal",
+        "_key": "lg-1",
+        "textAr": "القدرة على إجراء أبحاث المستخدم لفهم احتياجاته."
+      },
+      {
+        "_type": "learningGoal",
+        "_key": "lg-2",
+        "textAr": "تطوير مخططات تصميمية ونماذج أولية فعّالة."
+      },
+      {
+        "_type": "learningGoal",
+        "_key": "lg-3",
+        "textAr": "إتقان أدوات التصميم الحديثة مثل Figma"
+      },
+      {
+        "_type": "learningGoal",
+        "_key": "lg-4",
+        "textAr": "فهم أفضل ممارسات التصميم لتحسين سهولة الاستخدام."
+      },
+      {
+        "_type": "learningGoal",
+        "_key": "lg-5",
+        "textAr": "القدرة على التخطيط والتصميم الكامل للمشاريع التقنية."
+      }
+    ],
+    "courses": [
+      {
+        "_type": "reference",
+        "_ref": "course-ZlDLPAAOOn"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-YSJJFZHtLM"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-P9k77YumUY"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-VMML7y5Did"
+      }
+    ],
+    "url": "https://satr.tuwaiq.edu.sa/path/JswbScYqpw/view",
+    "sourceId": "15f965ae-62a7-44e6-8f5a-8a59dfd338fc"
+  },
+  {
+    "_type": "learningPath",
+    "_id": "path-GeI4P6aBSK",
+    "titleAr": "مسار تحليل البيانات ",
+    "slug": {
+      "current": "GeI4P6aBSK"
+    },
+    "descriptionAr": "مسار تعليمي يساعد المهتمين في مجال تحليل البيانات على اكتساب المهارات الأساسية والمتقدمة لتحليل البيانات.\n",
+    "level": "JUNIOR",
+    "totalDuration": 95914,
+    "coursesCount": 16,
+    "learningGoals": [
+      {
+        "_type": "learningGoal",
+        "_key": "lg-0",
+        "textAr": "فهم شامل لمفاهيم وأساسيات تحليل البيانات"
+      },
+      {
+        "_type": "learningGoal",
+        "_key": "lg-1",
+        "textAr": "معرفة وفهم الأدوات والتقنيات المستخدمة في مجال تحليل البيانات"
+      },
+      {
+        "_type": "learningGoal",
+        "_key": "lg-2",
+        "textAr": "القدرة على العمل مع قواعد البيانات."
+      },
+      {
+        "_type": "learningGoal",
+        "_key": "lg-3",
+        "textAr": "اكتساب المعرفة الأساسية في استخدام  مكتبات Python لمعالجة وتحليل البيانات مثل NumPy و Pandas."
+      },
+      {
+        "_type": "learningGoal",
+        "_key": "lg-4",
+        "textAr": "القدرة على تمثيل البيانات و إنشاء تقارير و Dashboard  باستخدام Power Bi."
+      }
+    ],
+    "courses": [
+      {
+        "_type": "reference",
+        "_ref": "course-KTaeaTN2Po"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-FtkmhtJpQW"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-APjgdQqVWR"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-bOXiOFzkMv"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-rRUQyVDkwQ"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-VIvMvhyCiV"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-MvNhowmHeB"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-BDtmFNpFMp"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-qarivYaNvR"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-ahWLuLGQrQ"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-dqJmdFJufc"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-eJBdjpXlzC"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-hVpSbhqVZQ"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-OC6sfVMdl9"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-DQdn2OGpNt"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-e7wzjMl9tD"
+      }
+    ],
+    "url": "https://satr.tuwaiq.edu.sa/path/GeI4P6aBSK/view",
+    "sourceId": "6f42e0ec-a0c1-4c0c-8a53-d660e7090ae9"
+  },
+  {
+    "_type": "learningPath",
+    "_id": "path-E0v6z0oS6R",
+    "titleAr": "مسار أساسيات الأمن السيبراني",
+    "slug": {
+      "current": "E0v6z0oS6R"
+    },
+    "descriptionAr": "يهدف المسار إلى تقديم رحلة متكاملة تبدأ بمفاهيم الأمن السيبراني الأساسية، ثم إتقان إدارة أنظمة Linux وتوزيعة Kali Linux لأدوات الأمن بعدها، يتعمق في فهم التهديدات والثغرات الأمنية وأساسيات تأمين الشبكات وتقنيات التشفير بأنواعه؛ كما يركز على حماية الأنظمة والتطبيقات، وتنفيذ تكوينات أمنية متوافقة مع المعايير، وتعلُّم حماية البيانات، والاستجابة للحوادث، وانتهاءً بمبادئ الحوكمة وإدارة المخاطر (GRC).\n",
+    "level": "JUNIOR",
+    "totalDuration": 25982,
+    "coursesCount": 9,
+    "learningGoals": [
+      {
+        "_type": "learningGoal",
+        "_key": "lg-0",
+        "textAr": "مفاهيم الأمن السيبراني الأساسية"
+      },
+      {
+        "_type": "learningGoal",
+        "_key": "lg-1",
+        "textAr": "تلخيص مفاهيم التشفير الأساسية"
+      },
+      {
+        "_type": "learningGoal",
+        "_key": "lg-2",
+        "textAr": "أساسيات تأمين الشبكات "
+      },
+      {
+        "_type": "learningGoal",
+        "_key": "lg-3",
+        "textAr": "شرح مفاهيم خصوصية البيانات والحماية"
+      },
+      {
+        "_type": "learningGoal",
+        "_key": "lg-4",
+        "textAr": "إدارة الهوية والوصول"
+      },
+      {
+        "_type": "learningGoal",
+        "_key": "lg-5",
+        "textAr": "التعرف على العمليات واستجابة الحوادث"
+      }
+    ],
+    "courses": [
+      {
+        "_type": "reference",
+        "_ref": "course-QfybsgXiVq"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-TxsQvLlqai"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-LVpNTthkQW"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-qwjMSSUCdr"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-JwJKgGgESO"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-XhEFJBansL"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-EZOmLn9dQn"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-c0x6Rj886T"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-FHsePHE4zL"
+      }
+    ],
+    "url": "https://satr.tuwaiq.edu.sa/path/E0v6z0oS6R/view",
+    "sourceId": "255f3221-09f7-40ce-83bd-c33f88d9b9a0"
+  },
+  {
+    "_type": "learningPath",
+    "_id": "path-nlDBXk5IcB",
+    "titleAr": "مسار ذكاء الأعمال ",
+    "slug": {
+      "current": "nlDBXk5IcB"
+    },
+    "descriptionAr": "مسار تعليمي يساعد المهتمين في مجال ذكاء الأعمال بالتعرف على أبرز أدوات ذكاء الأعمال وطريقة تحليل وتمثيل البيانات باستخدام هذه الأدوات.",
+    "level": "JUNIOR",
+    "totalDuration": 39147,
+    "coursesCount": 9,
+    "learningGoals": [
+      {
+        "_type": "learningGoal",
+        "_key": "lg-0",
+        "textAr": "معرفة وفهم الأدوات والتقنيات المستخدمة في مجال ذكاء الأعمال."
+      },
+      {
+        "_type": "learningGoal",
+        "_key": "lg-1",
+        "textAr": "القدرة على تحليل وتمثيل البيانات باستخدام أدوات ذكاء الأعمال."
+      },
+      {
+        "_type": "learningGoal",
+        "_key": "lg-2",
+        "textAr": "اكتساب المعرفة الأساسية في استخدام برنامج Power Bi."
+      },
+      {
+        "_type": "learningGoal",
+        "_key": "lg-3",
+        "textAr": "اكتساب المعرفة الأساسية في استخدام برنامج Tableau. "
+      },
+      {
+        "_type": "learningGoal",
+        "_key": "lg-4",
+        "textAr": "القدرة على إنشاء تقارير و Dashboard باستخدام أدوات ذكاء الأعمال."
+      }
+    ],
+    "courses": [
+      {
+        "_type": "reference",
+        "_ref": "course-IfDKJiiNgk"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-FtkmhtJpQW"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-APjgdQqVWR"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-bOXiOFzkMv"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-fdcDmJHLFG"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-BswbgmDtpk"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-OC6sfVMdl9"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-DQdn2OGpNt"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-e7wzjMl9tD"
+      }
+    ],
+    "url": "https://satr.tuwaiq.edu.sa/path/nlDBXk5IcB/view",
+    "sourceId": "2b86341d-2cbb-4255-893d-16d641ee4c57"
+  },
+  {
+    "_type": "learningPath",
+    "_id": "path-CciTiCAyGJ",
+    "titleAr": "مسار منهجيات وإطارات عمل المشاريع التقنية",
+    "slug": {
+      "current": "CciTiCAyGJ"
+    },
+    "descriptionAr": "مسار تعليمي مصمّم لمساعدة الأشخاص المهتمين في مجال إدارة المشاريع وتحديداً إدارة المشاريع التقنية، يساعد هذا المسار في فهم المنهجيات وإطارات العمل الشائعة في الوقت الحالي؛ كذلك يركز هذا المسار على تقديم شرح شامل حول منهجية Agile وإطارات العمل الأكثر شيوعاً مثل Scrum و Kanban و Lean.",
+    "level": "JUNIOR",
+    "totalDuration": 8768,
+    "coursesCount": 9,
+    "learningGoals": [
+      {
+        "_type": "learningGoal",
+        "_key": "lg-0",
+        "textAr": "فهم بشكل عميق لأطر العمل ومنهجيات المشاريع التقنية الرائدة."
+      },
+      {
+        "_type": "learningGoal",
+        "_key": "lg-1",
+        "textAr": "تقييم واختيار أفضل منهجية أو إطار عمل لكل مشروع تقني."
+      },
+      {
+        "_type": "learningGoal",
+        "_key": "lg-2",
+        "textAr": "استخدام مهارات متقدمة في التخطيط، التنفيذ، ومراقبة المشاريع التقنية."
+      },
+      {
+        "_type": "learningGoal",
+        "_key": "lg-3",
+        "textAr": "إتقان أدوات وتقنيات المشاريع التقنية الحديثة."
+      }
+    ],
+    "courses": [
+      {
+        "_type": "reference",
+        "_ref": "course-EKiOdWYpnD"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-uduHOQLxXH"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-KfUUbaHEvk"
+      }
+    ],
+    "url": "https://satr.tuwaiq.edu.sa/path/CciTiCAyGJ/view",
+    "sourceId": "f163b027-1af9-46e2-8039-c24bf5d20124"
+  },
+  {
+    "_type": "learningPath",
+    "_id": "path-zaNuCyeqGx",
+    "titleAr": "مسار علم البيانات والذكاء الاصطناعي",
+    "slug": {
+      "current": "zaNuCyeqGx"
+    },
+    "descriptionAr": "مسار تعليمي يساعد المهتمين في دخول مجال علم البيانات والذكاء الاصطناعي على التعرف على أهم المفاهيم الأساسية والتي تشمل التعامل مع أنواع البيانات المختلفة ,تحليل ومعالجة البيانات ,عرض البيانات على شكل رسوم بيانية وتفاعلية، ,نمذجة البيانات باستخدام خوارزميات تعلم الآلة Machine Learning Algorithms و التعلم العميق Deep Learning Algorithms.",
+    "level": "MIDDLE",
+    "totalDuration": 96757,
+    "coursesCount": 15,
+    "learningGoals": [
+      {
+        "_type": "learningGoal",
+        "_key": "lg-0",
+        "textAr": "تحليل البيانات ومعالجتها (Data Analysis and Processing)."
+      },
+      {
+        "_type": "learningGoal",
+        "_key": "lg-1",
+        "textAr": "التعرف على طرق عرض البيانات (Data Visualization)."
+      },
+      {
+        "_type": "learningGoal",
+        "_key": "lg-2",
+        "textAr": "نمذجة البيانات (Data Modeling) باستخدام (Machine Learning Algorithms)."
+      },
+      {
+        "_type": "learningGoal",
+        "_key": "lg-3",
+        "textAr": "تقييم النماذج (Model Evaluation)."
+      }
+    ],
+    "courses": [
+      {
+        "_type": "reference",
+        "_ref": "course-uPOmcmqkpy"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-rRUQyVDkwQ"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-VIvMvhyCiV"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-MvNhowmHeB"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-BDtmFNpFMp"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-FtkmhtJpQW"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-APjgdQqVWR"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-bOXiOFzkMv"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-ZlKLfufzmW"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-qarivYaNvR"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-ahWLuLGQrQ"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-dqJmdFJufc"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-eJBdjpXlzC"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-hVpSbhqVZQ"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-ofjirgKIIx"
+      }
+    ],
+    "url": "https://satr.tuwaiq.edu.sa/path/zaNuCyeqGx/view",
+    "sourceId": "c0e0df11-74a1-4b85-90a5-3252ebafa14c"
+  },
+  {
+    "_type": "learningPath",
+    "_id": "path-tHzXUtKlvK",
+    "titleAr": "مسار الطالب الجامعي",
+    "slug": {
+      "current": "tHzXUtKlvK"
+    },
+    "descriptionAr": "يقدم هذا المسار سلسلة من الدورات التعليمية المتكاملة بهدف تعزيز فهم الطالب للمناهج الأكاديمية الجامعية في مجال علوم الحاسب، والذي يكسبهم المهارات الأساسية في علوم الحاسب والبرمجة، حيث سيتعرف  على أساسيات البرمجة وتفاصيل تقنياتها المتقدمة.",
+    "level": "MIDDLE",
+    "totalDuration": 233681,
+    "coursesCount": 33,
+    "learningGoals": [
+      {
+        "_type": "learningGoal",
+        "_key": "lg-0",
+        "textAr": "اكتساب الفهم الشامل لأساسيات علم البرمجة، بما في ذلك مفاهيم البرمجة الكائنية (OOP)، وتطبيق هذه المفاهيم بشكل فعّال في تصميم وتنفيذ البرامج."
+      },
+      {
+        "_type": "learningGoal",
+        "_key": "lg-1",
+        "textAr": "تعلم لغات البرمجة الرئيسية، بما في ذلك Java، PHP، C++، C#، JavaScript، و Python، بهدف اكتساب مهارات تطوير قوية وتنويع أدوات البرمجة."
+      },
+      {
+        "_type": "learningGoal",
+        "_key": "lg-2",
+        "textAr": "اكتساب مهارات قوية في استخدام وإدارة قواعد البيانات باستخدام SQL."
+      },
+      {
+        "_type": "learningGoal",
+        "_key": "lg-3",
+        "textAr": " التعلم واستخدام أوامر الكمبيوتر عبر واجهة الأوامر (Command-line)."
+      },
+      {
+        "_type": "learningGoal",
+        "_key": "lg-4",
+        "textAr": "فهم أساسيات ومبادئ الشبكات."
+      },
+      {
+        "_type": "learningGoal",
+        "_key": "lg-5",
+        "textAr": "تطوير مهارات تصميم وتطوير واجهات المستخدم باستخدام HTML و CSS."
+      }
+    ],
+    "courses": [
+      {
+        "_type": "reference",
+        "_ref": "course-SYJZBDMnFM"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-DcFViVITbo"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-oqTQleaQLV"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-NgGpyzizWA"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-aiZMoXpIya"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-CHzvldbXgw"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-FtkmhtJpQW"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-APjgdQqVWR"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-bOXiOFzkMv"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-eZscznUWCq"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-FqApQHFkLE"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-obAbHzLuwU"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-EBIczIHNLJ"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-rPjkjctztZ"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-CATspNvVjT"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-hNUwyBUKmF"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-MxhtosVATL"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-lnCDammOOq"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-cKCPvecdYe"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-vZLAcAzoFz"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-ZlDLPAAOOn"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-XpUTrJaQRo"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-nEGEtZAokF"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-WtxnlxUnNF"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-rRUQyVDkwQ"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-VIvMvhyCiV"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-MvNhowmHeB"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-BDtmFNpFMp"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-uxpcCprKpV"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-hVDUiTYsLD"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-vCmFYFdvRW"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-ZimKtzobMq"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-dYeCoDOESl"
+      }
+    ],
+    "url": "https://satr.tuwaiq.edu.sa/path/tHzXUtKlvK/view",
+    "sourceId": "361b2912-55de-44f3-bf9f-86b47f4f75e9"
+  },
+  {
+    "_type": "learningPath",
+    "_id": "path-rcqQIkvMEE",
+    "titleAr": "مسار Java",
+    "slug": {
+      "current": "rcqQIkvMEE"
+    },
+    "descriptionAr": "مسار تعليمي مخصص للمطورين الذين يرغبون في اكتساب مهارات أساسية في مجال البرمجة باستخدام لغة Java، بحيث تبدأ رحلتك بتعلم أساسيات البرمجة ثم التعرف على أساسيات لغة Java؛ وبعد ذلك سيتم التعرف على مبادئ OOP وكيفية تطبيقها في Java.",
+    "level": "JUNIOR",
+    "totalDuration": 95854,
+    "coursesCount": 6,
+    "learningGoals": [
+      {
+        "_type": "learningGoal",
+        "_key": "lg-0",
+        "textAr": " التعرف على المفاهيم الأساسية في البرمجة."
+      },
+      {
+        "_type": "learningGoal",
+        "_key": "lg-1",
+        "textAr": " التعرف على أساسيات لغة البرمجة Java."
+      },
+      {
+        "_type": "learningGoal",
+        "_key": "lg-2",
+        "textAr": "التعرف على مفهوم البرمجة كائنية التوجه OOP وكيفية تطبيقها في Java."
+      }
+    ],
+    "courses": [
+      {
+        "_type": "reference",
+        "_ref": "course-SYJZBDMnFM"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-DcFViVITbo"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-oqTQleaQLV"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-NgGpyzizWA"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-aiZMoXpIya"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-CHzvldbXgw"
+      }
+    ],
+    "url": "https://satr.tuwaiq.edu.sa/path/rcqQIkvMEE/view",
+    "sourceId": "5173c1e8-a9cb-4d8b-9dbb-08d524356640"
+  },
+  {
+    "_type": "learningPath",
+    "_id": "path-qmgnjLVsLA",
+    "titleAr": "مسار PHP & Laravel Framework",
+    "slug": {
+      "current": "qmgnjLVsLA"
+    },
+    "descriptionAr": "يهدف هذا المسار إلى كيفية طريقة تطوير وبناء تطبيقات ويب تفاعلية متكاملة باستخدام PHP، حيث تبدأ رحلتك بتعلم أساسيات تطوير وبناء التطبيقات (Back-End) وقواعد البيانات (Database)، بالإضافة إلى التعمق في استخدام إطار العمل Laravel لتسهيل عملية التطوير. كما ستتعرف على طرق هيكلة وتصميم صفحات الويب وتنسيقها وكل ما يخص تطوير الواجهات (Front-End).",
+    "level": "JUNIOR",
+    "totalDuration": 117604,
+    "coursesCount": 14,
+    "learningGoals": [
+      {
+        "_type": "learningGoal",
+        "_key": "lg-0",
+        "textAr": "فهم أساسيات البرمجة و OOP لتطوير الأنظمة باستخدام PHP وLaravel.  "
+      },
+      {
+        "_type": "learningGoal",
+        "_key": "lg-1",
+        "textAr": "تصميم وإدارة قواعد البيانات باستخدام MySQL."
+      },
+      {
+        "_type": "learningGoal",
+        "_key": "lg-2",
+        "textAr": "إنشاء واجهات باستخدام HTML و CSS."
+      }
+    ],
+    "courses": [
+      {
+        "_type": "reference",
+        "_ref": "course-CATspNvVjT"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-hNUwyBUKmF"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-SYJZBDMnFM"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-XpUTrJaQRo"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-nEGEtZAokF"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-WtxnlxUnNF"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-NgGpyzizWA"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-VecyqaOUvn"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-tWkBSLOtdY"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-UFvfEsbqNK"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-FtkmhtJpQW"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-APjgdQqVWR"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-bOXiOFzkMv"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-lgdjP05YC9"
+      }
+    ],
+    "url": "https://satr.tuwaiq.edu.sa/path/qmgnjLVsLA/view",
+    "sourceId": "32914f3a-e3ae-46a4-9534-60cdf86a97b0"
+  },
+  {
+    "_type": "learningPath",
+    "_id": "path-PLtvzGeADM",
+    "titleAr": "مسار نظام Linux",
+    "slug": {
+      "current": "PLtvzGeADM"
+    },
+    "descriptionAr": "تعرف في هذا المسار على أهم الأدوات المستخدمه لإدارة أنظمة Linux، ومنها أدوات تهم أي مطور برمجيات مثل أدوات Command-line و الأتمتة مع Bash Scripting وغيرها من الأدوات.",
+    "level": "JUNIOR",
+    "totalDuration": 47861,
+    "coursesCount": 16,
+    "learningGoals": [
+      {
+        "_type": "learningGoal",
+        "_key": "lg-0",
+        "textAr": "استخدام واجهة سطر الأوامر بشكل متقدم"
+      },
+      {
+        "_type": "learningGoal",
+        "_key": "lg-1",
+        "textAr": "التعامل مع الأتمتة وإنشاء Bash Scripts "
+      },
+      {
+        "_type": "learningGoal",
+        "_key": "lg-2",
+        "textAr": "إدارة نظام Linux والتعرف على الكثير من وظائفه"
+      }
+    ],
+    "courses": [
+      {
+        "_type": "reference",
+        "_ref": "course-TxsQvLlqai"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-eZscznUWCq"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-FqApQHFkLE"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-obAbHzLuwU"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-LVpNTthkQW"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-SeKcdRBnEj"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-rwzGgfjiUQ"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-PjZicrpjiz"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-ilZEZwKCPp"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-AsquwRYPIh"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-PFzwaZCOTV"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-xKFakzkzVs"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-NEWfqtugFg"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-YGluMjARQc"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-vWKZXcLnPA"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-nFmAUQhzXP"
+      }
+    ],
+    "url": "https://satr.tuwaiq.edu.sa/path/PLtvzGeADM/view",
+    "sourceId": "291bb944-b09c-4bed-a44a-ba5a7b6d44b1"
+  },
+  {
+    "_type": "learningPath",
+    "_id": "path-OHarLRCHae",
+    "titleAr": "مسار تطوير تطبيقات Flutter",
+    "slug": {
+      "current": "OHarLRCHae"
+    },
+    "descriptionAr": "سنتعرف في المسار  على طريقة بناء تطبيقات الموبايل والويب باستخدام Flutter، حيث تبدأ رحلتك بتعلم لغة Dart ثم تنتقل لتعلم مبادئ وأساسيات بناء التطبيقات باستخدام Flutter، كما ستتعرف على طريقة استخدام قواعد البيانات واستخدام أنظمة التحكم بالإصدارات Git و GitHub.",
+    "level": "JUNIOR",
+    "totalDuration": 50180,
+    "coursesCount": 11,
+    "learningGoals": [
+      {
+        "_type": "learningGoal",
+        "_key": "lg-0",
+        "textAr": "استخدام لغة Dart"
+      },
+      {
+        "_type": "learningGoal",
+        "_key": "lg-1",
+        "textAr": "بناء واجهات التطبيقات باستخدام Flutter"
+      },
+      {
+        "_type": "learningGoal",
+        "_key": "lg-2",
+        "textAr": "إنشاء قواعد البيانات وربطها بالتطبيقات"
+      }
+    ],
+    "courses": [
+      {
+        "_type": "reference",
+        "_ref": "course-NnYmxKiqYY"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-HgFShkxlPN"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-BjCWaReFnW"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-tbKEOEzUGW"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-ZlKLfufzmW"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-YcFZVSvFzG"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-hWnYYAjPcv"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-sx8doDZi2s"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-RCRE2cZvR9"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-kQR7vVvdlV"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-xTIcTKpvsW"
+      }
+    ],
+    "url": "https://satr.tuwaiq.edu.sa/path/OHarLRCHae/view",
+    "sourceId": "6cdcce31-988d-4018-978a-181d2c4c782b"
+  },
+  {
+    "_type": "learningPath",
+    "_id": "path-iIWcLjNxYU",
+    "titleAr": "مسار Full-Stack .NET",
+    "slug": {
+      "current": "iIWcLjNxYU"
+    },
+    "descriptionAr": "ستتعرف في هذا المسار على طريقة تطوير وبناء تطبيقات ويب تفاعلية متكاملة باستخدام NET.، حيث تبدأ رحلتك بتعلم أساسيات تطوير وبناء التطبيقات (Back-End) وقواعد البيانات (Database) كما ستتعرف على طرق هيكلة وتصميم صفحات الويب وتنسيقها وكل ما يخص تطوير الواجهات (Front-End)، وأخيرًا ستتعرف على مفهوم التحكم بالإصدارات وعلى طريقة استخدام كل من Git و GitHub.",
+    "level": "JUNIOR",
+    "totalDuration": 52025,
+    "coursesCount": 11,
+    "learningGoals": [
+      {
+        "_type": "learningGoal",
+        "_key": "lg-0",
+        "textAr": "تطوير وتصميم واجهات البرامج"
+      },
+      {
+        "_type": "learningGoal",
+        "_key": "lg-1",
+        "textAr": "تطوير تطبيقات الويب باستخدام لغة #C"
+      },
+      {
+        "_type": "learningGoal",
+        "_key": "lg-2",
+        "textAr": "تطوير وبناء برامج تفاعلية متكاملة وربطها بقواعد البيانات"
+      }
+    ],
+    "courses": [
+      {
+        "_type": "reference",
+        "_ref": "course-CATspNvVjT"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-hNUwyBUKmF"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-JIzlobidfp"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-FtkmhtJpQW"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-APjgdQqVWR"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-bOXiOFzkMv"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-uxpcCprKpV"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-hVDUiTYsLD"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-FXiUCTDthU"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-ZlKLfufzmW"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-JIMaFvwXLZ"
+      }
+    ],
+    "url": "https://satr.tuwaiq.edu.sa/path/iIWcLjNxYU/view",
+    "sourceId": "76554b0e-3366-41fc-b617-c5086379b301"
+  },
+  {
+    "_type": "learningPath",
+    "_id": "path-OTZExaETAH",
+    "titleAr": "مسار Full-Stack Python",
+    "slug": {
+      "current": "OTZExaETAH"
+    },
+    "descriptionAr": "ستتعلم في هذا المسار كيفية تطوير وبناء تطبيقات ويب تفاعلية متكاملة باستخدام Python، حيث تبدأ رحلتك بتعلم أساسيات تطوير وبناء التطبيقات (Back-End) وقواعد البيانات (Database) كما ستتعرف على طرق هيكلة وتصميم صفحات الويب وتنسيقها وكل ما يخص تطوير الواجهات (Front-End)، وأخيرًا ستتعرف على مفهوم التحكم بالإصدارات وعلى طريقة استخدام كل من Git و GitHub.",
+    "level": "JUNIOR",
+    "totalDuration": 81315,
+    "coursesCount": 15,
+    "learningGoals": [
+      {
+        "_type": "learningGoal",
+        "_key": "lg-0",
+        "textAr": "فهم أساسيات البرمجة باستخدام لغة Python"
+      },
+      {
+        "_type": "learningGoal",
+        "_key": "lg-1",
+        "textAr": "تطوير وتصميم صفحات الويب وتنسيقها "
+      },
+      {
+        "_type": "learningGoal",
+        "_key": "lg-2",
+        "textAr": "ربط صفحات الويب بقواعد البيانات"
+      }
+    ],
+    "courses": [
+      {
+        "_type": "reference",
+        "_ref": "course-rRUQyVDkwQ"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-VIvMvhyCiV"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-MvNhowmHeB"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-CATspNvVjT"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-hNUwyBUKmF"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-JIzlobidfp"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-FtkmhtJpQW"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-APjgdQqVWR"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-bOXiOFzkMv"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-FymypsKhJJ"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-ZlKLfufzmW"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-BDtmFNpFMp"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-wxLyJSBxeg"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-MQnYIOzjAY"
+      }
+    ],
+    "url": "https://satr.tuwaiq.edu.sa/path/OTZExaETAH/view",
+    "sourceId": "328d9824-cff0-4355-bd6d-e216b997cd37"
+  },
+  {
+    "_type": "learningPath",
+    "_id": "path-KGYLmAVZWT",
+    "titleAr": "مسار تطوير تطبيقات Android",
+    "slug": {
+      "current": "KGYLmAVZWT"
+    },
+    "descriptionAr": "سيأخذك هذا المسار في رحلة تتعلم من خلالها تطوير تطبيقات Android، حيث تبدأ رحلتك بتعلّم أساسيات البرمجة بلغة Kotlin مرورًا بمجموعة من المفاهيم التي تحتاجها في تطوير التطبيقات باستخدام Android Studio.\n",
+    "level": "JUNIOR",
+    "totalDuration": 50458,
+    "coursesCount": 13,
+    "learningGoals": [
+      {
+        "_type": "learningGoal",
+        "_key": "lg-0",
+        "textAr": "فهم أساسيات البرمجة باستخدام لغة Kotlin."
+      },
+      {
+        "_type": "learningGoal",
+        "_key": "lg-1",
+        "textAr": "اكتساب أهم المهارات التي يحتاجها مطوّري تطبيقات Android."
+      },
+      {
+        "_type": "learningGoal",
+        "_key": "lg-2",
+        "textAr": "القدرة على دخول سوق العمل كمطور تطبيقات Android."
+      }
+    ],
+    "courses": [
+      {
+        "_type": "reference",
+        "_ref": "course-vUlkLXyhLY"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-zvBftPQJVD"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-qCiKvJhaSI"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-uVtURTVYWa"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-ZlKLfufzmW"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-PclQAGBYmB"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-FtkmhtJpQW"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-jIugUWazwx"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-otFcDJcqXv"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-UWCLFfZees"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-wpGlFChoQt"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-hvbjiRhlIb"
+      }
+    ],
+    "url": "https://satr.tuwaiq.edu.sa/path/KGYLmAVZWT/view",
+    "sourceId": "8d1fd9d6-16f9-4ef4-971e-b636ff366323"
+  },
+  {
+    "_type": "learningPath",
+    "_id": "path-ecbAGsuqOQ",
+    "titleAr": "مسار Full-Stack JavaScript",
+    "slug": {
+      "current": "ecbAGsuqOQ"
+    },
+    "descriptionAr": "سيأخذك هذا المسار في رحلة تتعلم من خلالها تطوير وبناء تطبيقات ويب تفاعلية متكاملة، تبدأ رحلتك بتعلم أساسيات البرمجة بلغة JavaScript ثم ستتعرف على طرق هيكلة وتصميم صفحات الويب وتنسيقها وكل ما يخص تطوير الواجهات (Front-End)، ثم ستنتقل لتعلم أساسيات تطوير وبناء خلفيات التطبيقات (Back-End) وقواعد البيانات (Database)، كما ستتعرف على مفهوم التحكم بالإصدارات وعلى طريقة استخدام كل من Git  و GitHub.\n",
+    "level": "JUNIOR",
+    "totalDuration": 92904,
+    "coursesCount": 16,
+    "learningGoals": [
+      {
+        "_type": "learningGoal",
+        "_key": "lg-0",
+        "textAr": "تطوير وتصميم واجهات البرامج."
+      },
+      {
+        "_type": "learningGoal",
+        "_key": "lg-1",
+        "textAr": "تطوير وبناء برامج تفاعلية متكاملة وربطها بقواعد البيانات."
+      },
+      {
+        "_type": "learningGoal",
+        "_key": "lg-2",
+        "textAr": "رفع المشروع واستضافته على منصة Heroku."
+      }
+    ],
+    "courses": [
+      {
+        "_type": "reference",
+        "_ref": "course-CATspNvVjT"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-hNUwyBUKmF"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-MxhtosVATL"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-vZLAcAzoFz"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-JIzlobidfp"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-lnCDammOOq"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-cKCPvecdYe"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-VfLjxUkrpc"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-GogIHboMke"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-GwQWjnuJVq"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-cAybuqtYlL"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-vzwJfkzGtV"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-mLXGTnLNOa"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-eJnaCUkjgg"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-oiLuiMJRJw"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-ZlKLfufzmW"
+      }
+    ],
+    "url": "https://satr.tuwaiq.edu.sa/path/ecbAGsuqOQ/view",
+    "sourceId": "ce3252a3-2cb5-4027-8855-673b2bf6ea44"
+  },
+  {
+    "_type": "learningPath",
+    "_id": "path-TxrppJSrgx",
+    "titleAr": "مسار تطوير تطبيقات iOS",
+    "slug": {
+      "current": "TxrppJSrgx"
+    },
+    "descriptionAr": "سيأخذك هذا المسار في رحلة تتعلم من خلالها تطوير تطبيقات iOS، ستبدأ بتعلّم أساسيات البرمجة بلغة Swift \nمرورًا بمجموعة من المفاهيم التي تحتاجها في تطوير التطبيقات باستخدام Xcode.",
+    "level": "JUNIOR",
+    "totalDuration": 42790,
+    "coursesCount": 7,
+    "learningGoals": [
+      {
+        "_type": "learningGoal",
+        "_key": "lg-0",
+        "textAr": "فهم أساسيات البرمجة باستخدام لغة Swift."
+      },
+      {
+        "_type": "learningGoal",
+        "_key": "lg-1",
+        "textAr": "اكتساب أهم المهارات التي يحتاجها مطوّري تطبيقات iOS."
+      },
+      {
+        "_type": "learningGoal",
+        "_key": "lg-2",
+        "textAr": "القدرة على دخول سوق العمل كمطور تطبيقات iOS."
+      }
+    ],
+    "courses": [
+      {
+        "_type": "reference",
+        "_ref": "course-noOWGJnOug"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-aRkkLGNcaM"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-HUsDTUdqCs"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-UWCLFfZees"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-nindivqslr"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-UFsXqimdgm"
+      },
+      {
+        "_type": "reference",
+        "_ref": "course-ZlDLPAAOOn"
+      }
+    ],
+    "url": "https://satr.tuwaiq.edu.sa/path/TxrppJSrgx/view",
+    "sourceId": "a6b84bd1-947c-401c-ae67-1a4b1d507a89"
+  }
+]

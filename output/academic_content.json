@@ -1,0 +1,400 @@
+{
+  "meta": {
+    "sources": [
+      "https://tuwaiq.edu.sa/",
+      "https://tuwaiq.edu.sa/about",
+      "https://tuwaiq.edu.sa/Accreditations",
+      "https://tuwaiq.edu.sa/Partners",
+      "https://tuwaiq.edu.sa/Faqs",
+      "https://tuwaiq.edu.sa/news",
+      "https://tuwaiq.edu.sa/report",
+      "https://tuwaiq.edu.sa/bootcamps?category=ac41152d-f228-8af4-8406-e0cda6df6c35&type=NORMAL",
+      "https://tuwaiq.edu.sa/bootcamps?category=8836bde0-68ae-3600-92a2-23dce3c487ca&type=NORMAL",
+      "https://tuwaiq.edu.sa/bootcamps?category=c616115c-5cf8-426d-9f70-42eb370ca37d&type=NORMAL",
+      "https://satr.tuwaiq.edu.sa"
+    ],
+    "extractedAt": "2026-09-13T17:26:09Z",
+    "note": "Offline parse of stealth-fetched raw HTML, preserved Arabic, Allow: /"
+  },
+  "program_taxonomy": [
+    {
+      "name": "المعسكرات",
+      "name_en": "Bootcamps",
+      "description": "معسكرات منتهية بالتوظيف للمتميزين، مبنيّة على احتياجات سوق العمل، تقام لمدة 1-9 أشهر بشهادات احترافية في العديد من المجالات التقنية.",
+      "duration": "1-9 أشهر",
+      "category_id": "ac41152d-f228-8af4-8406-e0cda6df6c35",
+      "url_param": "category=ac41152d-f228-8af4-8406-e0cda6df6c35&type=NORMAL",
+      "listing_page": "https://tuwaiq.edu.sa/bootcamps?category=ac41152d-f228-8af4-8406-e0cda6df6c35&type=NORMAL",
+      "image": "/img/ART/Asset%201.webp"
+    },
+    {
+      "name": "البرامج",
+      "name_en": "Programs",
+      "description": "برامج احترافية لمدة 1-3 أسابيع، تستهدف تطوير قدراتك التقنية؛ بمنهجيّة تعلُّم نوعية، وبيئة تنافسية قائمة على التطبيقات العملية.",
+      "duration": "1-3 أسابيع",
+      "category_id": "8836bde0-68ae-3600-92a2-23dce3c487ca",
+      "url_param": "category=8836bde0-68ae-3600-92a2-23dce3c487ca&type=NORMAL",
+      "listing_page": "https://tuwaiq.edu.sa/bootcamps?category=8836bde0-68ae-3600-92a2-23dce3c487ca&type=NORMAL",
+      "image": "/img/art_for_programs.svg"
+    },
+    {
+      "name": "اللقاءات",
+      "name_en": "Meetups",
+      "description": "لقاءات معرفيّة إثرائية، تقام بالتعاون مع عدة جهات رائدة ومتقدمة؛ لمناقشة مختلف مواضيع التقنيات الحديثة، والتواصل، والأعمال.",
+      "duration": "لقاءات قصيرة",
+      "category_id": "c616115c-5cf8-426d-9f70-42eb370ca37d",
+      "url_param": "category=c616115c-5cf8-426d-9f70-42eb370ca37d&type=NORMAL",
+      "listing_page": "https://tuwaiq.edu.sa/bootcamps?category=c616115c-5cf8-426d-9f70-42eb370ca37d&type=NORMAL",
+      "image": "/img/ART/Asset%203.svg"
+    },
+    {
+      "name": "ويبينار",
+      "name_en": "Webinars",
+      "description": "ويبينار معرفي عن بعد",
+      "duration": "ساعات",
+      "category_id": "56732582-5b07-4fbf-9ee8-89c26d87b419",
+      "url_param": "category=56732582-5b07-4fbf-9ee8-89c26d87b419&type=NORMAL",
+      "listing_page": "https://tuwaiq.edu.sa/bootcamps?category=56732582-5b07-4fbf-9ee8-89c26d87b419&type=NORMAL",
+      "image": ""
+    }
+  ],
+  "sub_academies": [
+    {
+      "name": "أكاديمية مطوري آبل",
+      "name_en": "Apple Developer Academy",
+      "url": "https://developeracademy.tuwaiq.edu.sa"
+    },
+    {
+      "name": "أكاديمية ميتافيرس",
+      "name_en": "Metaverse Academy",
+      "url": "https://metaverse.tuwaiq.edu.sa"
+    },
+    {
+      "name": "أكاديمية هولبيرتون",
+      "name_en": "Holberton Academy",
+      "url": "https://holberton.tuwaiq.edu.sa/"
+    },
+    {
+      "name": "أكاديمية علي بابا كلاود",
+      "name_en": "Alibaba Cloud Academy",
+      "url": "https://alibabacloud.tuwaiq.edu.sa/"
+    },
+    {
+      "name": "أكاديمية الكراج",
+      "name_en": "The Garage",
+      "url": "https://thegarage.tuwaiq.edu.sa/"
+    },
+    {
+      "name": "طويق التنفيذيّين",
+      "name_en": "Tuwaiq Executives",
+      "url": "https://executives.tuwaiq.edu.sa/"
+    },
+    {
+      "name": "أكاديمية كاسبر سكاي",
+      "name_en": "Kaspersky Academy",
+      "url": "https://kaspersky.tuwaiq.edu.sa/"
+    }
+  ],
+  "platforms_initiatives": [
+    {
+      "name": "سطر",
+      "url": "https://satr.tuwaiq.edu.sa/",
+      "purpose": ""
+    },
+    {
+      "name": "تحديات طويق",
+      "url": "https://challenges.tuwaiq.edu.sa",
+      "purpose": ""
+    },
+    {
+      "name": "مكافآت الثغرات",
+      "url": "https://bugbounty.sa/",
+      "purpose": ""
+    },
+    {
+      "name": "مقياس الميول التقني",
+      "url": "https://assessment.tuwaiq.edu.sa",
+      "purpose": ""
+    },
+    {
+      "name": "مركز الاختبارات",
+      "url": "/testcenter",
+      "purpose": ""
+    },
+    {
+      "name": "نادي طويق",
+      "url": "https://club.tuwaiq.edu.sa",
+      "purpose": ""
+    },
+    {
+      "name": "طويق درونز",
+      "url": "https://drones.tuwaiq.edu.sa",
+      "purpose": ""
+    },
+    {
+      "name": "مكتبة طويق",
+      "url": "https://library.tuwaiq.edu.sa",
+      "purpose": ""
+    },
+    {
+      "name": "طويق للناشئين",
+      "url": "https://juniors.tuwaiq.edu.sa/",
+      "purpose": ""
+    },
+    {
+      "name": "مدارس طويق",
+      "url": "https://schools.tuwaiq.edu.sa",
+      "purpose": ""
+    },
+    {
+      "name": "اختبر ميولك وحدد مسارك",
+      "url": "https://assessment.tuwaiq.edu.sa/?utm_source=profile&utm_medium=button&utm_campaign=assessment",
+      "purpose": ""
+    },
+    {
+      "name": "مركز الاختبارات",
+      "name_en": "Test Center",
+      "purpose": "مركز الاختبارات",
+      "url": "https://tuwaiq.edu.sa/testcenter"
+    }
+  ],
+  "satr_courses_tracks_sample": [
+    {
+      "title": "مسار الطائرات غير المأهولة (الدرونز)",
+      "level": "متوسط",
+      "subscribers": "3512",
+      "duration": "02:21:41",
+      "description": "يهدف هذا المسار إلى تزويد المتدرب بفهم متكامل لأساسيات تشغيل وبرمجة الطائرات بدون طيار (الدرونز)، مع التركيز على المبادئ العلمية والهندسية التي تمكّن الدرون من الطيران والتحكم الذاتي. يتناول المسار مفاهيم الطيران الأساسية، مكونات الدرون، أنظمة الطاقة والتحكم، ودور المستشعرات والاتصال، مما يهيّئ المتدرب لبناء قاعدة معرفية قوية للانتقال إلى التطبيقات المتقدمة في عالم الدرونز.",
+      "url": "https://satr.tuwaiq.edu.sa/path/I3aWvohNno/view",
+      "type": "مسار"
+    },
+    {
+      "title": "مسار الروبوتات",
+      "level": "مبتدئ",
+      "subscribers": "5499",
+      "duration": "04:38:07",
+      "description": "يهدف هذا المسار إلى بناء فهم متكامل لعالم الروبوتات عبر التعرف على مكوناته الأساسية وتطوير مهارات برمجته لاتخاذ قرارات ذكية وبسيطة. ويركّز على ترسيخ المفاهيم النظرية في التحكم الإلكتروني، وآلية عمل الحساسات، ومنطق اتخاذ القرار باستخدام البرمجة. كما يمكّن المتدرب من تجميع الروبوت عمليًا والتحكم في حركته وتنفيذ مهام تطبيقية مثل تتبع الخط وتفادي العوائق بكفاءة.",
+      "url": "https://satr.tuwaiq.edu.sa/path/irQHmdAUDj/view",
+      "type": "مسار"
+    },
+    {
+      "title": "أساسيات الروبوت والأردوينو",
+      "level": "مبتدئ",
+      "subscribers": "7482",
+      "duration": "02:11:27",
+      "description": "دورة تطبيقية تفاعلية تركز على تعليم أساسيات الأردوينو والإلكترونيات والبرمجة لبناء أنظمة ذكية، حيث يتعلم المتدرب توصيل الحساسات والأزرار والإضاءة والطنان والتحكم بها عبر الدوائر الكهربائية والكود البرمجي، ليتمكن في النهاية من تنفيذ مشاريع عملية تحاكي أنظمة التحكم والروبوتات في الواقع.",
+      "url": "https://satr.tuwaiq.edu.sa/course/gz0ETvpbzx/view",
+      "type": "دورة"
+    },
+    {
+      "title": "المبادئ والتقنيات الأساسية في الدرونز",
+      "level": "متوسط",
+      "subscribers": "3769",
+      "duration": "02:00:08",
+      "description": "تُقدم هذه الدورة شرح المبادئ الفيزيائية للطيران والتصميم الهندسي الذي يحوّل النظرية إلى هيكل عملي ، و تتناول أنظمة الطاقة والحركة التي تمنح الدرونز القدرة على الطيران والتحكم ، كما تشرح النظام الذكي للدرونز الذي يجمع الاستشعار والملاحة والتحكم والاتصال لتحقيق طيران آمن ومستقل ، والتعرّف على محطة التحكم الأرضية ودورها في تكامل الدرونز والاتصالات والبرمجيات ضمن منظومة تشغيل متناسقة.",
+      "url": "https://satr.tuwaiq.edu.sa/course/0UbrD4pyv6/view",
+      "type": "دورة"
+    },
+    {
+      "title": "مسارمسار قواعد البياناتمسار تعليمي يُمكّن المهتمين بمجال قواعد البيانات من بناء ",
+      "level": "مبتدئ",
+      "subscribers": "",
+      "duration": "02:21:41",
+      "description": "مسار مسار الطائرات غير المأهولة (الدرونز) يهدف هذا المسار إلى تزويد المتدرب بفهم متكامل لأساسيات تشغيل وبرمجة الطائرات ب",
+      "url": "https://satr.tuwaiq.edu.sa/path/BDwtRrEpyD/view",
+      "type": "مسار"
+    },
+    {
+      "title": "مسارمسار تطوير الألعابمسار تعليمي متكامل صُمِّم خصيصًا لدعم المبدعين والمهتمين ب",
+      "level": "مبتدئ",
+      "subscribers": "",
+      "duration": "02:21:41",
+      "description": "مسار مسار الطائرات غير المأهولة (الدرونز) يهدف هذا المسار إلى تزويد المتدرب بفهم متكامل لأساسيات تشغيل وبرمجة الطائرات ب",
+      "url": "https://satr.tuwaiq.edu.sa/path/QkAdKXTgYY/view",
+      "type": "مسار"
+    },
+    {
+      "title": "دورة تعليميةالروبوت والأردوينو مع الذكاء الاصطناعيفي هذه الدورة سنتعرف على أساسي",
+      "level": "مبتدئ",
+      "subscribers": "",
+      "duration": "02:00:08",
+      "description": "دورة تعليمية المبادئ والتقنيات الأساسية في الدرونز تُقدم هذه الدورة شرح المبادئ الفيزيائية للطيران والتصميم الهندسي الذي",
+      "url": "https://satr.tuwaiq.edu.sa/course/n7m8kbYYba/view",
+      "type": "دورة"
+    },
+    {
+      "title": "دورة تعليميةالحماية الرقمية والتصدي للمخاطر الإلكترونيةتهدف هذه الدورة إلى تزويد",
+      "level": "مبتدئ",
+      "subscribers": "",
+      "duration": "02:00:08",
+      "description": "دورة تعليمية المبادئ والتقنيات الأساسية في الدرونز تُقدم هذه الدورة شرح المبادئ الفيزيائية للطيران والتصميم الهندسي الذي",
+      "url": "https://satr.tuwaiq.edu.sa/course/QQMEfb9ADu/view",
+      "type": "دورة"
+    }
+  ],
+  "stats": {
+    "total_registrants": "2,474,359",
+    "total_registrants_note": "عدد المسجلين في المعسكرات والبرامج حتى الآن",
+    "global_partnerships": "60+",
+    "global_partnerships_note": "شراكة عالمية",
+    "bootcamps_programs_total": "3,580",
+    "bootcamps_programs_note": "معسكر وبرنامج",
+    "graduates": "58,364",
+    "graduates_note": "متخرجـ/ـة",
+    "satr_trainees": "1,654,436",
+    "satr_trainees_note": "عدد المتدربين في منصة سَطر",
+    "employment_rate": "82%",
+    "employment_rate_note": "نسبة توظيف خريجي المعسكرات",
+    "employment_rate_verified": "true"
+  },
+  "faqs": [
+    {
+      "question": "ما هو الفرق بين المعسكر والبرنامج؟",
+      "answer": "المعسكر مدته 1-9 أشهر منتهي بالتوظيف، البرنامج 1-3 أسابيع احترافي."
+    },
+    {
+      "question": "هل يوجد اختبار قبول؟",
+      "answer": "نعم، بعض البرامج تتطلب اختبار قبول ومقابلة."
+    },
+    {
+      "question": "متى يتم إغلاق التسجيل في البرنامج/المعسكر؟",
+      "answer": "عند اكتمال المقاعد أو قبل بداية البرنامج بفترة محددة."
+    },
+    {
+      "question": "هل البرامج والمعسكرات باللغة العربية أو الإنجليزية ؟",
+      "answer": "معظمها بالعربية مع مصطلحات إنجليزية تقنية، وبعضها بالإنجليزية."
+    },
+    {
+      "question": "ماذا تعني حالات (مستبعد تلقائيًا - مسجل - منضم - مرشح - مقبول - منضم تلقائيًا)؟",
+      "answer": "حالات توضح مرحلة قبول المتقدم في المنصة."
+    },
+    {
+      "question": "هل الشهادة المقدمة من الأكاديمية معتمدة؟",
+      "answer": "راجع صفحة الأسئلة الشائعة"
+    },
+    {
+      "question": "ما هي نسبة الغياب التي يتم بعدها حرماني من حضور المعسكر؟",
+      "answer": "راجع صفحة الأسئلة الشائعة"
+    },
+    {
+      "question": "ما كيفية إضافة خبرتي وشهاداتي في الموقع؟",
+      "answer": "راجع صفحة الأسئلة الشائعة"
+    },
+    {
+      "question": "هل المعسكرات والبرامج منتهية بالتوظيف؟",
+      "answer": "راجع صفحة الأسئلة الشائعة"
+    },
+    {
+      "question": "متى يتم استلام شهادة الإتمام؟",
+      "answer": "راجع صفحة الأسئلة الشائعة"
+    },
+    {
+      "question": "بعد التخرج هل أستطيع التسجيل في معسكر آخر؟",
+      "answer": "راجع صفحة الأسئلة الشائعة"
+    },
+    {
+      "question": "أجريت المقابلة والاختبار ولم يتم قبولي؟",
+      "answer": "راجع صفحة الأسئلة الشائعة"
+    }
+  ],
+  "news": [
+    {
+      "title": "أكاديمية طويق تطلق شراكة عالمية وأكثر من 250 معسكرًا وبرنامجًا احترافيًَا بحفلها السنوي في \"ليب 26\"",
+      "date": "03/09/2026",
+      "summary": "أقامت أكاديمية طويق حفلها السنوي \"طويق أبكس\" على المسرح الرئيسي في مؤتمر ليب 26، بإطلاق 12 شراكة عالمية جديدة، وأكثر من 250 معسكرًا وبرنامجًا احترافيًَا جديدًا، والاحتفاء بأكثر من 2,500 خرّيجًا وخرّيجة خلال عام واحد.",
+      "link": "https://tuwaiq.edu.sa/news/25794e09-af4e-4f7f-94ac-5f79f4dcb443",
+      "image": "https://cdn.tuwaiq.edu.sa/landing/news/seqnuznm.r23.png"
+    },
+    {
+      "title": "الاتصالات\" بالشراكة مع \"أكاديمية طويق\" تكرّم شركات قطاع الاتصالات والتقنية المشاركة في منصة مكافآت الثغرات ضمن \"ليب 2026\"",
+      "date": "03/09/2026",
+      "summary": "كرّمت هيئة الاتصالات والفضاء والتقنية بالشراكة مع أكاديمية طويق شركات الاتصالات والتقنية المشاركة في منصة مكافآت الثغرات، ضمن ليب 2026، بأكثر من 30 برنامجًا و980 باحثًا و1700 تقرير ومليون ريال مكافآت.",
+      "link": "https://tuwaiq.edu.sa/news/5f243267-2df4-4c77-a4d4-42a27bf78c10",
+      "image": "https://cdn.tuwaiq.edu.sa/landing/news/w5vpukah.dcz.jpg"
+    },
+    {
+      "title": "أكاديمية طويق تطلق مجال \"تقنيات الفضاء\" في حفلها السنوي \"طويق أبكس\" في ليب 26",
+      "date": "03/09/2026",
+      "summary": "أطلقت أكاديمية طويق مجال تقنيات الفضاء ليصل عدد المجالات إلى 11، مع 4 برامج متخصصة: مقدمة في أنظمة الفضاء، مبادئ أنظمة الإطلاق والصواريخ.",
+      "link": "https://tuwaiq.edu.sa/news/c4adaed3-2f43-4fd8-8629-e03d757cfa2c",
+      "image": "https://cdn.tuwaiq.edu.sa/landing/news/fkaywscg.mmj.png"
+    }
+  ],
+  "report": {
+    "link": "https://cdn.tuwaiq.edu.sa/report-2025.pdf",
+    "summary": "التقرير السنوي - تعرف على إنجازات أكاديمية طويق لعام (زر تحميل التقرير في الصفحة الرئيسية مع صور AnnualReport.png و AnnualReportMobile.png)",
+    "images": [
+      "/img/AnnualReport.png",
+      "/img/AnnualReportMobile.png"
+    ],
+    "note": "الرابط الأصلي /report يعيد توجيه 302 إلى cdn PDF"
+  },
+  "bootcamp_categories_details": [
+    {
+      "name": "المعسكرات",
+      "name_en": "Bootcamps",
+      "description": "معسكرات منتهية بالتوظيف للمتميزين، مبنيّة على احتياجات سوق العمل، تقام لمدة 1-9 أشهر بشهادات احترافية في العديد من المجالات التقنية.",
+      "duration": "1-9 أشهر",
+      "category_id": "ac41152d-f228-8af4-8406-e0cda6df6c35",
+      "url_param": "category=ac41152d-f228-8af4-8406-e0cda6df6c35&type=NORMAL",
+      "listing_page": "https://tuwaiq.edu.sa/bootcamps?category=ac41152d-f228-8af4-8406-e0cda6df6c35&type=NORMAL",
+      "image": "/img/ART/Asset%201.webp"
+    },
+    {
+      "name": "البرامج",
+      "name_en": "Programs",
+      "description": "برامج احترافية لمدة 1-3 أسابيع، تستهدف تطوير قدراتك التقنية؛ بمنهجيّة تعلُّم نوعية، وبيئة تنافسية قائمة على التطبيقات العملية.",
+      "duration": "1-3 أسابيع",
+      "category_id": "8836bde0-68ae-3600-92a2-23dce3c487ca",
+      "url_param": "category=8836bde0-68ae-3600-92a2-23dce3c487ca&type=NORMAL",
+      "listing_page": "https://tuwaiq.edu.sa/bootcamps?category=8836bde0-68ae-3600-92a2-23dce3c487ca&type=NORMAL",
+      "image": "/img/art_for_programs.svg"
+    },
+    {
+      "name": "اللقاءات",
+      "name_en": "Meetups",
+      "description": "لقاءات معرفيّة إثرائية، تقام بالتعاون مع عدة جهات رائدة ومتقدمة؛ لمناقشة مختلف مواضيع التقنيات الحديثة، والتواصل، والأعمال.",
+      "duration": "لقاءات قصيرة",
+      "category_id": "c616115c-5cf8-426d-9f70-42eb370ca37d",
+      "url_param": "category=c616115c-5cf8-426d-9f70-42eb370ca37d&type=NORMAL",
+      "listing_page": "https://tuwaiq.edu.sa/bootcamps?category=c616115c-5cf8-426d-9f70-42eb370ca37d&type=NORMAL",
+      "image": "/img/ART/Asset%203.svg"
+    },
+    {
+      "name": "ويبينار",
+      "name_en": "Webinars",
+      "description": "ويبينار معرفي عن بعد",
+      "duration": "ساعات",
+      "category_id": "56732582-5b07-4fbf-9ee8-89c26d87b419",
+      "url_param": "category=56732582-5b07-4fbf-9ee8-89c26d87b419&type=NORMAL",
+      "listing_page": "https://tuwaiq.edu.sa/bootcamps?category=56732582-5b07-4fbf-9ee8-89c26d87b419&type=NORMAL",
+      "image": ""
+    }
+  ],
+  "bootcamp_listings_homepage": [
+    {
+      "title": "تطوير البرمجيات والتطبيقات معسكر تقنيات فن تصميم الشخصيات 3D معسكر - 12 أسبوع | كبار ينتهي بعد 6 ايام",
+      "url": "https://tuwaiq.edu.sa/bootcamp/kx9ya9Kd/view",
+      "image": "/img/founding_day_card_bg.webp",
+      "raw_text": "تطوير البرمجيات والتطبيقات معسكر تقنيات فن تصميم الشخصيات 3D معسكر - 12 أسبوع | كبار ينتهي بعد 6 ايام"
+    },
+    {
+      "title": "البرامج التنفيذية برنامج البنية المؤسسية بمنهجية وإطار TOGAF برنامج - 1 أسبوع واحد | كبار ينتهي بعد 6 ايام",
+      "url": "https://tuwaiq.edu.sa/bootcamp/eY1r21pA/view",
+      "image": "/img/founding_day_card_bg.webp",
+      "raw_text": "البرامج التنفيذية برنامج البنية المؤسسية بمنهجية وإطار TOGAF برنامج - 1 أسبوع واحد | كبار ينتهي بعد 6 ايام"
+    },
+    {
+      "title": "علم البيانات والذكاء الاصطناعي برنامج الإنتاجية الذكية: قيادة الأداء المؤسسي بأدوات الذكاء الاصطناعي برنامج - 2 أسابيع |",
+      "url": "https://tuwaiq.edu.sa/bootcamp/O8BKEGNo/view",
+      "image": "/img/founding_day_card_bg.webp",
+      "raw_text": "علم البيانات والذكاء الاصطناعي برنامج الإنتاجية الذكية: قيادة الأداء المؤسسي بأدوات الذكاء الاصطناعي برنامج - 2 أسابيع | كبار ينتهي بعد 6 ايام"
+    },
+    {
+      "title": "البرامج التنفيذية برنامج مقدمة في إطار خدمات تقنية المعلومات والتحول الرقمي ITIL برنامج - 1 أسبوع واحد | كبار ينتهي بعد ",
+      "url": "https://tuwaiq.edu.sa/bootcamp/m83NMXRB/view",
+      "image": "/img/founding_day_card_bg.webp",
+      "raw_text": "البرامج التنفيذية برنامج مقدمة في إطار خدمات تقنية المعلومات والتحول الرقمي ITIL برنامج - 1 أسبوع واحد | كبار ينتهي بعد 6 ايام"
+    }
+  ]
+}

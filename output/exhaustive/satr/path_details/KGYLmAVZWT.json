@@ -1,0 +1,262 @@
+{
+  "id": "8d1fd9d6-16f9-4ef4-971e-b636ff366323",
+  "url_id": "KGYLmAVZWT",
+  "title": "مسار تطوير تطبيقات Android",
+  "logo": null,
+  "courses_count": 13,
+  "description": "سيأخذك هذا المسار في رحلة تتعلم من خلالها تطوير تطبيقات Android، حيث تبدأ رحلتك بتعلّم أساسيات البرمجة بلغة Kotlin مرورًا بمجموعة من المفاهيم التي تحتاجها في تطوير التطبيقات باستخدام Android Studio.\n",
+  "preview_video": null,
+  "level": "JUNIOR",
+  "total_duration": 50458,
+  "requirements": [
+    "هذا المسار لا يتطلب وجود أي خبرة برمجية مسبقة."
+  ],
+  "learning_goals": [
+    "فهم أساسيات البرمجة باستخدام لغة Kotlin.",
+    "اكتساب أهم المهارات التي يحتاجها مطوّري تطبيقات Android.",
+    "القدرة على دخول سوق العمل كمطور تطبيقات Android."
+  ],
+  "faq": [],
+  "subscription": null,
+  "current_course": null,
+  "courses": [
+    {
+      "id": "162f9284-cf77-48f2-bb28-f0ea42e5053f",
+      "url_id": "vUlkLXyhLY",
+      "title": "Kotlin 101",
+      "description": "سنتعرف في هذهِ الدورة على الأساسيات في برمجة Kotlin.",
+      "logo": "https://assets.safcsp.cloud/419101ad-bf8b-4336-a81f-3482a6f90b99/asset/d48f3bcf-1f27-4636-8468-dba03f6abf88.png",
+      "level": "JUNIOR",
+      "total_duration": 5598,
+      "subscription": null,
+      "published_unit_count": 8,
+      "course_type": "COURSE",
+      "course_status": "OPEN",
+      "technologies": []
+    },
+    {
+      "id": "d3e6455b-18c5-4554-8b5e-965e01f66c30",
+      "url_id": "zvBftPQJVD",
+      "title": "Kotlin 102",
+      "description": "سنتعرف في هذهِ الدورة على عدد من المواضيع المتقدمة في لغة Kotlin كما سنتعرف على بعض المفاهيم الجديدة مثل Object Oriented Programming",
+      "logo": "https://assets.safcsp.cloud/419101ad-bf8b-4336-a81f-3482a6f90b99/asset/84c10448-d79c-41cb-9703-b0eadbbf6b76.png",
+      "level": "JUNIOR",
+      "total_duration": 3757,
+      "subscription": null,
+      "published_unit_count": 7,
+      "course_type": "COURSE",
+      "course_status": "OPEN",
+      "technologies": []
+    },
+    {
+      "id": "9dd3f158-9b2f-4c24-862d-678aa204f6d1",
+      "url_id": "qCiKvJhaSI",
+      "title": "kotlin 103",
+      "description": "سنتعرف في هذهِ الدورة على عدد من المفاهيم المتقدمة في kotlin.",
+      "logo": "https://assets.safcsp.cloud/419101ad-bf8b-4336-a81f-3482a6f90b99/asset/d812aaa1-b5b5-4da3-8673-346a3750265c.png",
+      "level": "MIDDLE",
+      "total_duration": 4694,
+      "subscription": null,
+      "published_unit_count": 6,
+      "course_type": "COURSE",
+      "course_status": "OPEN",
+      "technologies": []
+    },
+    {
+      "id": "d1bb30c2-b373-4c50-b071-12b4d29f0b07",
+      "url_id": "uVtURTVYWa",
+      "title": "Kotlin 104",
+      "description": "سنتعرف في هذهِ الدورة على بعض المفاهيم المتقدمة في kotlin.",
+      "logo": null,
+      "level": "MIDDLE",
+      "total_duration": 2090,
+      "subscription": null,
+      "published_unit_count": 5,
+      "course_type": "COURSE",
+      "course_status": "OPEN",
+      "technologies": []
+    },
+    {
+      "id": "32a55d39-77ca-4121-ba14-b861dd5715e5",
+      "url_id": "ZlKLfufzmW",
+      "title": "أساسيات Git",
+      "description": "سنتعرف في هذهِ الدورة على أساسيات مفهوم Git، وأنظمة التحكم بالنسخ وأنواعها، وإلى أي نوع من أنواع أنظمة التحكم بالنسخ ينتمي Git، بالإضافة إلى طريقة التعامل معه على المستوى الفردي.",
+      "logo": "https://assets.safcsp.cloud/b43288bb-2af8-4b58-af11-913a619d2640/asset/8a73ad27-5d0c-4397-8678-5f105ee1adba.png",
+      "level": "JUNIOR",
+      "total_duration": 5570,
+      "subscription": null,
+      "published_unit_count": 11,
+      "course_type": "COURSE",
+      "course_status": "OPEN",
+      "technologies": []
+    },
+    {
+      "id": "8590fe67-85d3-40b0-95d8-5db7e1919b2f",
+      "url_id": "PclQAGBYmB",
+      "title": "Android 101",
+      "description": "سنتعرف في هذهِ الدورة على مواضيع أساسية في Android Studio باستخدام لغة Kotlin.",
+      "logo": null,
+      "level": "JUNIOR",
+      "total_duration": 2558,
+      "subscription": null,
+      "published_unit_count": 8,
+      "course_type": "COURSE",
+      "course_status": "OPEN",
+      "technologies": []
+    },
+    {
+      "id": "8194df0c-6b14-4863-94e1-585a66aa3aa3",
+      "url_id": "FtkmhtJpQW",
+      "title": "SQL 101",
+      "description": "سنتعرف في هذهِ الدورة على أساسيات SQL في التعامل مع قواعد البيانات وإدارة محتوياتها من تخزين البيانات، وعرضها، والتعديل عليها، وكذلك حذفها.",
+      "logo": "https://assets.safcsp.cloud/b43288bb-2af8-4b58-af11-913a619d2640/asset/b5c7241b-c7fd-4bc4-8d83-d98f7697112a.png",
+      "level": "JUNIOR",
+      "total_duration": 4527,
+      "subscription": null,
+      "published_unit_count": 6,
+      "course_type": "COURSE",
+      "course_status": "OPEN",
+      "technologies": [
+        {
+          "id": "bfd873ae-d764-4794-b229-16c962b4c81c",
+          "name": "DataBase",
+          "icon": null
+        }
+      ]
+    },
+    {
+      "id": "68d9fc7f-c5f0-4394-bc4f-5600254b34c3",
+      "url_id": "jIugUWazwx",
+      "title": "Android 102 ",
+      "description": " سنتعرف في هذهِ الدورة على مواضيع متقدمة في Android Studio باستخدام لفة Kotlin.",
+      "logo": null,
+      "level": "JUNIOR",
+      "total_duration": 2800,
+      "subscription": null,
+      "published_unit_count": 4,
+      "course_type": "COURSE",
+      "course_status": "OPEN",
+      "technologies": []
+    },
+    {
+      "id": "93953775-5501-47b3-b157-1004fa68a24e",
+      "url_id": "otFcDJcqXv",
+      "title": "Jetpack Compose - Android ",
+      "description": "سنتعرف في هذه الدورة على طريقة استخدام Jetpack Compose لبناء واجهات تطبيقات Android.",
+      "logo": "https://assets.safcsp.cloud/8349cf70-ed78-49c3-9773-7c1ca8838727/asset/59fca005-173c-4fdb-9276-e26b5a28c05a.png",
+      "level": "JUNIOR",
+      "total_duration": 5178,
+      "subscription": null,
+      "published_unit_count": 7,
+      "course_type": "COURSE",
+      "course_status": "OPEN",
+      "technologies": []
+    },
+    {
+      "id": "54a0935a-6ed3-4727-84d4-371c060474ce",
+      "url_id": "UWCLFfZees",
+      "title": "أساسيات Firebase",
+      "description": "سنتعرف في هذهِ الدورة على أساسيات منصة Firebase وأهم الخدمات التي تقدمها للمطوّرين.",
+      "logo": "https://assets.safcsp.cloud/f354f1d0-f300-42a2-a5b8-1515221e8e54/asset/869f24b3-1768-47c6-b36c-d80807f11fdc.png",
+      "level": "JUNIOR",
+      "total_duration": 2645,
+      "subscription": null,
+      "published_unit_count": 5,
+      "course_type": "COURSE",
+      "course_status": "OPEN",
+      "technologies": [
+        {
+          "id": "bfd873ae-d764-4794-b229-16c962b4c81c",
+          "name": "DataBase",
+          "icon": null
+        }
+      ]
+    },
+    {
+      "id": "42fef7c8-c475-448e-875b-54e089f1ee4e",
+      "url_id": "wpGlFChoQt",
+      "title": "أساسيات Firebase في Android ",
+      "description": "سنتعلم في هذهِ الدورة أساسيات Firebase في Android وكيفية استخدام أهم الخدمات في تطبيقاتنا.",
+      "logo": null,
+      "level": "MIDDLE",
+      "total_duration": 6174,
+      "subscription": null,
+      "published_unit_count": 5,
+      "course_type": "COURSE",
+      "course_status": "OPEN",
+      "technologies": []
+    },
+    {
+      "id": "69c399c6-49f3-4428-a8e1-349328e45255",
+      "url_id": "hvbjiRhlIb",
+      "title": "Android 103",
+      "description": "سنتعرف في هذه الدورة على مجموعة من المفاهيم لبناء واجهات Responsive وعرض البيانات باستخدام RecyclerView و App Navigation.",
+      "logo": null,
+      "level": "MIDDLE",
+      "total_duration": 4867,
+      "subscription": null,
+      "published_unit_count": 4,
+      "course_type": "COURSE",
+      "course_status": "OPEN",
+      "technologies": []
+    }
+  ],
+  "exams": [],
+  "upcoming_courses": [
+    {
+      "title": "Android 104",
+      "description": "في هذه الدورة سنتعرَف على مفاهيم متقدمة في تطوير تطبيقات Android فستتمكن من خلال هذه الدورة من التعرف على حزمة Android Jetpack وهي عبارة عن مجموعة من المكونات Components تتكون من مكاتب وأدوات تساعد مبرمج Android على إنجاز المشروع بشكل  سريع وبجودة عالية.\n\n"
+    }
+  ],
+  "recommended_paths": [
+    {
+      "id": "ce3252a3-2cb5-4027-8855-673b2bf6ea44",
+      "url_id": "ecbAGsuqOQ",
+      "title": "مسار Full-Stack JavaScript",
+      "logo": null,
+      "courses_count": 16,
+      "level": "JUNIOR",
+      "total_duration": 92904,
+      "description": "سيأخذك هذا المسار في رحلة تتعلم من خلالها تطوير وبناء تطبيقات ويب تفاعلية متكاملة، تبدأ رحلتك بتعلم أساسيات البرمجة بلغة JavaScript ثم ستتعرف على طرق هيكلة وتصميم صفحات الويب وتنسيقها وكل ما يخص تطوير الواجهات (Front-End)، ثم ستنتقل لتعلم أساسيات تطوير وبناء خلفيات التطبيقات (Back-End) وقواعد البيانات (Database)، كما ستتعرف على مفهوم التحكم بالإصدارات وعلى طريقة استخدام كل من Git  و GitHub.\n",
+      "subscription": null,
+      "learning_goals": [
+        "تطوير وتصميم واجهات البرامج.",
+        "تطوير وبناء برامج تفاعلية متكاملة وربطها بقواعد البيانات.",
+        "رفع المشروع واستضافته على منصة Heroku."
+      ]
+    },
+    {
+      "id": "c0e0df11-74a1-4b85-90a5-3252ebafa14c",
+      "url_id": "zaNuCyeqGx",
+      "title": "مسار علم البيانات والذكاء الاصطناعي",
+      "logo": "https://assets.safcsp.cloud/d1ec42c3-e62a-42fe-a38b-2d589c63678f/asset/52d96568-7720-4553-8e1f-c0180c0622cd.png",
+      "courses_count": 15,
+      "level": "MIDDLE",
+      "total_duration": 96757,
+      "description": "مسار تعليمي يساعد المهتمين في دخول مجال علم البيانات والذكاء الاصطناعي على التعرف على أهم المفاهيم الأساسية والتي تشمل التعامل مع أنواع البيانات المختلفة ,تحليل ومعالجة البيانات ,عرض البيانات على شكل رسوم بيانية وتفاعلية، ,نمذجة البيانات باستخدام خوارزميات تعلم الآلة Machine Learning Algorithms و التعلم العميق Deep Learning Algorithms.",
+      "subscription": null,
+      "learning_goals": [
+        "تحليل البيانات ومعالجتها (Data Analysis and Processing).",
+        "التعرف على طرق عرض البيانات (Data Visualization).",
+        "نمذجة البيانات (Data Modeling) باستخدام (Machine Learning Algorithms).",
+        "تقييم النماذج (Model Evaluation)."
+      ]
+    },
+    {
+      "id": "328d9824-cff0-4355-bd6d-e216b997cd37",
+      "url_id": "OTZExaETAH",
+      "title": "مسار Full-Stack Python",
+      "logo": "https://assets.safcsp.cloud/822cb565-21e0-498b-b160-4bb19c98d09a/asset/301c6aa6-69a1-40d0-bb87-919fb3c2a57e.png",
+      "courses_count": 15,
+      "level": "JUNIOR",
+      "total_duration": 81315,
+      "description": "ستتعلم في هذا المسار كيفية تطوير وبناء تطبيقات ويب تفاعلية متكاملة باستخدام Python، حيث تبدأ رحلتك بتعلم أساسيات تطوير وبناء التطبيقات (Back-End) وقواعد البيانات (Database) كما ستتعرف على طرق هيكلة وتصميم صفحات الويب وتنسيقها وكل ما يخص تطوير الواجهات (Front-End)، وأخيرًا ستتعرف على مفهوم التحكم بالإصدارات وعلى طريقة استخدام كل من Git و GitHub.",
+      "subscription": null,
+      "learning_goals": [
+        "فهم أساسيات البرمجة باستخدام لغة Python",
+        "تطوير وتصميم صفحات الويب وتنسيقها ",
+        "ربط صفحات الويب بقواعد البيانات"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,241 @@
+{
+  "id": "255f3221-09f7-40ce-83bd-c33f88d9b9a0",
+  "url_id": "E0v6z0oS6R",
+  "title": "مسار أساسيات الأمن السيبراني",
+  "logo": "https://assets.safcsp.cloud/d46d6d81-8ab9-44fd-884d-b9b6ee3e336a/asset/2896f92b-c2fd-4fd7-8e3a-abd336352237.png",
+  "courses_count": 9,
+  "description": "يهدف المسار إلى تقديم رحلة متكاملة تبدأ بمفاهيم الأمن السيبراني الأساسية، ثم إتقان إدارة أنظمة Linux وتوزيعة Kali Linux لأدوات الأمن بعدها، يتعمق في فهم التهديدات والثغرات الأمنية وأساسيات تأمين الشبكات وتقنيات التشفير بأنواعه؛ كما يركز على حماية الأنظمة والتطبيقات، وتنفيذ تكوينات أمنية متوافقة مع المعايير، وتعلُّم حماية البيانات، والاستجابة للحوادث، وانتهاءً بمبادئ الحوكمة وإدارة المخاطر (GRC).\n",
+  "preview_video": null,
+  "level": "JUNIOR",
+  "total_duration": 25982,
+  "requirements": [
+    ""
+  ],
+  "learning_goals": [
+    "مفاهيم الأمن السيبراني الأساسية",
+    "تلخيص مفاهيم التشفير الأساسية",
+    "أساسيات تأمين الشبكات ",
+    "شرح مفاهيم خصوصية البيانات والحماية",
+    "إدارة الهوية والوصول",
+    "التعرف على العمليات واستجابة الحوادث"
+  ],
+  "faq": [],
+  "subscription": null,
+  "current_course": null,
+  "courses": [
+    {
+      "id": "823270b5-392f-4a49-8291-270aee2f2188",
+      "url_id": "QfybsgXiVq",
+      "title": "مقدمة في الأمن السيبراني",
+      "description": "تهدف الدورة  للتعرف على عدة مفاهيم أساسية فيما يخص الأمن السيبراني، و أبرز أنواع الهجوم السيبراني، والتعرف على طرق تساعد على الحماية منه.",
+      "logo": "https://assets.safcsp.cloud/d46d6d81-8ab9-44fd-884d-b9b6ee3e336a/asset/881a1194-1963-448b-bdc6-2726e9488029.jpg",
+      "level": "JUNIOR",
+      "total_duration": 2044,
+      "subscription": null,
+      "published_unit_count": 5,
+      "course_type": "COURSE",
+      "course_status": "OPEN",
+      "technologies": []
+    },
+    {
+      "id": "c13bf6aa-dfdd-4a50-a0a1-dc7f6675e997",
+      "url_id": "TxsQvLlqai",
+      "title": "Linux 101",
+      "description": "في هذه الدورة سنتعرف على نظام التشغيل Linux وتوزيعاتها والبرامج المستخدمة ومفهوم Package Manager.",
+      "logo": "https://assets.safcsp.cloud/7ac4ae69-5727-4069-aea6-74647e4afc23/asset/2dd1c558-0af2-4d73-967b-9cf1a56f32ab.png",
+      "level": "JUNIOR",
+      "total_duration": 2300,
+      "subscription": null,
+      "published_unit_count": 4,
+      "course_type": "COURSE",
+      "course_status": "OPEN",
+      "technologies": [
+        {
+          "id": "7f0284e1-f529-426c-bbdf-e2617ae7fed7",
+          "name": "Linux",
+          "icon": null
+        }
+      ]
+    },
+    {
+      "id": "b8b21150-948f-4ae0-80c1-407c5c579518",
+      "url_id": "LVpNTthkQW",
+      "title": "Linux: Files and Permissions",
+      "description": "في هذه الدورة سنتعرف على الملفات والصلاحيات في نظام Linux.",
+      "logo": "https://assets.safcsp.cloud/7ac4ae69-5727-4069-aea6-74647e4afc23/asset/1538a4b4-aa76-4cb1-8aaf-a5bde69211e6.png",
+      "level": "JUNIOR",
+      "total_duration": 2054,
+      "subscription": null,
+      "published_unit_count": 4,
+      "course_type": "COURSE",
+      "course_status": "OPEN",
+      "technologies": []
+    },
+    {
+      "id": "4de2df3a-29ce-42ff-8b3a-ffa7605e12c9",
+      "url_id": "qwjMSSUCdr",
+      "title": "مقدمة في Kali Linux",
+      "description": "في هذه الدورة، سنأخذك في رحلة متكاملة لاستكشاف توزيعة Kali Linux، حيث سنتعرف على أساسيات استخدامها، وأهم الأوامر التي يحتاجها أي مستخدم، بالإضافة إلى أبرز الأدوات المدمجة فيها.",
+      "logo": "https://assets.safcsp.cloud/d46d6d81-8ab9-44fd-884d-b9b6ee3e336a/asset/fa9f2725-3650-40a0-ac7b-8020aed96c2a.png",
+      "level": "JUNIOR",
+      "total_duration": 2523,
+      "subscription": null,
+      "published_unit_count": 5,
+      "course_type": "COURSE",
+      "course_status": "OPEN",
+      "technologies": [
+        {
+          "id": "7f0284e1-f529-426c-bbdf-e2617ae7fed7",
+          "name": "Linux",
+          "icon": null
+        }
+      ]
+    },
+    {
+      "id": "386bb501-a5f8-42dc-b36d-6fe7365ffff9",
+      "url_id": "JwJKgGgESO",
+      "title": "التهديدات والثغرات والهجمات في الأمن السيبراني",
+      "description": "تهدف هذه الدورة إلى توضيح المفاهيم الأساسية في الأمن السيبراني، وتشمل التهديدات والثغرات وأنواع الهجمات، وأساليب الهجوم المختلفة ومن هم الفاعلون، إضافةً إلى أبرز أنواع الثغرات وطرق تقييم مستوى الأمان.\n",
+      "logo": "https://assets.safcsp.cloud/d46d6d81-8ab9-44fd-884d-b9b6ee3e336a/asset/e2b903db-22ab-49a9-be47-297974827d65.png",
+      "level": "JUNIOR",
+      "total_duration": 3039,
+      "subscription": null,
+      "published_unit_count": 6,
+      "course_type": "COURSE",
+      "course_status": "OPEN",
+      "technologies": []
+    },
+    {
+      "id": "eb2d33f3-5190-421d-8936-c7bae9ec5949",
+      "url_id": "XhEFJBansL",
+      "title": "Secure Shell (SSH) 101",
+      "description": "في هذه الدورة ستتعرف على مفهوم بروتكول SSH لأمن الشبكات، كما ستتعرف على الاستعمالات الشائعة لهذا البروتوكول.",
+      "logo": "https://assets.safcsp.cloud/7ac4ae69-5727-4069-aea6-74647e4afc23/asset/0472f2c9-ab76-4c52-a4d0-cb8a4346d2e4.png",
+      "level": "JUNIOR",
+      "total_duration": 1012,
+      "subscription": null,
+      "published_unit_count": 4,
+      "course_type": "COURSE",
+      "course_status": "OPEN",
+      "technologies": []
+    },
+    {
+      "id": "f15ceb8d-252f-4685-8918-b688612e81fc",
+      "url_id": "EZOmLn9dQn",
+      "title": "أمن الشبكات 101 ",
+      "description": " تهدف دورة أمن الشبكات إلى تزويد المتدربين بالمعرفة والمهارات اللازمة لحماية الشبكات من التهديدات الإلكترونية المتزايدة، من خلال التعرف على تصميم الشبكات الآمنة، بالإضافة إلى تعلم ماهي الأجهزة والأنظمة المستخدمة في تأمين الشبكة ،والتعرف على ادوات الشبكة.",
+      "logo": "https://assets.safcsp.cloud/d46d6d81-8ab9-44fd-884d-b9b6ee3e336a/asset/f487b240-d933-4c6c-8f12-e6787de6271d.png",
+      "level": "JUNIOR",
+      "total_duration": 4791,
+      "subscription": null,
+      "published_unit_count": 6,
+      "course_type": "COURSE",
+      "course_status": "OPEN",
+      "technologies": []
+    },
+    {
+      "id": "5b06932c-74c8-4358-8851-5603b8084d28",
+      "url_id": "c0x6Rj886T",
+      "title": "أمن الشبكات 102",
+      "description": "تهدف الدورة للتركيز على تقنيات أمان الشبكة الأساسية التي تهدف إلى حماية الشبكات من التهديدات والهجمات، كما تهدف للتعرف على  مواضيع مثل التحكم في الوصول إلى الشبكة، تأمين تكوين أجهزة التوجيه والمبدلات، والتعرف على تأمين الشبكات اللاسلكية باستخدام تقنيات التشفير والمصادقة، بالإضافة إلى استخدام بروتوكولات الأمان مثل SSL/TLS وIPSec لحماية البيانات أثناء انتقالها، واستعراض أبرز الهجمات الشبكية مثل هجمات DoS وDNS.",
+      "logo": "https://assets.safcsp.cloud/d46d6d81-8ab9-44fd-884d-b9b6ee3e336a/asset/e82003b0-b336-4eb3-b333-cfb13e122b53.png",
+      "level": "MIDDLE",
+      "total_duration": 3168,
+      "subscription": null,
+      "published_unit_count": 5,
+      "course_type": "COURSE",
+      "course_status": "OPEN",
+      "technologies": [
+        {
+          "id": "d207afb7-8dc1-44c5-aacb-17b58763cf66",
+          "name": "Network",
+          "icon": null
+        }
+      ]
+    },
+    {
+      "id": "daf24ddb-92d2-46bb-8e50-df632a24c4ee",
+      "url_id": "FHsePHE4zL",
+      "title": "مبادئ التشفير ",
+      "description": "تهدف هذه الدورة إلى تزويد المتدربين بالمعرفة الأساسية والعملية في مجال التشفير كأحد أهم تقنيات أمن المعلومات. تغطي الدورة المبادئ الأساسية، أنواع التشفير (المتماثل وغير المتماثل)، وإدارة المفاتيح، بالإضافة إلى تطبيقات عملية على خوارزميات شائعة مثل RSA.",
+      "logo": "https://assets.safcsp.cloud/d46d6d81-8ab9-44fd-884d-b9b6ee3e336a/asset/903547a9-0a2a-47c6-9e57-61be58eace5e.png",
+      "level": "JUNIOR",
+      "total_duration": 5051,
+      "subscription": null,
+      "published_unit_count": 7,
+      "course_type": "COURSE",
+      "course_status": "OPEN",
+      "technologies": []
+    }
+  ],
+  "exams": [],
+  "upcoming_courses": [
+    {
+      "title": "Security Operations  101",
+      "description": " تتناول هذه الدورة مواضيع أساسية في مجال الأمان السيبراني، حيث تركز على حماية الأنظمة المدمجة من التهديدات، وتأمين المضيف (الخوادم والأجهزة) ضد الهجمات. كما تتناول الدورة كيفية تنفيذ التكوينات الأمنية لضمان توافق الأنظمة مع المعايير الأمنية، بالإضافة إلى المراقبة الأمنية والإنذار باستخدام أدوات أتمتة لتحسين الاستجابة الفعالة للتهديدات الأمنية."
+    },
+    {
+      "title": "مقدمة في GRC",
+      "description": "ستتعرف في هذه الدورة على حوكمة المخاطر والامتثال (GRC) والتعلم كيفية إدارة المخاطر وضمان امتثال المنظمات للقوانين في مجال الأمن السيبراني. تركز على تحديد المخاطر، تقييمها، ووضع استراتيجيات لتقليلها، بالإضافة إلى الامتثال للوائح الأمنية"
+    },
+    {
+      "title": "أساسيات الشبكات 101",
+      "description": "دورة تدريبية تركز على تعليم المفاهيم الأساسية في مجال الشبكات، والتي تُعد من الركائز الأساسية في تكنولوجيا المعلومات. تتضمن الدورة فهم الشبكات المحلية (LAN)، والشبكات الواسعة (WAN)، وشبكات الإنترنت، والتعلم على المفاهيم الأساسية والبروتوكولات المستخدمة في مجال الشبكات"
+    },
+    {
+      "title": "Security Operations  102",
+      "description": "تعرف على حماية البيانات ومعرفة إدارة الهوية والوصول ، والتعرف على العمليات واستجابة الحوادث\n"
+    }
+  ],
+  "recommended_paths": [
+    {
+      "id": "ce3252a3-2cb5-4027-8855-673b2bf6ea44",
+      "url_id": "ecbAGsuqOQ",
+      "title": "مسار Full-Stack JavaScript",
+      "logo": null,
+      "courses_count": 16,
+      "level": "JUNIOR",
+      "total_duration": 92904,
+      "description": "سيأخذك هذا المسار في رحلة تتعلم من خلالها تطوير وبناء تطبيقات ويب تفاعلية متكاملة، تبدأ رحلتك بتعلم أساسيات البرمجة بلغة JavaScript ثم ستتعرف على طرق هيكلة وتصميم صفحات الويب وتنسيقها وكل ما يخص تطوير الواجهات (Front-End)، ثم ستنتقل لتعلم أساسيات تطوير وبناء خلفيات التطبيقات (Back-End) وقواعد البيانات (Database)، كما ستتعرف على مفهوم التحكم بالإصدارات وعلى طريقة استخدام كل من Git  و GitHub.\n",
+      "subscription": null,
+      "learning_goals": [
+        "تطوير وتصميم واجهات البرامج.",
+        "تطوير وبناء برامج تفاعلية متكاملة وربطها بقواعد البيانات.",
+        "رفع المشروع واستضافته على منصة Heroku."
+      ]
+    },
+    {
+      "id": "c0e0df11-74a1-4b85-90a5-3252ebafa14c",
+      "url_id": "zaNuCyeqGx",
+      "title": "مسار علم البيانات والذكاء الاصطناعي",
+      "logo": "https://assets.safcsp.cloud/d1ec42c3-e62a-42fe-a38b-2d589c63678f/asset/52d96568-7720-4553-8e1f-c0180c0622cd.png",
+      "courses_count": 15,
+      "level": "MIDDLE",
+      "total_duration": 96757,
+      "description": "مسار تعليمي يساعد المهتمين في دخول مجال علم البيانات والذكاء الاصطناعي على التعرف على أهم المفاهيم الأساسية والتي تشمل التعامل مع أنواع البيانات المختلفة ,تحليل ومعالجة البيانات ,عرض البيانات على شكل رسوم بيانية وتفاعلية، ,نمذجة البيانات باستخدام خوارزميات تعلم الآلة Machine Learning Algorithms و التعلم العميق Deep Learning Algorithms.",
+      "subscription": null,
+      "learning_goals": [
+        "تحليل البيانات ومعالجتها (Data Analysis and Processing).",
+        "التعرف على طرق عرض البيانات (Data Visualization).",
+        "نمذجة البيانات (Data Modeling) باستخدام (Machine Learning Algorithms).",
+        "تقييم النماذج (Model Evaluation)."
+      ]
+    },
+    {
+      "id": "328d9824-cff0-4355-bd6d-e216b997cd37",
+      "url_id": "OTZExaETAH",
+      "title": "مسار Full-Stack Python",
+      "logo": "https://assets.safcsp.cloud/822cb565-21e0-498b-b160-4bb19c98d09a/asset/301c6aa6-69a1-40d0-bb87-919fb3c2a57e.png",
+      "courses_count": 15,
+      "level": "JUNIOR",
+      "total_duration": 81315,
+      "description": "ستتعلم في هذا المسار كيفية تطوير وبناء تطبيقات ويب تفاعلية متكاملة باستخدام Python، حيث تبدأ رحلتك بتعلم أساسيات تطوير وبناء التطبيقات (Back-End) وقواعد البيانات (Database) كما ستتعرف على طرق هيكلة وتصميم صفحات الويب وتنسيقها وكل ما يخص تطوير الواجهات (Front-End)، وأخيرًا ستتعرف على مفهوم التحكم بالإصدارات وعلى طريقة استخدام كل من Git و GitHub.",
+      "subscription": null,
+      "learning_goals": [
+        "فهم أساسيات البرمجة باستخدام لغة Python",
+        "تطوير وتصميم صفحات الويب وتنسيقها ",
+        "ربط صفحات الويب بقواعد البيانات"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "id": "a6b84bd1-947c-401c-ae67-1a4b1d507a89",
+  "url_id": "TxrppJSrgx",
+  "title": "مسار تطوير تطبيقات iOS",
+  "logo": null,
+  "courses_count": 7,
+  "description": "سيأخذك هذا المسار في رحلة تتعلم من خلالها تطوير تطبيقات iOS، ستبدأ بتعلّم أساسيات البرمجة بلغة Swift \nمرورًا بمجموعة من المفاهيم التي تحتاجها في تطوير التطبيقات باستخدام Xcode.",
+  "preview_video": null,
+  "level": "JUNIOR",
+  "total_duration": 42790,
+  "requirements": [
+    "كمبيوتر Mac لايقل نظام التشغيل فيه عن الإصدار 10.15.4منصّب عليه برنامج Xcode، ولا يتطلب أي خبرة برمجية مسبقة."
+  ],
+  "learning_goals": [
+    "فهم أساسيات البرمجة باستخدام لغة Swift.",
+    "اكتساب أهم المهارات التي يحتاجها مطوّري تطبيقات iOS.",
+    "القدرة على دخول سوق العمل كمطور تطبيقات iOS."
+  ],
+  "faq": [],
+  "subscription": null,
+  "current_course": null,
+  "courses": [
+    {
+      "id": "43dfa292-03ea-46d7-94cb-2a44a9f80b79",
+      "url_id": "noOWGJnOug",
+      "title": "Swift 101",
+      "description": "سنتعرف في هذهِ الدورة على أساسيات المفاهيم البرمجيّة في لغة swift 5.2 والتي ستساعدك في تطوير تطبيقات iOS.",
+      "logo": "https://assets.safcsp.cloud/f354f1d0-f300-42a2-a5b8-1515221e8e54/asset/742bf5fb-98c8-4482-a43a-d96c209b0267.png",
+      "level": "JUNIOR",
+      "total_duration": 11579,
+      "subscription": null,
+      "published_unit_count": 9,
+      "course_type": "COURSE",
+      "course_status": "OPEN",
+      "technologies": []
+    },
+    {
+      "id": "78d42824-7ec8-49dc-aaa2-95c4b61cd5b9",
+      "url_id": "aRkkLGNcaM",
+      "title": "Swift 102",
+      "description": "سنتعرف في هذهِ الدورة على مفهوم البرمجة الكائنية Object-Oriented-Programming \nمع تطبيقها في لغة Swift 5.3 بالإضافة إلى مفهوم Optionals ",
+      "logo": "https://assets.safcsp.cloud/f354f1d0-f300-42a2-a5b8-1515221e8e54/asset/09837c05-0902-4eb9-870c-54bba0dfac07.png",
+      "level": "JUNIOR",
+      "total_duration": 7609,
+      "subscription": null,
+      "published_unit_count": 7,
+      "course_type": "COURSE",
+      "course_status": "OPEN",
+      "technologies": []
+    },
+    {
+      "id": "dac9a38b-4dd6-4354-8237-40b1a29c61b2",
+      "url_id": "HUsDTUdqCs",
+      "title": "Swift 103 ",
+      "description": "سنتعرف في هذهِ الدورة على مفاهيم متقدمة في Swift مثل ترتيب البيانات في Struct والتعامل مع الأخطاء وغيرها الكثير.",
+      "logo": "https://assets.safcsp.cloud/f354f1d0-f300-42a2-a5b8-1515221e8e54/asset/5edc532c-c86f-4278-a17b-d634cea72148.png",
+      "level": "MIDDLE",
+      "total_duration": 10382,
+      "subscription": null,
+      "published_unit_count": 7,
+      "course_type": "COURSE",
+      "course_status": "OPEN",
+      "technologies": []
+    },
+    {
+      "id": "54a0935a-6ed3-4727-84d4-371c060474ce",
+      "url_id": "UWCLFfZees",
+      "title": "أساسيات Firebase",
+      "description": "سنتعرف في هذهِ الدورة على أساسيات منصة Firebase وأهم الخدمات التي تقدمها للمطوّرين.",
+      "logo": "https://assets.safcsp.cloud/f354f1d0-f300-42a2-a5b8-1515221e8e54/asset/869f24b3-1768-47c6-b36c-d80807f11fdc.png",
+      "level": "JUNIOR",
+      "total_duration": 2645,
+      "subscription": null,
+      "published_unit_count": 5,
+      "course_type": "COURSE",
+      "course_status": "OPEN",
+      "technologies": [
+        {
+          "id": "bfd873ae-d764-4794-b229-16c962b4c81c",
+          "name": "DataBase",
+          "icon": null
+        }
+      ]
+    },
+    {
+      "id": "55467131-c044-4978-b6b0-6c088c09e9f6",
+      "url_id": "nindivqslr",
+      "title": "Git 101",
+      "description": "في هذه الدورة ستتعلم برنامج Git وكيفية عمله؟ وفيما تحتاجه؟ \nمعرفة الأوامر الأساسية لبرنامج Git وكيفية إدارة المشاريع من خلال Git.\nمعرفة كيفية تنصيب برنامج Git.\nالقدرة على عمل مشروع وتتبع إصداراته.",
+      "logo": "https://assets.safcsp.cloud/7ac4ae69-5727-4069-aea6-74647e4afc23/asset/a9633673-98d9-4e72-b5d2-f9b87201d13c.png",
+      "level": "JUNIOR",
+      "total_duration": 3371,
+      "subscription": null,
+      "published_unit_count": 5,
+      "course_type": "COURSE",
+      "course_status": "OPEN",
+      "technologies": []
+    },
+    {
+      "id": "45f800b1-bcff-4522-8bae-6c8c28050588",
+      "url_id": "UFsXqimdgm",
+      "title": "Git 102",
+      "description": "في هذه الدورة ستتعلم كيفية إدارة المشروع لأكثر من Branch وكيفية دمجها وحل مشكلة التعارض أثناء الدمج.",
+      "logo": "https://assets.safcsp.cloud/7ac4ae69-5727-4069-aea6-74647e4afc23/asset/e06b5c16-ff0e-4b37-9cd7-e6c806c50fac.png",
+      "level": "JUNIOR",
+      "total_duration": 3451,
+      "subscription": null,
+      "published_unit_count": 4,
+      "course_type": "COURSE",
+      "course_status": "OPEN",
+      "technologies": []
+    },
+    {
+      "id": "92a6b6d0-fb30-4233-8997-338f33625f5f",
+      "url_id": "ZlDLPAAOOn",
+      "title": "UX/UI",
+      "description": "سنتعرف في هذهِ الدورة على أساليب وطرق تصميم تجربة المستخدم وتصميم واجهة المستخدم، بدايةً من اكتشاف المشاكل بتصميم الواجهات والبحث عن الحلول باستخدام التفكير التصميمي وإنشاء التصاميم المبدئية إلى إنشاء تجربة مستخدم وواجهة مستخدم متكاملة.",
+      "logo": null,
+      "level": "JUNIOR",
+      "total_duration": 3753,
+      "subscription": null,
+      "published_unit_count": 3,
+      "course_type": "COURSE",
+      "course_status": "OPEN",
+      "technologies": []
+    }
+  ],
+  "exams": [],
+  "upcoming_courses": [],
+  "recommended_paths": [
+    {
+      "id": "ce3252a3-2cb5-4027-8855-673b2bf6ea44",
+      "url_id": "ecbAGsuqOQ",
+      "title": "مسار Full-Stack JavaScript",
+      "logo": null,
+      "courses_count": 16,
+      "level": "JUNIOR",
+      "total_duration": 92904,
+      "description": "سيأخذك هذا المسار في رحلة تتعلم من خلالها تطوير وبناء تطبيقات ويب تفاعلية متكاملة، تبدأ رحلتك بتعلم أساسيات البرمجة بلغة JavaScript ثم ستتعرف على طرق هيكلة وتصميم صفحات الويب وتنسيقها وكل ما يخص تطوير الواجهات (Front-End)، ثم ستنتقل لتعلم أساسيات تطوير وبناء خلفيات التطبيقات (Back-End) وقواعد البيانات (Database)، كما ستتعرف على مفهوم التحكم بالإصدارات وعلى طريقة استخدام كل من Git  و GitHub.\n",
+      "subscription": null,
+      "learning_goals": [
+        "تطوير وتصميم واجهات البرامج.",
+        "تطوير وبناء برامج تفاعلية متكاملة وربطها بقواعد البيانات.",
+        "رفع المشروع واستضافته على منصة Heroku."
+      ]
+    },
+    {
+      "id": "c0e0df11-74a1-4b85-90a5-3252ebafa14c",
+      "url_id": "zaNuCyeqGx",
+      "title": "مسار علم البيانات والذكاء الاصطناعي",
+      "logo": "https://assets.safcsp.cloud/d1ec42c3-e62a-42fe-a38b-2d589c63678f/asset/52d96568-7720-4553-8e1f-c0180c0622cd.png",
+      "courses_count": 15,
+      "level": "MIDDLE",
+      "total_duration": 96757,
+      "description": "مسار تعليمي يساعد المهتمين في دخول مجال علم البيانات والذكاء الاصطناعي على التعرف على أهم المفاهيم الأساسية والتي تشمل التعامل مع أنواع البيانات المختلفة ,تحليل ومعالجة البيانات ,عرض البيانات على شكل رسوم بيانية وتفاعلية، ,نمذجة البيانات باستخدام خوارزميات تعلم الآلة Machine Learning Algorithms و التعلم العميق Deep Learning Algorithms.",
+      "subscription": null,
+      "learning_goals": [
+        "تحليل البيانات ومعالجتها (Data Analysis and Processing).",
+        "التعرف على طرق عرض البيانات (Data Visualization).",
+        "نمذجة البيانات (Data Modeling) باستخدام (Machine Learning Algorithms).",
+        "تقييم النماذج (Model Evaluation)."
+      ]
+    },
+    {
+      "id": "328d9824-cff0-4355-bd6d-e216b997cd37",
+      "url_id": "OTZExaETAH",
+      "title": "مسار Full-Stack Python",
+      "logo": "https://assets.safcsp.cloud/822cb565-21e0-498b-b160-4bb19c98d09a/asset/301c6aa6-69a1-40d0-bb87-919fb3c2a57e.png",
+      "courses_count": 15,
+      "level": "JUNIOR",
+      "total_duration": 81315,
+      "description": "ستتعلم في هذا المسار كيفية تطوير وبناء تطبيقات ويب تفاعلية متكاملة باستخدام Python، حيث تبدأ رحلتك بتعلم أساسيات تطوير وبناء التطبيقات (Back-End) وقواعد البيانات (Database) كما ستتعرف على طرق هيكلة وتصميم صفحات الويب وتنسيقها وكل ما يخص تطوير الواجهات (Front-End)، وأخيرًا ستتعرف على مفهوم التحكم بالإصدارات وعلى طريقة استخدام كل من Git و GitHub.",
+      "subscription": null,
+      "learning_goals": [
+        "فهم أساسيات البرمجة باستخدام لغة Python",
+        "تطوير وتصميم صفحات الويب وتنسيقها ",
+        "ربط صفحات الويب بقواعد البيانات"
+      ]
+    }
+  ]
+}
