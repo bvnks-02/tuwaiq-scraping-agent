@@ -6,13 +6,13 @@
 ## Outputs
 
 - **Visual System:** `output/design-tokens.json` (palette #4f29b7 primary, IBM Plex Sans Arabic, RTL) + `output/design-tokens.yaml` + `output/style-guide.md` (216 lines, getComputedStyle on nav/hero/buttons/cards/footer)
-- **Exhaustive Educational Content (1479 items):** `output/exhaustive/`
+- **Exhaustive Educational Content (1538 items):** `output/exhaustive/`
   - Tuwaiq: 1297 bootcamps/programs/meetups/webinars (4 categories, 8 scopes, 4 locations) via `api/GetInitiativePublishesShorten` + `GetInitiativePublishBySlug` (each detail with title, description, goals, dates, price, location, video)
   - SATR: 20 paths + 162 courses via `api.satr.codes/path|landing-guest`, each `/public` detail
-- **Organized for Reproduction:** `output/organized_for_reproduction/`
+- **Organized for Reproduction** (`output/organized_for_reproduction/` — 8 Sanity document types, `_id`/`_type` NDJSON): `output/organized_for_reproduction/`
   - Sanity schemas (`sanity/schemas/*.ts` defineType with reference, Portable Text) + NDJSON (`sanity/data/*.ndjson`) ready for `sanity dataset import`
   - Generic normalized JSON (`generic/*.json`) for Strapi/Prisma/SQL
-  - Flat CMS-ready (`flat_normalized.json` 1479 records)
+  - Flat CMS-ready (`flat_normalized.json` 1538 records)
 
 ## Quick Start (Reproduce)
 

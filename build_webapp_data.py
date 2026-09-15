@@ -27,19 +27,23 @@ index = []
 # Tuwaiq bootcamps
 for b in bootcamps:
     slug = b["slug"]["current"]
+    chunk = {**b,
+        "categoryName": cat_by.get((b.get("category") or {}).get("_ref")),
+        "scopeName": scope_by.get((b.get("scope") or {}).get("_ref")),
+        "locationName": loc_by.get((b.get("location") or {}).get("_ref"))}
     index.append({
         "id": f"tuwaiq:{slug}", "type": "bootcamp", "platform": "tuwaiq",
         "title": b.get("titleAr"), "excerpt": b.get("excerpt", "")[:200],
         "level": b.get("level"), "language": b.get("language"),
-        "category": cat_by.get((b.get("category") or {}).get("_ref")),
-        "scope": scope_by.get((b.get("scope") or {}).get("_ref")),
-        "location": loc_by.get((b.get("location") or {}).get("_ref")),
+        "category": chunk["categoryName"],
+        "scope": chunk["scopeName"],
+        "location": chunk["locationName"],
         "isPaid": b.get("isPaid"), "price": b.get("price"),
         "dateStart": (b.get("dates") or {}).get("start"),
         "image": (b.get("media") or {}).get("outerImage"),
         "url": b.get("url"), "ref": f"/data/details/tuwaiq/{slug}.json",
     })
-    (W / "details" / "tuwaiq" / f"{slug}.json").write_text(json.dumps(b, ensure_ascii=False), encoding="utf-8")
+    (W / "details" / "tuwaiq" / f"{slug}.json").write_text(json.dumps(chunk, ensure_ascii=False), encoding="utf-8")
 
 # SATR paths — resolve course refs into embedded summaries at build time
 for p in paths:

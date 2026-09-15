@@ -5,12 +5,12 @@
 
 ## Totals
 
-- **Tuwaiq:** 1297 initiatives indexed, 1297 details fetched
-  - برنامج: 620, لقاء: 330, معسكر: 204, ويبينار: 129, لقاءات رمضانية: 13, تحدي: 1
+- **Tuwaiq:** 1297 initiatives indexed (1296 unique after removing true duplicate 3Rr1XKA8), 1297 details fetched
+  - برنامج: 620, لقاء: 330 (+13 لقاءات رمضانية), معسكر: 204, ويبينار: 129, لقاءات رمضانية: 13, تحدي: 1
   - Scopes: 8 (تطوير البرمجيات, حوسبة سحابية, علم البيانات...)
   - Categories: 4
-- **SATR:** 20 paths + 162 courses = 182 (each with `/public` detail)
-- **Grand total educational items:** 1479
+- **SATR:** 20 paths + 165 courses (3 Unity summary-level) + 51 library (39/8/4) + 6/193 practical projects
+- **Webapp index total:** 1538 rows (`webapp/public/data/index.json`)
 - **Visual system:** `output/design-tokens.json` (palette #4f29b7 primary, IBM Plex Sans Arabic, RTL)
 
 ## Structure
