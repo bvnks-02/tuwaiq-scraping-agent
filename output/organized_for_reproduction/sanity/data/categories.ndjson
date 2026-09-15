@@ -1,4 +1,6 @@
-{"id": "56732582-5b07-4fbf-9ee8-89c26d87b419", "titleAr": "ويبينار", "titleEn": "Webinar", "slug": {"current": "56732582-ويبينار"}, "description": ""}
-{"id": "8836bde0-68ae-3600-92a2-23dce3c487ca", "titleAr": "برنامج", "titleEn": "Program", "slug": {"current": "8836bde0-برنامج"}, "description": ""}
-{"id": "ac41152d-f228-8af4-8406-e0cda6df6c35", "titleAr": "معسكر", "titleEn": "Bootcamp", "slug": {"current": "ac41152d-معسكر"}, "description": ""}
-{"id": "c616115c-5cf8-426d-9f70-42eb370ca37d", "titleAr": "لقاء", "titleEn": "Meetup", "slug": {"current": "c616115c-لقاء"}, "description": ""}
+{"id": "56732582-5b07-4fbf-9ee8-89c26d87b419", "titleAr": "ويبينار", "titleEn": "Webinar", "slug": {"current": "56732582-ويبينار"}, "description": "", "_type": "category", "_id": "category-56732582-5b07-4fbf-9ee8-89c26d87b419"}
+{"id": "8836bde0-68ae-3600-92a2-23dce3c487ca", "titleAr": "برنامج", "titleEn": "Program", "slug": {"current": "8836bde0-برنامج"}, "description": "", "_type": "category", "_id": "category-8836bde0-68ae-3600-92a2-23dce3c487ca"}
+{"id": "ac41152d-f228-8af4-8406-e0cda6df6c35", "titleAr": "معسكر", "titleEn": "Bootcamp", "slug": {"current": "ac41152d-معسكر"}, "description": "", "_type": "category", "_id": "category-ac41152d-f228-8af4-8406-e0cda6df6c35"}
+{"id": "c616115c-5cf8-426d-9f70-42eb370ca37d", "titleAr": "لقاء", "titleEn": "Meetup", "slug": {"current": "c616115c-لقاء"}, "description": "", "_type": "category", "_id": "category-c616115c-5cf8-426d-9f70-42eb370ca37d"}
+{"id": "0ce3b020-50a2-4f8d-9ed9-b86ea410e082", "titleAr": "تحدي", "_type": "category", "_id": "category-0ce3b020-50a2-4f8d-9ed9-b86ea410e082"}
+{"id": "fc7c271c-8489-4460-87ab-137951b98c60", "titleAr": "لقاءات رمضانية", "_type": "category", "_id": "category-fc7c271c-8489-4460-87ab-137951b98c60"}

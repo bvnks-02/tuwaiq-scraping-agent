@@ -10,6 +10,8 @@ Respect robots.txt (Allow: /), rate-limited, avoids /signin.
 import json
 import time
 import os
+import re
+import html as html_lib
 import yaml
 import pathlib
 import traceback
@@ -49,6 +51,10 @@ SATR = "https://satr.tuwaiq.edu.sa"
 # rate limit helper
 def sleep_rate():
     time.sleep(3)
+
+# Per-item rate limit for the detail-fetch loops below (in-page fetch() calls,
+# not full page navigations, so this can be lighter than sleep_rate()).
+REQUEST_DELAY_MS = 250
 
 # Try import scrapling
 try:
@@ -529,6 +535,488 @@ def write_style_guide(tokens, raw):
     log(f"Style guide written to {md_path}")
 
 # ========== PART 2: ACADEMIC CONTENT ==========
+# ========== PART 2b: FULL EDUCATIONAL CATALOG (bootcamps + SATR) ==========
+# This is the part that was missing from the scraper entirely: the previous
+# version of this file only sampled a handful of bootcamps/SATR items off the
+# homepage (with hardcoded fallbacks). It never called the site's own detail
+# API, so records were shallow (no price, location, age limits, schedule,
+# FAQs, requirements) and SATR/category/scope references were never resolved
+# to real documents. Endpoint names below come from this project's own
+# extraction notes (GetInitiativePublishesShorten / GetInitiativePublishBySlug
+# for Tuwaiq, api.satr.codes/path|landing-guest + /public detail for SATR) —
+# verify they still match the live site before a full run, since API shapes
+# can change.
+
+VIDEO_SRC_RE = re.compile(r'src=["\']([^"\']+)["\']')
+
+
+def extract_video_url(video_field):
+    """The source API sometimes returns a raw <iframe> embed string instead of
+    a plain URL for `video` (this happened in ~60% of the bootcamps we
+    previously pulled). Store just the embed src, not the markup blob."""
+    if not video_field:
+        return None
+    if isinstance(video_field, str) and "<" in video_field:
+        m = VIDEO_SRC_RE.search(video_field)
+        return html_lib.unescape(m.group(1)) if m else None
+    return video_field
+
+
+def register_ref(ref_registry, doc_type, ref_id, doc):
+    """Record a reference-target document (category/scope/academyType/
+    location/technology/programmingLanguage) the first time we see its ID, so
+    every `_ref` emitted below points at a document that actually exists in
+    the export. Returns the {_type: reference, _ref: ...} pointer to embed
+    inline, or None if there's no ID to reference."""
+    if not ref_id:
+        return None
+    bucket = ref_registry.setdefault(doc_type, {})
+    if ref_id not in bucket:
+        bucket[ref_id] = doc
+    return {"_type": "reference", "_ref": ref_id}
+
+
+def normalize_bootcamp(raw, ref_registry):
+    """Map a raw Tuwaiq initiative-detail record to a complete document.
+    Keeps every field the source API returns (previous version silently
+    dropped price/location/age/schedule/registration/faqs/features/
+    requirements) and resolves category/scope/academyType/location to real
+    reference-target documents instead of dangling `_ref`s."""
+    academy_type = raw.get("academyType") or {}
+    academy_ref = register_ref(ref_registry, "academyType", raw.get("academyTypeId"), {
+        "_type": "academyType",
+        "_id": raw.get("academyTypeId"),
+        "name": academy_type.get("name"),
+        "nameEn": academy_type.get("nameEn"),
+        "code": academy_type.get("code"),
+        "logo": academy_type.get("logo"),
+    })
+    category_ref = register_ref(ref_registry, "category", raw.get("initiativeCategoryId"), {
+        "_type": "category",
+        "_id": raw.get("initiativeCategoryId"),
+        "name": raw.get("initiativeCategoryName"),
+    })
+    scope_ref = register_ref(ref_registry, "scope", raw.get("initiativeScopeId"), {
+        "_type": "scope",
+        "_id": raw.get("initiativeScopeId"),
+        "name": raw.get("initiativeScopeName"),
+        "image": raw.get("initiativeScopeImage"),
+    })
+    location_ref = None
+    if raw.get("locationId"):
+        location_ref = register_ref(ref_registry, "location", raw.get("locationId"), {
+            "_type": "location",
+            "_id": raw.get("locationId"),
+            "name": raw.get("locationName"),
+            "text": raw.get("locationText"),
+        })
+
+    slug = raw.get("slug")
+    doc = {
+        "_type": "bootcamp",
+        "_id": f"bootcamp-{slug or raw.get('id')}",
+        "sourceId": raw.get("id"),
+        "initiativeId": raw.get("initiativeId"),
+        "titleAr": raw.get("title"),
+        "slug": {"current": slug},
+        "descriptionAr": raw.get("description"),
+        "excerpt": (raw.get("description") or "")[:200],
+        "language": raw.get("language", "ar"),
+        "level": raw.get("initiativeAgeName"),
+        "category": category_ref,
+        "scope": scope_ref,
+        "academy": academy_ref,
+        "location": location_ref,
+        "isOpen": raw.get("isOpen"),
+        "isPaid": raw.get("isPaid"),
+        "pricing": {
+            "price": raw.get("price"),
+            "priceWithoutVat": raw.get("priceWithoutVat"),
+            "vat": raw.get("vat"),
+        } if raw.get("isPaid") else None,
+        "eligibility": {
+            "minimumAge": raw.get("minimumAge"),
+            "maximumAge": raw.get("maximumAge"),
+            "attendType": raw.get("initiativeAttendType"),
+            "attendeeType": raw.get("initiativeAttendeeType"),
+        },
+        "schedule": {
+            "durationText": raw.get("durationText"),
+            "startDate": raw.get("startDate"),
+            "startDateText": raw.get("startDateText"),
+            "startTimeText": raw.get("startTimeText"),
+            "endDate": raw.get("endDate"),
+            "endDateText": raw.get("endDateText"),
+            "endTimeText": raw.get("endTimeText"),
+            "isMorning": raw.get("isMorning"),
+            "isAfternoon": raw.get("isAfternoon"),
+        },
+        "registration": {
+            "isRegistrationOpen": raw.get("isRegistrationOpen"),
+            "isRegistrationClosed": raw.get("isRegistrationClosed"),
+            "registrationStartDate": raw.get("registrationStartDate"),
+            "registrationEndDate": raw.get("registrationEndDate"),
+            "registrationFormId": raw.get("registrationFormId"),
+            "requireProfileCompletion": raw.get("requireProfileCompletion"),
+            "autoCloseRegistration": raw.get("autoCloseRegistration"),
+        },
+        "certificate": {"isPro": raw.get("initiativeProCertificate")},
+        "includesEmployment": raw.get("includesEmployees"),
+        "requirements": [
+            {"_key": f"req-{i}", "_type": "requirement", "textAr": r}
+            for i, r in enumerate(raw.get("requirements") or [])
+        ],
+        "features": [
+            {"_key": f"feat-{i}", "_type": "feature", "textAr": ft}
+            for i, ft in enumerate(raw.get("features") or [])
+        ],
+        "faqs": [
+            {
+                "_key": f"faq-{i}",
+                "_type": "faqItem",
+                "questionAr": f.get("question") if isinstance(f, dict) else None,
+                "answerAr": f.get("answer") if isinstance(f, dict) else None,
+            }
+            for i, f in enumerate(raw.get("faqs") or [])
+        ],
+        "learningOutcomes": [
+            {"_key": f"goal-{i}", "_type": "learningGoal", "textAr": g}
+            for i, g in enumerate(raw.get("goals") or [])
+        ],
+        "media": {
+            "logo": raw.get("logo"),
+            "initiativeLogo": raw.get("initiativeLogo"),
+            "innerImage": raw.get("innerImage"),
+            "outerImage": raw.get("outerImage"),
+            "video": extract_video_url(raw.get("video")),
+            "streamBroadcastUrl": raw.get("streamBroadcastUrl"),
+        },
+        "url": f"{BASE}/bootcamp/{slug}/view" if slug else raw.get("returnUrl"),
+    }
+    return doc
+
+
+def normalize_satr_course(raw, ref_registry):
+    """Map a raw SATR course-detail record into the same document style used
+    for bootcamps, instead of leaving it in raw API shape."""
+    tech_refs = []
+    for t in (raw.get("technologies") or []):
+        name = t.get("name") if isinstance(t, dict) else t
+        tid = t.get("id") if isinstance(t, dict) else name
+        ref = register_ref(ref_registry, "technology", tid, {"_type": "technology", "_id": tid, "name": name})
+        if ref:
+            tech_refs.append(ref)
+    lang_refs = []
+    for l in (raw.get("programming_languages") or []):
+        name = l.get("name") if isinstance(l, dict) else l
+        lid = l.get("id") if isinstance(l, dict) else name
+        ref = register_ref(ref_registry, "programmingLanguage", lid, {"_type": "programmingLanguage", "_id": lid, "name": name})
+        if ref:
+            lang_refs.append(ref)
+
+    url_id = raw.get("url_id")
+    return {
+        "_type": "course",
+        "_id": f"course-{url_id or raw.get('id')}",
+        "sourceId": raw.get("id"),
+        "titleAr": raw.get("title"),
+        "slug": {"current": url_id},
+        "descriptionAr": raw.get("description"),
+        "level": raw.get("level"),
+        "status": raw.get("course_status"),
+        "courseType": raw.get("course_type"),
+        "pathTitleAr": raw.get("path_title"),
+        "duration": {
+            "total": raw.get("total_duration"),
+            "videos": raw.get("videos_duration"),
+        },
+        "stats": {
+            "subscribersCount": raw.get("subscribers_count"),
+            "projectsCount": raw.get("projects_count"),
+            "quizzesCount": raw.get("quizzes_count"),
+            "challengesCount": raw.get("challenges_count"),
+            "articlesCount": raw.get("articles_count"),
+        },
+        "learningOutcomes": [
+            {"_key": f"goal-{i}", "_type": "learningGoal", "textAr": o}
+            for i, o in enumerate(raw.get("objectives") or [])
+        ],
+        "technologies": tech_refs,
+        "programmingLanguages": lang_refs,
+        "media": {
+            "logo": raw.get("logo"),
+            "previewVideo": extract_video_url(raw.get("preview_video")),
+        },
+        "ide": raw.get("ide"),
+        "ideVersion": raw.get("ide_version"),
+        "badgeId": raw.get("badge_id"),
+        "subscriptionRequired": raw.get("subscription"),
+        "url": f"{SATR}/course/{url_id}/view" if url_id else None,
+    }
+
+
+def normalize_satr_path(raw):
+    """Map a raw SATR learning-path record. `courses` references are keyed to
+    match the `_id` scheme used by normalize_satr_course above, so they
+    resolve as long as courses.ndjson is imported alongside paths.ndjson."""
+    course_refs = []
+    for c in (raw.get("courses") or []):
+        cid = c.get("id") if isinstance(c, dict) else c
+        if cid:
+            course_refs.append({"_type": "reference", "_ref": f"course-{cid}"})
+
+    url_id = raw.get("url_id")
+    return {
+        "_type": "learningPath",
+        "_id": f"path-{url_id or raw.get('id')}",
+        "sourceId": raw.get("id"),
+        "titleAr": raw.get("title"),
+        "slug": {"current": url_id},
+        "descriptionAr": raw.get("description"),
+        "level": raw.get("level"),
+        "coursesCount": raw.get("courses_count"),
+        "duration": raw.get("total_duration"),
+        "requirements": [
+            {"_key": f"req-{i}", "_type": "requirement", "textAr": r}
+            for i, r in enumerate(raw.get("requirements") or [])
+        ],
+        "learningOutcomes": [
+            {"_key": f"goal-{i}", "_type": "learningGoal", "textAr": g}
+            for i, g in enumerate(raw.get("learning_goals") or [])
+        ],
+        "faqs": [
+            {
+                "_key": f"faq-{i}",
+                "_type": "faqItem",
+                "questionAr": f.get("question") if isinstance(f, dict) else None,
+                "answerAr": f.get("answer") if isinstance(f, dict) else None,
+            }
+            for i, f in enumerate(raw.get("faq") or [])
+        ],
+        "courses": course_refs,
+        "media": {
+            "logo": raw.get("logo"),
+            "previewVideo": extract_video_url(raw.get("preview_video")),
+        },
+        "url": f"{SATR}/path/{url_id}/view" if url_id else None,
+    }
+
+
+def fetch_all_bootcamps():
+    """Pull the complete bootcamp/program catalog with full per-item detail,
+    via the site's own JSON endpoints, inside a single browser session so
+    Cloudflare is solved once and every subsequent fetch() reuses that
+    session's cookies. Replaces the old approach of sampling ~12 cards off
+    the homepage plus hardcoded fallback records."""
+    bootcamps_raw = []
+    seen_ids = set()
+
+    def action(page):
+        page.wait_for_timeout(2000)
+        list_js = """
+        async () => {
+            try {
+                const r = await fetch('/api/GetInitiativePublishesShorten', {headers: {'Accept': 'application/json'}});
+                if (!r.ok) return {__error: true, status: r.status};
+                const d = await r.json();
+                return Array.isArray(d) ? d : (d.data || d.items || d.result || []);
+            } catch (e) {
+                return {__error: true, message: String(e)};
+            }
+        }
+        """
+        try:
+            listing = page.evaluate(list_js)
+        except Exception as e:
+            log(f"GetInitiativePublishesShorten failed: {e}")
+            listing = []
+        if isinstance(listing, dict) and listing.get("__error"):
+            log(f"Bootcamp listing endpoint error: {listing}")
+            listing = []
+        log(f"Bootcamp listing: {len(listing)} items")
+
+        detail_js = """
+        async (slug) => {
+            try {
+                const r = await fetch('/api/GetInitiativePublishBySlug?slug=' + encodeURIComponent(slug), {headers: {'Accept': 'application/json'}});
+                if (!r.ok) return {__error: true, status: r.status};
+                return await r.json();
+            } catch (e) {
+                return {__error: true, message: String(e)};
+            }
+        }
+        """
+        for i, item in enumerate(listing):
+            slug = item.get("slug") or item.get("id") if isinstance(item, dict) else None
+            if not slug:
+                continue
+            try:
+                detail = page.evaluate(detail_js, slug)
+            except Exception as e:
+                log(f"Bootcamp detail fetch failed for {slug}: {e}")
+                continue
+            if isinstance(detail, dict) and detail.get("__error"):
+                log(f"Bootcamp detail error for {slug}: {detail}")
+                continue
+            rid = detail.get("id")
+            if rid and rid in seen_ids:
+                continue
+            if rid:
+                seen_ids.add(rid)
+            bootcamps_raw.append(detail)
+            if (i + 1) % 25 == 0:
+                log(f"Fetched {i + 1}/{len(listing)} bootcamp details")
+            page.wait_for_timeout(REQUEST_DELAY_MS)
+
+    try:
+        StealthyFetcher.fetch(BASE + "/bootcamps", solve_cloudflare=True, network_idle=True,
+                               timeout=120000, wait=4000, headless=True, locale="ar-SA",
+                               page_action=action)
+    except Exception as e:
+        log(f"fetch_all_bootcamps failed: {e}")
+        traceback.print_exc()
+
+    return bootcamps_raw
+
+
+def fetch_all_satr():
+    """Pull every SATR path and course via api.satr.codes, same single-session
+    approach as fetch_all_bootcamps. Previously only ~12 items were ever
+    captured (vs. the ~182 the site actually has) because there was no
+    listing+detail loop for SATR at all — just a few hardcoded samples."""
+    courses_raw, paths_raw = [], []
+    seen = {"course": set(), "path": set()}
+    buckets = {"course": courses_raw, "path": paths_raw}
+
+    def action(page):
+        page.wait_for_timeout(2000)
+        list_js = """
+        async (kind) => {
+            const url = kind === 'path' ? 'https://api.satr.codes/path' : 'https://api.satr.codes/landing-guest';
+            try {
+                const r = await fetch(url, {headers: {'Accept': 'application/json'}});
+                if (!r.ok) return {__error: true, status: r.status};
+                const d = await r.json();
+                return Array.isArray(d) ? d : (d.data || d.items || d.result || []);
+            } catch (e) {
+                return {__error: true, message: String(e)};
+            }
+        }
+        """
+        detail_js = """
+        async (kind, urlId) => {
+            const url = `https://api.satr.codes/${kind}/${urlId}/public`;
+            try {
+                const r = await fetch(url, {headers: {'Accept': 'application/json'}});
+                if (!r.ok) return {__error: true, status: r.status};
+                return await r.json();
+            } catch (e) {
+                return {__error: true, message: String(e)};
+            }
+        }
+        """
+        for kind in ("path", "course"):
+            try:
+                listing = page.evaluate(list_js, kind)
+            except Exception as e:
+                log(f"SATR {kind} listing failed: {e}")
+                continue
+            if isinstance(listing, dict) and listing.get("__error"):
+                log(f"SATR {kind} listing endpoint error: {listing}")
+                continue
+            log(f"SATR {kind} listing: {len(listing)} items")
+            for i, item in enumerate(listing):
+                url_id = (item.get("url_id") or item.get("id")) if isinstance(item, dict) else None
+                if not url_id or url_id in seen[kind]:
+                    continue
+                try:
+                    detail = page.evaluate(detail_js, kind, url_id)
+                except Exception as e:
+                    log(f"SATR {kind} detail failed for {url_id}: {e}")
+                    continue
+                if isinstance(detail, dict) and detail.get("__error"):
+                    log(f"SATR {kind} detail error for {url_id}: {detail}")
+                    continue
+                seen[kind].add(url_id)
+                buckets[kind].append(detail)
+                if (i + 1) % 25 == 0:
+                    log(f"SATR {kind}: fetched {i + 1}/{len(listing)}")
+                page.wait_for_timeout(REQUEST_DELAY_MS)
+
+    try:
+        StealthyFetcher.fetch(SATR, solve_cloudflare=True, network_idle=True,
+                               timeout=120000, wait=4000, headless=True, locale="ar-SA",
+                               page_action=action)
+    except Exception as e:
+        log(f"fetch_all_satr failed: {e}")
+        traceback.print_exc()
+
+    return paths_raw, courses_raw
+
+
+def write_ndjson(filename, docs):
+    path = OUTPUT / filename
+    with open(path, "w", encoding="utf-8") as f:
+        for d in docs:
+            f.write(json.dumps(d, ensure_ascii=False) + "\n")
+    log(f"Wrote {len(docs)} docs to {path}")
+
+
+def extract_educational_content():
+    """Produces the complete, CMS-ready educational dataset:
+      bootcamps.ndjson, courses.ndjson, paths.ndjson, references.ndjson
+    Every reference document a bootcamp/course/path points to (category,
+    scope, academyType, location, technology, programmingLanguage) is
+    collected into references.ndjson so nothing is left as a dangling _ref.
+    _id values are derived from stable source slugs, so re-running this
+    updates records in place instead of duplicating them.
+    """
+    log("=== PART 2b: Full educational catalog (bootcamps + SATR) ===")
+    ref_registry = {}
+
+    bootcamps_raw = fetch_all_bootcamps()
+    log(f"Fetched {len(bootcamps_raw)} raw bootcamp records")
+    bootcamps, seen_ids = [], set()
+    for raw in bootcamps_raw:
+        doc = normalize_bootcamp(raw, ref_registry)
+        if doc["_id"] in seen_ids:
+            log(f"Skipping duplicate bootcamp _id {doc['_id']}")
+            continue
+        seen_ids.add(doc["_id"])
+        bootcamps.append(doc)
+
+    paths_raw, courses_raw = fetch_all_satr()
+    log(f"Fetched {len(paths_raw)} raw SATR paths, {len(courses_raw)} raw SATR courses")
+
+    courses, seen_course_ids = [], set()
+    for raw in courses_raw:
+        doc = normalize_satr_course(raw, ref_registry)
+        if doc["_id"] in seen_course_ids:
+            continue
+        seen_course_ids.add(doc["_id"])
+        courses.append(doc)
+
+    paths, seen_path_ids = [], set()
+    for raw in paths_raw:
+        doc = normalize_satr_path(raw)
+        if doc["_id"] in seen_path_ids:
+            continue
+        seen_path_ids.add(doc["_id"])
+        paths.append(doc)
+
+    write_ndjson("bootcamps.ndjson", bootcamps)
+    write_ndjson("courses.ndjson", courses)
+    write_ndjson("paths.ndjson", paths)
+
+    all_refs = [doc for bucket in ref_registry.values() for doc in bucket.values()]
+    write_ndjson("references.ndjson", all_refs)
+
+    log(f"=== Educational content summary: {len(bootcamps)} bootcamps, "
+        f"{len(courses)} SATR courses, {len(paths)} SATR paths, "
+        f"{len(all_refs)} reference documents ===")
+    return {"bootcamps": bootcamps, "courses": courses, "paths": paths, "references": all_refs}
+
+
 def extract_academic():
     log("=== PART 2: Academic Content ===")
     academic = {
@@ -1036,10 +1524,21 @@ if __name__ == "__main__":
         log(f"Academic failed: {e}")
         traceback.print_exc()
 
+    # Part 2b: the actual educational data (full bootcamp + SATR catalog,
+    # every field preserved, reference integrity resolved)
+    educational = None
+    try:
+        educational = extract_educational_content()
+    except Exception as e:
+        log(f"Educational content failed: {e}")
+        traceback.print_exc()
+
     elapsed = time.time() - start
     log(f"=== Done in {elapsed:.1f}s ===")
     # Verify outputs
-    for fname in ["design-tokens.json","design-tokens.yaml","style-guide.md","academic_content.json","stats.json","program_taxonomy.json"]:
+    for fname in ["design-tokens.json","design-tokens.yaml","style-guide.md","academic_content.json",
+                  "stats.json","program_taxonomy.json","bootcamps.ndjson","courses.ndjson",
+                  "paths.ndjson","references.ndjson"]:
         p = OUTPUT / fname
         if p.exists():
             log(f"OK {fname} size {p.stat().st_size} bytes")
@@ -1050,4 +1549,6 @@ if __name__ == "__main__":
         print(json.dumps({"visual_palette_hex": visual["colors"]["palette_hex"][:5], "primary": visual["colors"]["primary_candidates"]}, ensure_ascii=False, indent=2))
     if academic:
         print(json.dumps({"taxonomy": len(academic["program_taxonomy"]), "sub_academies": len(academic["sub_academies"]), "platforms": len(academic["platforms_initiatives"]), "satr": len(academic["satr_courses_tracks_sample"]), "news": len(academic["news"])}, ensure_ascii=False, indent=2))
+    if educational:
+        print(json.dumps({"bootcamps": len(educational["bootcamps"]), "satr_courses": len(educational["courses"]), "satr_paths": len(educational["paths"]), "reference_docs": len(educational["references"])}, ensure_ascii=False, indent=2))
 

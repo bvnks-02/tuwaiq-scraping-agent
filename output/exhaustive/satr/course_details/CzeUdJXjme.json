@@ -1,0 +1,16 @@
+{
+  "_type": "course",
+  "_id": "course-CzeUdJXjme",
+  "titleAr": "كيفية تلوين البيئة في Unity",
+  "slug": {
+    "current": "CzeUdJXjme"
+  },
+  "descriptionAr": "يهدف هذا المشروع التطبيقي إلى التعرف على كيفية تلوين البيئة في Unity باستخدام Materials، وبعض المميزات التحسينية.",
+  "excerpt": "يهدف هذا المشروع التطبيقي إلى التعرف على كيفية تلوين البيئة في Unity باستخدام Materials، وبعض المميزات التحسينية.",
+  "level": "JUNIOR",
+  "duration": 89,
+  "units": [],
+  "detailSource": "path-embedded-summary (public detail returns empty)",
+  "url": "https://satr.tuwaiq.edu.sa/course/CzeUdJXjme/view",
+  "sourceId": "9f0f6ed4-f66b-40ae-837b-7baf65a974c1"
+}

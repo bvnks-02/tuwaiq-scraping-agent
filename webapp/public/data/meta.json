@@ -1,0 +1,57 @@
+{
+  "generatedAt": "2026-09-15",
+  "totals": {
+    "all": 1538,
+    "bootcamp": 1296,
+    "learningPath": 20,
+    "course": 165,
+    "libraryArticle": 51,
+    "practicalProject": 6
+  },
+  "categories": [
+    "ويبينار",
+    "برنامج",
+    "معسكر",
+    "لقاء",
+    "تحدي",
+    "لقاءات رمضانية"
+  ],
+  "scopes": [
+    "تطوير البرمجيات والتطبيقات",
+    "الحوسبة السحابية",
+    "علم البيانات والذكاء الاصطناعي",
+    "هندسة البرمجيات",
+    "هندسة الميكاترونكس",
+    "الأمن السيبراني ",
+    "أنظمة الشبكات",
+    "البرامج التنفيذية"
+  ],
+  "locations": [
+    "الرياض",
+    "الرياض - النفل",
+    "الرياض - المقر الرئيسي",
+    "عن بعد",
+    "الجبيل"
+  ],
+  "academies": [
+    "طويق",
+    "هولبيرتون",
+    "التنفيذيين",
+    "أبل",
+    "طويق الناشئين"
+  ],
+  "levels": [
+    "JUNIOR",
+    "MIDDLE",
+    "SENIOR",
+    "كبار",
+    "ناشئين"
+  ],
+  "platforms": [
+    "tuwaiq",
+    "satr",
+    "library"
+  ],
+  "projectsKnownTotal": 193,
+  "notes": "6/193 practical projects publicly listed; Unity course details summary-level (public detail empty)."
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "_type": "academy",
+    "_id": "78daab01-dd19-4950-9f92-a68df2974306",
+    "titleAr": "طويق",
+    "titleEn": "Tuwaiq",
+    "code": "TUWAIQ",
+    "logo": "https://cdn.tuwaiq.edu.sa/initiatives_admin/images/nhwl3zsy.d5o.png"
+  },
+  {
+    "_type": "academy",
+    "_id": "771b7cf8-d9b1-4e0c-aaeb-a52c37fde48f",
+    "titleAr": "هولبيرتون",
+    "titleEn": "Holberton",
+    "code": "HolbertoN",
+    "logo": "https://cdn.tuwaiq.edu.sa/initiatives_admin/images/xaq1kaz0.aal.png"
+  },
+  {
+    "_type": "academy",
+    "_id": "39f2d9d2-865f-4418-84b0-94011ce1da83",
+    "titleAr": "التنفيذيين",
+    "titleEn": "Executives",
+    "code": "EXECUTIVES",
+    "logo": "https://cdn.tuwaiq.edu.sa/initiatives_admin/images/za1ejttv.2s3.svg"
+  },
+  {
+    "_type": "academy",
+    "_id": "e7158773-dcca-4155-aa9e-d6b34ecd708d",
+    "titleAr": "أبل",
+    "titleEn": "Apple",
+    "code": "APPLE",
+    "logo": "https://cdn.tuwaiq.edu.sa/initiatives_admin/images/p52vqako.g21.png"
+  },
+  {
+    "_type": "academy",
+    "_id": "ab2c1f52-6a50-4a21-9f6d-90e3a2f9cf4f",
+    "titleAr": "طويق الناشئين",
+    "titleEn": "Tuwaiq Juniors",
+    "code": "Juniors",
+    "logo": "https://cdn.tuwaiq.edu.sa/initiatives_admin/images/3w0v2baj.qqs.png"
+  }
+]

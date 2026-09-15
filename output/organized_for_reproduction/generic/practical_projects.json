@@ -1,0 +1,101 @@
+[
+  {
+    "id": "f3b13138-5a1c-490d-a75e-8a58af3bea4f",
+    "url_id": "TKl5zh1PGJ",
+    "title": "التصميم المنطقي في قواعد البيانات",
+    "description": "التصميم المنطقي في قواعد البيانات يتم عبر تحويل النموذج التصوّري لقواعد البيانات إلى جداول واضحة تُحدَّد فيها الحقول المناسبة،\n والمفاتيح Primary Key و Foreign Key، مع تنظيم العلاقات بينها. ",
+    "programming_languages": [
+      {
+        "name": "Other"
+      }
+    ],
+    "technologies": [],
+    "subscription": null,
+    "logo": null
+  },
+  {
+    "id": "29c1e9f1-674f-4d34-8f40-9795c004708f",
+    "url_id": "TMgWYo1Fti",
+    "title": "كيفية استخدام GestureDetector للتعامل مع اللمس ؟",
+    "description": "يُستخدم GestureDetector للكشف عن إيماءات المستخدم مثل النقر أو السحب أو الضغط المطوّل.\nنحدد الحدث المطلوب (مثل onTap أو onLongPress) ونربطه بدالة تنفذ عند التفاعل.",
+    "programming_languages": [
+      {
+        "name": "Dart"
+      }
+    ],
+    "technologies": [],
+    "subscription": null,
+    "logo": null
+  },
+  {
+    "id": "c76a3057-10d7-4cc3-8855-9b8c8ea18082",
+    "url_id": "xh2xIacETy",
+    "title": "كيفية استخدام ListView.builder ؟",
+    "description": " ListView.builder يُنشئ العناصر عند الحاجة فقط أثناء التمرير، مما يقلل استهلاك الذاكرة.\nلا تُبنى جميع العناصر دفعة واحدة، بل يُنشأ كل عنصر عند اقترابه من الظهور على الشاشة.\nهذه الطريقة مُفيدة لتحسين الأداء عند عرض قوائم طويلة أو غير محددة الطول.",
+    "programming_languages": [
+      {
+        "name": "Dart"
+      }
+    ],
+    "technologies": [],
+    "subscription": null,
+    "logo": null
+  },
+  {
+    "id": "95383da9-8801-4f12-a595-8f17aeb2aeb8",
+    "url_id": "KwxLvDVPAs",
+    "title": "كيفية إنشاء قاعدة في جدار حماية Windows",
+    "description": "في هذا المشروع ستتعلم كيفية إنشاء قاعدة مخصصة في جدار الحماية لنظام Windows بهدف التحكم في حركة البيانات داخل الجهاز أو الشبكة. سواء كنت تريد السماح أو منع تطبيق أو منفذ معيّن، ستفهم آلية عمل الجدار الناري وتضبط إعدادات الأمان ",
+    "programming_languages": [
+      {
+        "name": "Other"
+      }
+    ],
+    "technologies": [
+      {
+        "name": "Network"
+      }
+    ],
+    "subscription": null,
+    "logo": null
+  },
+  {
+    "id": "998e06b9-1aa3-4d70-bc55-9baf073861ff",
+    "url_id": "doOg0IFqrl",
+    "title": "كيفية إنشاء VLAN والتواصل بين الأقسام في  Packet Tracer",
+    "description": "في هذا المشروع ستتعرف على كيفية إعداد VLANs (الشبكات المحلية الافتراضية) على محاكاة Cisco Packet Tracer. سنبدأ أولًا بإنشاء VLANs وعزل الشبكات، ثم ننتقل إلى كيفية تمكين التواصل بين VLANs المختلفة باستخدام تقنيات التوجيه",
+    "programming_languages": [
+      {
+        "name": "Other"
+      }
+    ],
+    "technologies": [
+      {
+        "name": "Command-line"
+      }
+    ],
+    "subscription": null,
+    "logo": null
+  },
+  {
+    "id": "092f461a-b09b-4f46-8074-b0897ab71d3d",
+    "url_id": "m7xU3meDwG",
+    "title": "كيفية إنشاء Dashboard في Tableau",
+    "description": "كيفية إنشاء Dashboard باستخدام برنامج Tableau",
+    "programming_languages": [
+      {
+        "name": "Other"
+      }
+    ],
+    "technologies": [
+      {
+        "name": "Data Science"
+      },
+      {
+        "name": "BI"
+      }
+    ],
+    "subscription": null,
+    "logo": null
+  }
+]
