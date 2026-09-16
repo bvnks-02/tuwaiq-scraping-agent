@@ -1,0 +1,1 @@
+{"_type": "practicalProject", "_id": "project-kghNmAzKPj", "titleAr": "كيفية طباعة نمط محدد في Command-line", "slug": {"current": "kghNmAzKPj"}, "descriptionAr": "سنتعرف في هذا المشروع التطبيقي على طريقة طباعة نمط محدد بداخل ملف باستخدام الأمر grep بداخل Command-line.", "programmingLanguages": [{"name": "Bash"}], "technologies": [{"name": "Command-line"}]}

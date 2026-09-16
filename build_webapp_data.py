@@ -13,6 +13,7 @@ courses = json.loads((ORG / "courses_normalized.json").read_text(encoding="utf-8
 paths = json.loads((ORG / "learningPaths_normalized.json").read_text(encoding="utf-8"))
 library = json.loads((ORG / "library_normalized.json").read_text(encoding="utf-8"))
 projects = json.loads((ORG / "practical_projects.json").read_text(encoding="utf-8"))
+news = json.loads((ORG / "news_full.json").read_text(encoding="utf-8")) if (ORG / "news_full.json").exists() else []
 cats = json.loads((ORG / "categories.json").read_text(encoding="utf-8"))
 scopes = json.loads((ORG / "scopes.json").read_text(encoding="utf-8"))
 locs = json.loads((ORG / "locations.json").read_text(encoding="utf-8"))
@@ -109,6 +110,24 @@ for p in projects:
         "ref": f"/data/details/satr/project-{uid}.json",
     })
 
+# News (full list, 132)
+for n in news:
+    nid = n.get("id")
+    doc = {"_type": "newsItem", "_id": f"news-{nid}", "titleAr": n.get("title"),
+           "slug": {"current": nid}, "descriptionHtml": n.get("description"),
+           "image": f"https://cdn.tuwaiq.edu.sa/{n.get('image')}" if n.get("image") else None,
+           "newsCategory": n.get("newsCategory"), "tags": n.get("tags") or [],
+           "publishDate": n.get("newsDate") or n.get("publishTimeStamp"),
+           "url": f"https://tuwaiq.edu.sa/news/{nid}"}
+    (W / "details" / "tuwaiq" / f"news-{nid}.json").write_text(json.dumps(doc, ensure_ascii=False), encoding="utf-8")
+    index.append({
+        "id": f"tuwaiq-news:{nid}", "type": "newsItem", "platform": "tuwaiq",
+        "title": n.get("title"), "excerpt": (n.get("description") or "").replace("<", "")[:200],
+        "newsCategory": n.get("newsCategory"), "publishedAt": n.get("newsDate"),
+        "image": doc["image"], "url": f"https://tuwaiq.edu.sa/news/{nid}",
+        "ref": f"/data/details/tuwaiq/news-{nid}.json",
+    })
+
 meta = {
     "generatedAt": "2026-09-15",
     "totals": {
@@ -118,6 +137,7 @@ meta = {
         "course": sum(1 for i in index if i["type"] == "course"),
         "libraryArticle": sum(1 for i in index if i["type"] == "libraryArticle"),
         "practicalProject": sum(1 for i in index if i["type"] == "practicalProject"),
+        "newsItem": sum(1 for i in index if i["type"] == "newsItem"),
     },
     "categories": [c["titleAr"] for c in cats],
     "scopes": [s["titleAr"] for s in scopes],

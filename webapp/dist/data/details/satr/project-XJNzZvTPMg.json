@@ -1,0 +1,1 @@
+{"_type": "practicalProject", "_id": "project-XJNzZvTPMg", "titleAr": "كيفية تطبيق مفهوم Detached HEAD", "slug": {"current": "XJNzZvTPMg"}, "descriptionAr": "في هذا المشروع ستتعلم مفهوم Detached HEAD وكيفية فصل HEAD عن الفرع بحيث تستطيع الرجوع لإصدار سابق في المشروع عن طريق رقم commit.", "programmingLanguages": [], "technologies": [{"name": "Git"}]}

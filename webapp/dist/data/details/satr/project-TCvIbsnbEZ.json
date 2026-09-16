@@ -1,0 +1,1 @@
+{"_type": "practicalProject", "_id": "project-TCvIbsnbEZ", "titleAr": "كيفية تغيير قيمة Shell Prompt في Command-line", "slug": {"current": "TCvIbsnbEZ"}, "descriptionAr": "في حال استخدام Terminal يمكننا التعديل على قيمة Shell Prompt وذلك عن طريق استخدامنا للمتغير PS1 وإعطائه قيمة جديدة. ", "programmingLanguages": [{"name": "Bash"}], "technologies": [{"name": "Command-line"}]}

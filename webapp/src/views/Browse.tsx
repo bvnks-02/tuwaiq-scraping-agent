@@ -8,7 +8,7 @@ import type { IndexRow, Meta } from '../lib/types'
 
 const TYPE_LABEL: Record<string, string> = {
   bootcamp: 'المعسكرات والبرامج', learningPath: 'المسارات', course: 'الدورات',
-  libraryArticle: 'مكتبة طويق', practicalProject: 'مشاريع تطبيقية',
+  libraryArticle: 'مكتبة طويق', practicalProject: 'مشاريع تطبيقية', newsItem: 'الأخبار',
 }
 const PAGE = 24
 

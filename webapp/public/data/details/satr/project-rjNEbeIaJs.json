@@ -1,0 +1,1 @@
+{"_type": "practicalProject", "_id": "project-rjNEbeIaJs", "titleAr": "كيفية التراجع عن آخر commit في المشروع ", "slug": {"current": "rjNEbeIaJs"}, "descriptionAr": "تعرف في هذا المشروع التطبيقي على أحد خصائص Git وطريقة التراجع عن آخر commit في المشروع والأوامر المستخدمه لتنفيذها", "programmingLanguages": [{"name": "Bash"}], "technologies": [{"name": "Git"}]}

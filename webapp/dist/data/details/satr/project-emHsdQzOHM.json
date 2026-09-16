@@ -1,0 +1,1 @@
+{"_type": "practicalProject", "_id": "project-emHsdQzOHM", "titleAr": "البحث داخل مكتبة", "slug": {"current": "emHsdQzOHM"}, "descriptionAr": "سنتعرف على كيفية البحث داخل tableView باستخدام UISearchBar والاستفادة من UISearchBarDelegate في التعامل مع Scope وتصنيف الكتب الموجودة.", "programmingLanguages": [{"name": "Swift"}], "technologies": [{"name": "iOS"}]}

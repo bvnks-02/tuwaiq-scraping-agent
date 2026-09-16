@@ -1,0 +1,1 @@
+{"_type": "practicalProject", "_id": "project-wQMXBMbNcM", "titleAr": "إنشاء أو حذف مجموعة من الملفات بطريقة مختصرة", "slug": {"current": "wQMXBMbNcM"}, "descriptionAr": "من خلال هذه الدروس سنتعلم طريقة إنشاء أو حذف مجموعة من الملفات أو المجلدات في command-line بطريقة سريعة ومختصرة باستخدام Brace Expansion.", "programmingLanguages": [{"name": "Bash"}], "technologies": []}

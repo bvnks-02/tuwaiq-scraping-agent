@@ -1,0 +1,1 @@
+{"_type": "practicalProject", "_id": "project-iAvRCviJZJ", "titleAr": "من تطبيق iOS إلى تطبيق MacOS", "slug": {"current": "iAvRCviJZJ"}, "descriptionAr": "سنتعرف على كيفية إنشاء نسخة من تطبيقات iPad/iPhone بحيث يمكن تشغيلها على جهاز Mac بنظام macOS باستخدام Mac Catalyst. ", "programmingLanguages": [{"name": "Swift"}], "technologies": [{"name": "iOS"}]}

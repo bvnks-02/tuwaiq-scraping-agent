@@ -1,0 +1,1 @@
+{"_type": "practicalProject", "_id": "project-HNjIbMFXdq", "titleAr": "كيفية تطبيق مفهوم xargs في Command-line", "slug": {"current": "HNjIbMFXdq"}, "descriptionAr": "تعرف في هذا المشروع التطبيقي؛ على طريقة استخدام الأمر xargs، وطريقة أخذ المدخلات وتحويلها إلى قائمة من Arguments لأمر آخر.", "programmingLanguages": [{"name": "Bash"}], "technologies": [{"name": "Command-line"}]}

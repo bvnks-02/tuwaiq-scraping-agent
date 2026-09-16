@@ -1,0 +1,1 @@
+{"_type": "practicalProject", "_id": "project-lRqINIyEzv", "titleAr": "كيفية تطبيق مفهوم Cron Job مع الأوامر", "slug": {"current": "lRqINIyEzv"}, "descriptionAr": "سنتعرف في هذه الدروس على طريقة جدولة الأوامر باستخدام cron job. بالاضافة الى آلية استعراض الأوامر المجدولة وحذفها.", "programmingLanguages": [{"name": "Bash"}], "technologies": [{"name": "Command-line"}]}

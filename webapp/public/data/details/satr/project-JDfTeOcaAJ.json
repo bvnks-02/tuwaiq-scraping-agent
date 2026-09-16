@@ -1,0 +1,1 @@
+{"_type": "practicalProject", "_id": "project-JDfTeOcaAJ", "titleAr": "اكتشاف الأخطاء الإملائية في VS Code", "slug": {"current": "JDfTeOcaAJ"}, "descriptionAr": "يهدف البرنامج للتعرف على آلية تنزيل Code Spell Checker Extension على VS Code، وذلك لاكتشاف الأخطاء الإملائية.", "programmingLanguages": [{"name": "JavaScript"}], "technologies": [{"name": "Web"}]}

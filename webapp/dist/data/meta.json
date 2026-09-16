@@ -1,12 +1,13 @@
 {
   "generatedAt": "2026-09-15",
   "totals": {
-    "all": 1538,
+    "all": 1857,
     "bootcamp": 1296,
     "learningPath": 20,
     "course": 165,
     "libraryArticle": 51,
-    "practicalProject": 6
+    "practicalProject": 193,
+    "newsItem": 132
   },
   "categories": [
     "ويبينار",

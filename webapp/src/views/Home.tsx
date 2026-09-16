@@ -34,7 +34,9 @@ export default function Home() {
         {([['bootcamp', 'المعسكرات والبرامج', '/browse?type=bootcamp'],
            ['learningPath', 'مسارات منصة سَطر', '/browse?type=learningPath'],
            ['course', 'أحدث الدورات', '/browse?type=course'],
-           ['libraryArticle', 'مكتبة طويق', '/browse?type=libraryArticle']] as const).map(([t, label, to]) => (
+           ['libraryArticle', 'مكتبة طويق', '/browse?type=libraryArticle'],
+           ['practicalProject', 'مشاريع تطبيقية', '/browse?type=practicalProject'],
+           ['newsItem', 'الأخبار والفعاليات', '/browse?type=newsItem']] as const).map(([t, label, to]) => (
           <section className="section" key={t}>
             <div className="section-head">
               <h2 className="section-title" style={{ marginBottom: 0 }}>{label}</h2>

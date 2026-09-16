@@ -9,6 +9,7 @@ import PathDetail from './views/PathDetail'
 import CourseDetail from './views/CourseDetail'
 import LibraryDetail from './views/LibraryDetail'
 import ProjectDetail from './views/ProjectDetail'
+import NewsDetail from './views/NewsDetail'
 import NotFound from './views/NotFound'
 import './index.css'
 
@@ -24,6 +25,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
           <Route path="/course/:id" element={<CourseDetail />} />
           <Route path="/library/:id" element={<LibraryDetail />} />
           <Route path="/project/:id" element={<ProjectDetail />} />
+          <Route path="/news/:id" element={<NewsDetail />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </App>

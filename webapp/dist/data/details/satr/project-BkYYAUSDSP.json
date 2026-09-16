@@ -1,0 +1,1 @@
+{"_type": "practicalProject", "_id": "project-BkYYAUSDSP", "titleAr": "كيفية التحقق من الشبكة باستخدام Ping", "slug": {"current": "BkYYAUSDSP"}, "descriptionAr": "ستتعرف على طريقة عمل برنامج ping وكيفية استخدامه لأغراض التحقق من الشبكة أو عمل اختبار للشبكة من خلال سطر الأوامر.", "programmingLanguages": [{"name": "Bash"}], "technologies": [{"name": "Command-line"}]}

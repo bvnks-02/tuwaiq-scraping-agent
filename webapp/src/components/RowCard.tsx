@@ -4,11 +4,11 @@ import type { IndexRow } from '../lib/types'
 
 const TYPE_LABEL: Record<string, string> = {
   bootcamp: 'برنامج/معسكر', learningPath: 'مسار', course: 'دورة',
-  libraryArticle: 'مكتبة', practicalProject: 'مشروع تطبيقي',
+  libraryArticle: 'مكتبة', practicalProject: 'مشروع تطبيقي', newsItem: 'خبر',
 }
 const ROUTE: Record<string, string> = {
   bootcamp: '/bootcamp/', learningPath: '/path/', course: '/course/',
-  libraryArticle: '/library/', practicalProject: '/project/',
+  libraryArticle: '/library/', practicalProject: '/project/', newsItem: '/news/',
 }
 export function rowHref(r: IndexRow): string {
   return ROUTE[r.type] + r.id.split(':')[1]

@@ -1,0 +1,1 @@
+{"_type": "practicalProject", "_id": "project-ApEvziqLJj", "titleAr": "تطبيق مفهوم git reflog", "slug": {"current": "ApEvziqLJj"}, "descriptionAr": "يهدف البرنامج إلى معرفة كيفية تسجيل العمليات وتتبع الأحداث في المشروع مثل إنشاء Commits، والانتقال من فرع إلى فرع آخر.", "programmingLanguages": [], "technologies": [{"name": "Git"}]}

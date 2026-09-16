@@ -1,0 +1,1 @@
+{"_type": "practicalProject", "_id": "project-yHcNYwdYkV", "titleAr": "قراءة البيانات من الملفات في ++C", "slug": {"current": "yHcNYwdYkV"}, "descriptionAr": "يهدف البرنامج إلى التعرف على كيفية قراءة البيانات من الملفات وطباعتها في البرنامج، وما هي أهمية استخدام المكتبة fstream لقراءة البيانات.", "programmingLanguages": [{"name": "C++"}], "technologies": []}

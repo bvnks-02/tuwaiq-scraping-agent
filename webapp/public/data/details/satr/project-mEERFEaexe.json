@@ -1,0 +1,1 @@
+{"_type": "practicalProject", "_id": "project-mEERFEaexe", "titleAr": "تطبيق مفهوم Scope في ++C", "slug": {"current": "mEERFEaexe"}, "descriptionAr": "يهدف البرنامج إلى التعرف على مفهوم نطاق تعريف المتغيرات والثوابت في البرنامج وكيفية الوصول إليها، والفرق بين local scope و block scope.", "programmingLanguages": [{"name": "C++"}], "technologies": []}

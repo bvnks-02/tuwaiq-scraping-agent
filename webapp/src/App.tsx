@@ -11,6 +11,7 @@ const NAV = [
   { to: '/browse?type=bootcamp', label: 'المعسكرات والبرامج' },
   { to: '/browse?type=course', label: 'منصة سطر' },
   { to: '/browse?type=libraryArticle', label: 'مكتبة طويق' },
+  { to: '/browse?type=newsItem', label: 'الأخبار' },
 ]
 
 export default function App({ children }: { children: React.ReactNode }) {
