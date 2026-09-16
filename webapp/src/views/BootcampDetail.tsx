@@ -17,7 +17,7 @@ export default function BootcampDetail() {
             <div className="container detail-hero">
               {media.outerImage && <img src={media.outerImage} alt="" style={{ width: '100%', maxHeight: 320, objectFit: 'cover', borderRadius: 16 }} />}
               <div className="detail-badges">
-                {[d.categoryName, d.scopeName, d.level, d.attendType, d.academyName, d.durationText].filter(Boolean).map((b: string) => <span key={b} className="badge">{b}</span>)}
+                {[d.categoryName, d.scopeName, d.level, d.academyName, d.durationText].filter(Boolean).map((b: string) => <span key={b} className="badge">{b}</span>)}
                 {d.locationName && <span className="badge muted">{d.locationName}</span>}
               </div>
               <h1 className="detail-title">{d.titleAr}</h1>

@@ -14,7 +14,7 @@ export default function LibraryDetail() {
               <div className="detail-badges">
                 <span className="badge">مكتبة طويق</span>
                 {d.sourceType && <span className="badge muted">{d.sourceType === 'ARTICLE' ? 'مقال' : d.sourceType === 'PUBLICATION' ? 'إصدار' : 'مجلة'}</span>}
-                {d.keywords?.map((k: string) => <span key={k} className="badge muted">{k}</span>)}
+                {(d.keywords || []).map((k: any) => <span key={k.id || k} className="badge muted">{k.name || k}</span>)}
               </div>
               <h1 className="detail-title">{d.titleAr}</h1>
               {d.descriptionAr && <p className="detail-desc">{d.descriptionAr}</p>}

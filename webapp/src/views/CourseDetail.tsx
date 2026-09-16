@@ -56,7 +56,7 @@ export default function CourseDetail() {
             </div>
             <aside className="panel">
               <a className="btn-primary" href={d.url} target="_blank" rel="noreferrer">افتح الدورة على سطر ↗</a>
-              {!!d.technologies?.length && <div className="kv"><b>تقنيات</b><span>{d.technologies.join('، ')}</span></div>}
+              {!!d.technologies?.length && <div className="kv"><b>تقنيات</b><span>{d.technologies.map((t: any) => t.name || t).join('، ')}</span></div>}
             </aside>
             </div>
           </>
