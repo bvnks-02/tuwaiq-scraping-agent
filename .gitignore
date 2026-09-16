@@ -11,3 +11,6 @@ node_modules/
 .cache/
 .muse/
 .slim/deepwork/
+*.swp
+*.swo
+webapp/tsconfig.tsbuildinfo
